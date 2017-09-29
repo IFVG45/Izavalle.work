@@ -2,7 +2,7 @@
 
 #### [Izavalle.work](http://Izavalle.work)
 
-![](izavalle.jpg)
+![](images/izavalle.jpg)
 
 Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator. I like being nerdy about concepts,
 typefaces, kerning, coding, motion graphics, hand lettering , music , wine and churros.
