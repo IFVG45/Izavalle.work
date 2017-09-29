@@ -4,7 +4,7 @@
 
 ![](izavalle.jpg)
 
-Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator. I like being nerdy about concepts, typefaces, typography, kerning, coding, motion graphics, handlettering , music , wine and churros.
+Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator. I like being nerdy about concepts, typefaces, kerning, coding, motion graphics, hand lettering , music , wine and churros.
 
 - **[hey@izavalle.work](mailto:hey@izavalle.work)**
 - [GitHub](http://github.com/izavalle23)
