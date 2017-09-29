@@ -4,8 +4,7 @@
 
 ![](izavalle.jpg)
 
-I'm Junior Graphic designer, illustrator, typography, web developing with a bit of motion-graphic knowledge.
-Apart from loving design, she also enjoys craft beer, craft coffee and a whole lot of hand-lettering.
+Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator. I like being nerdy about concepts, typefaces, typography, kerning, coding, motion graphics, handlettering , music , wine and churros. 
 
 - **[hey@izavalle.work](mailto:hey@izavalle.work)**
 - [GitHub](http://github.com/izavalle23)
