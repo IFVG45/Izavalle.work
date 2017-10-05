@@ -1,129 +1,170 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  	<meta charset="utf-8">
-  	<title>Iza Valle</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link href="css/grids.css" rel="stylesheet">
-	<link href="css/type.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Hind:400,600,500,700' rel='stylesheet' type='text/css'>
-	<link href="css/main.css" rel="stylesheet">
-</head>
+<!DOCT---
+layout: default
+title: Ben Marley – Designer - Ottawa, Canada
+---
+
 <body>
-	<div class="lax">
+	<div class="banner" id="banner" role="banner">
+		<h1 class="banner-heading yotta">BEN MARLEY<br>DESIGN</h1>
+		<img class="small-b" src="images/banner-image-red-s-600.jpg" alt="banner image">
+		<img class="large-b" src="images/banner-image-largescale.jpg" alt="banner image">
 
-	<header>
-
-		<img src="images/izavalle.jpg" class="image">
-
-		<a href="#" class="toggle-button"></a>
-		<nav class="toggle-nav">
-			<li><a href="#">ABOUT ME</a></li>
-			<li><a href="#">DESIGN</a></li>
-			<li><a href="#">ILLUSTRATION</a></li>
-			<li><a href="#">BRANDING</a></li>
-			<li><a href="#">CONTACT ME</a></li>
-	</nav>
+		<div class="tab-bg small-none-nav">
+			<div class="center-tabs" id="nav" role="navigation">
+				<a href="{{site.baseurl}}/graphicdesign.html"><div class="tab tab-1">Graphic Design </div></a>
+				<a href="{{site.baseurl}}/motion.html"><div class="tab tab-2">Motion </div></a>
+				<a href="{{site.baseurl}}/illustration.html"><div class="tab tab-3">Illustration </div></a>
+			</div>
+		</div>
 
 
 
-		<nav class="navigation-holder">
-			<ul class="nav">
-				<li><a href="#">ABOUT ME</a></li>
-				<li><a href="#">DESIGN</a></li>
-				<li><a href="#">ILLUSTRATION</a></li>
-				<li><a href="motion.html">BRANDING</a></li>
-				<li><a href="#">CONTACT ME</a></li>
-			</ul>
-		</nav>
-	</header>
+		<div class="grid navigation-list">
+			<a href="{{site.baseurl}}/graphicdesign.html" class="unit unit-xs-1-3 unit-s-1-3">Graphic Design</a>
+			<a href="{{site.baseurl}}/motion.html" class="border-nav unit unit-xs-1-3 unit-s-1-3">Motion Graphics</a>
+			<a href="{{site.baseurl}}/illustration.html" class="unit unit-xs-1-3 unit-s-1-3">Illustration</a>
+		</div>
 
+		<a class="contact">hey@benmarleydesign.ca</a>
+	</div>
 
+	<div class="intro-spacing">
+		<h2 class="intro">Hey!</h2>
+		<p class="center-intro">I'm Ben. I <em>design</em>, and draw and create all sorts of cool and interesting things. There's nothing I like more than creating something new and exciting. It's this curiosity that keeps me striving to invent and seek improvement in myself. If theres one thing I've learned as a <em>graphic designer</em> which is that if you aren't learning something new about the industry all the time, then you aren't growing as a designer.</p>
+		<p class="center-intro">I would like to be a major part of the graphic design development in ottawa. I get inspired by the other designers I'm surrounded with, in my school, and those I work with. I have a diverse background in Fine Arts, and years of experiance using a paintbrush. The brush I use now is digital, and my paint is pixels.</p>
+	</div>
 
-	<main class="main">
+	<div class="parallax-banner par-vis">
+		<img class="image-back-parallax" src="images/bg-par-01.svg" alt="image">
+		<img class="parallax-header" src="images/items-image.svg" alt="parallax header">
+	</div>
 
-		<div class="wrapper">
-			<div class="parallax-scroll">
+	<main role="main" class="main">
 
-				<div class="back"></div>
+		<h3 class="items-title-small">WORK</h3>
+		<div class="small-images-index grid">
 
-				<h1 class="mid">Iza Valle's design</h1>
+			<div class="unit unit-xs-1-2 unit-s-1-2">
+				<a href="{{site.baseurl}}/port-beacon.html">
+					<img src="images/beacon-square-s-grid.jpg" alt="Beacon Image">
+				</a>
+			</div>
 
-				<div class="front">
-					<p>loremipsum</p>
+			<div class="unit unit-xs-1-2 unit-s-1-2">
+				<a href="{{site.baseurl}}/port-iso.html">
+					<img src="images/iso-square-s-grid.jpg" alt="Isometric Illustration">
+				</a>
+			</div>
+
+			<div class="unit unit-xs-1-2 unit-s-1-2">
+				<a href="{{site.baseurl}}/port-tactile.html">
+					<img src="images/tactile-square-s-grid.jpg" alt="Tactile Video">
+				</a>
+			</div>
+
+			<div class="unit unit-xs-1-2 unit-s-1-2">
+				<a href="{{site.baseurl}}/port-type-poster.html">
+					<img src="images/hefty-b-s-grid.jpg" alt="Typographic Poster">
+				</a>
+			</div>
+
+			<div class="unit unit-xs-1-2 unit-s-1-2">
+				<a href="{{site.baseurl}}/port-medicbot.html">
+					<img src="images/robotic-mech-site-square-s-grid.jpg" alt="Medic Droid">
+				</a>
+			</div>
+
+			<div class="unit unit-xs-1-2 unit-s-1-2">
+				<a href="{{site.baseurl}}/portfolioitemone.html">
+					<img src="images/napolean-bust-square-s-grid.jpg" alt="Napoleon Book Cover">
+				</a>
+			</div>
+		</div>
+
+		<div class="expanding-divs">
+
+			<h4 class="work-title">WORK</h4>
+			<a href="{{site.baseurl}}/port-iso.html">
+				<div class="container bg-1" title="image item 1">
+					<div class="pop-info"><p class="expand-text-1">Building Bieber</p></div>
 				</div>
+			</a>
 
-			</div>
+			<a href="{{site.baseurl}}/port-type-poster.html">
+				<div class="container bg-2" title="Type Poster">
+					<div class="pop-info"><p class="expand-text-1">Heftyweight Poster</p></div>
+				</div>
+			</a>
 
+			<a href="{{site.baseurl}}/port-tactile.html">
+				<div class="container bg-3" title="Tactile Poster">
+					<div class="pop-info"><p class="expand-text-1">Tactile Motion</p></div>
+				</div>
+			</a>
 
+			<a href="{{site.baseurl}}/port-medicbot.html">
+				<div class="container bg-4" title="Medic Bot">
+					<div class="pop-info"><p class="expand-text-1">Mechanic Droid</p></div>
+				</div>
+			</a>
 
-		<div class="grid image-grid">
+			<a href="{{site.baseurl}}/portfolioitemone.html">
+				<div class="container bg-5" title="Napoleon Illustration">
+					<div class="pop-info"><p class="expand-text-1">Napoleon III BookCover</p></div>
+				</div>
+			</a>
 
-			<div class="unit unit-s-1-3 unit-m-1-3 unit-l-1-3 hover-indent">
-					<img src="http://placehold.it/291x366/000066">
-					<p class="figcaption">This is Design work</p>
+			<a href="{{site.baseurl}}/port-beacon.html">
+				<div class="container bg-6" title="Beacon App">
+					<div class="pop-info"><p class="expand-text-1">Beacon Parking App</p></div>
+				</div>
+			</a>
 
-			</div>
+			<a href="{{site.baseurl}}/port-robot-poster.html">
+				<div class="container bg-7" title="Robotic Poster Illustration">
+					<div class="pop-info"><p class="expand-text-1">A Call To Action</p></div>
+				</div>
+			</a>
 
-
-			<div class="unit unit-s-2-3 unit-m-2-3 unit-l-2-3 hover-indent">
-				<img src="http://placehold.it/584x367/fffff">
-				<p class="figcaption">This is Design work</p>
-			</div>
-
-			<div class="unit unit-s-1-3 unit-m-1-3 unit-l-1-3 hover-indent">
-				<img src="http://placehold.it/291x366">
-				<p class="figcaption">This is Design work</p>
-			</div>
-			<div class="unit unit-s-1-3 unit-m-1-3 unit-l-1-3 hover-indent">
-				<img src="http://placehold.it/291x366">
-				<p class="figcaption">This is Design work</p>
-			</div>
-
-
-			<div class="unit unit-s-1-3 unit-m-1-3 unit-l-1-3 hover-indent">
-				<img src="http://placehold.it/291x366/000066">
-				<p class="figcaption">This is Design work</p>
-			</div>
-
-			<div class="unit unit-s-2-3 unit-m-2-3 unit-l-2-3 hover-indent">
-				<img src="http://placehold.it/584x367/fffff">
-				<p class="figcaption">This is Design work</p>
-			</div>
-
-			<div class="unit unit-s-1-3 unit-m-1-3 unit-l-1-3 hover-indent">
-				<img src="http://placehold.it/291x366">
-				<p class="figcaption">This is Design work</p>
-			</div>
-
+			<a href="{{site.baseurl}}/port-blackland.html">
+				<div class="container bg-8" title="BlackLand Image">
+					<div class="pop-info"><p class="expand-text-1">BlackLand Campaign</p></div>
+				</div>
+			</a>
 
 		</div>
 
-	</div>
+		<div class="grid section-3">
+			<div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3 computer-container">
+				<img  class="computer" src="images/computer.svg" alt="ben graphic computer">
+				<img  class="spool-left" src="images/spool-left.svg" alt="ben graphic spool">
+				<img  class="spool-right" src="images/spool-right.svg" alt="ben graphic spool">
+			</div>
 
+			<div class="social-media unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
+				<a href="https://ca.linkedin.com/pub/ben-marley/b1/b22/4a1">LinkedIn</a>
+				<a href="https://www.behance.net/benmarley">Behance</a>
+				<a href="https://github.com/benmarley">Github</a>
+			</div>
 
-				</div>
+			<div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
+			{% include type-graphic.html %}
+			</div>
+		</div>
 
+		<div class="scroll">
+			<a href="{{site.baseurl}}/#banner" class="back-to-top grey">Back To Top</a>
+		</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<footer class="footer" id="footer">
+			<p class="copyright" role="contentinfo">©Copyright • Ben Marley 2015</p>
+		</footer>
 	</main>
 
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="js/main.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
+	<script src="{{site.baseurl}}js/main.js"></script>
 
 
 </body>
-</html>
