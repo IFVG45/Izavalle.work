@@ -1,8 +1,3 @@
-/*
-  Gridifier || Code released under the UNLICENSE
-  http://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1
-*/
-
 .grid {
   margin: 0;
   padding: 0;
@@ -75,24 +70,93 @@
   width: 100%;
 }
 
+.unit-offset-xs-0 {
+  margin-left: 0;
+}
+
+.unit-push-xs-0,
+.unit-pull-xs-0 {
+  left: 0;
+}
+
 .unit-xs-1-2, .xs-1-2 {
   width: 50.0000%;
+}
+
+.unit-offset-xs-1-2 {
+  margin-left: 50.0000%;
+}
+
+.unit-push-xs-1-2 {
+  left: 50.0000%;
+}
+
+.unit-pull-xs-1-2 {
+  left: -50.0000%;
 }
 
 .unit-xs-1-3, .xs-1-3 {
   width: 33.3333%;
 }
 
+.unit-offset-xs-1-3 {
+  margin-left: 33.3333%;
+}
+
+.unit-push-xs-1-3 {
+  left: 33.3333%;
+}
+
+.unit-pull-xs-1-3 {
+  left: -33.3333%;
+}
+
 .unit-xs-2-3, .xs-2-3 {
   width: 66.6667%;
+}
+
+.unit-offset-xs-2-3 {
+  margin-left: 66.6667%;
+}
+
+.unit-push-xs-2-3 {
+  left: 66.6667%;
+}
+
+.unit-pull-xs-2-3 {
+  left: -66.6667%;
 }
 
 .unit-xs-1-4, .xs-1-4 {
   width: 25.0000%;
 }
 
+.unit-offset-xs-1-4 {
+  margin-left: 25.0000%;
+}
+
+.unit-push-xs-1-4 {
+  left: 25.0000%;
+}
+
+.unit-pull-xs-1-4 {
+  left: -25.0000%;
+}
+
 .unit-xs-3-4, .xs-3-4 {
   width: 75.0000%;
+}
+
+.unit-offset-xs-3-4 {
+  margin-left: 75.0000%;
+}
+
+.unit-push-xs-3-4 {
+  left: 75.0000%;
+}
+
+.unit-pull-xs-3-4 {
+  left: -75.0000%;
 }
 
 .unit-xs-1-2,.xs-1-2,.unit-xs-1-3,.xs-1-3,.unit-xs-2-3,.xs-2-3,.unit-xs-1-4,.xs-1-4,.unit-xs-3-4,.xs-3-4 {
@@ -117,24 +181,93 @@
   width: 100%;
 }
 
+.unit-offset-s-0 {
+  margin-left: 0;
+}
+
+.unit-push-s-0,
+.unit-pull-s-0 {
+  left: 0;
+}
+
 .unit-s-1-2, .s-1-2 {
   width: 50.0000%;
+}
+
+.unit-offset-s-1-2 {
+  margin-left: 50.0000%;
+}
+
+.unit-push-s-1-2 {
+  left: 50.0000%;
+}
+
+.unit-pull-s-1-2 {
+  left: -50.0000%;
 }
 
 .unit-s-1-3, .s-1-3 {
   width: 33.3333%;
 }
 
+.unit-offset-s-1-3 {
+  margin-left: 33.3333%;
+}
+
+.unit-push-s-1-3 {
+  left: 33.3333%;
+}
+
+.unit-pull-s-1-3 {
+  left: -33.3333%;
+}
+
 .unit-s-2-3, .s-2-3 {
   width: 66.6667%;
+}
+
+.unit-offset-s-2-3 {
+  margin-left: 66.6667%;
+}
+
+.unit-push-s-2-3 {
+  left: 66.6667%;
+}
+
+.unit-pull-s-2-3 {
+  left: -66.6667%;
 }
 
 .unit-s-1-4, .s-1-4 {
   width: 25.0000%;
 }
 
+.unit-offset-s-1-4 {
+  margin-left: 25.0000%;
+}
+
+.unit-push-s-1-4 {
+  left: 25.0000%;
+}
+
+.unit-pull-s-1-4 {
+  left: -25.0000%;
+}
+
 .unit-s-3-4, .s-3-4 {
   width: 75.0000%;
+}
+
+.unit-offset-s-3-4 {
+  margin-left: 75.0000%;
+}
+
+.unit-push-s-3-4 {
+  left: 75.0000%;
+}
+
+.unit-pull-s-3-4 {
+  left: -75.0000%;
 }
 
 .unit-s-1-2,.s-1-2,.unit-s-1-3,.s-1-3,.unit-s-2-3,.s-2-3,.unit-s-1-4,.s-1-4,.unit-s-3-4,.s-3-4 {
@@ -370,6 +503,119 @@
 
 }
 
+@media only screen and (min-width: 90em) {
+
+.unit-xl-hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.unit-xl-centered {
+  margin: 0 auto;
+}
+
+.unit-xl-1, .xl-1 {
+  display: block;
+  visibility: visible;
+  width: 100%;
+}
+
+.unit-offset-xl-0 {
+  margin-left: 0;
+}
+
+.unit-push-xl-0,
+.unit-pull-xl-0 {
+  left: 0;
+}
+
+.unit-xl-1-2, .xl-1-2 {
+  width: 50.0000%;
+}
+
+.unit-offset-xl-1-2 {
+  margin-left: 50.0000%;
+}
+
+.unit-push-xl-1-2 {
+  left: 50.0000%;
+}
+
+.unit-pull-xl-1-2 {
+  left: -50.0000%;
+}
+
+.unit-xl-1-3, .xl-1-3 {
+  width: 33.3333%;
+}
+
+.unit-offset-xl-1-3 {
+  margin-left: 33.3333%;
+}
+
+.unit-push-xl-1-3 {
+  left: 33.3333%;
+}
+
+.unit-pull-xl-1-3 {
+  left: -33.3333%;
+}
+
+.unit-xl-2-3, .xl-2-3 {
+  width: 66.6667%;
+}
+
+.unit-offset-xl-2-3 {
+  margin-left: 66.6667%;
+}
+
+.unit-push-xl-2-3 {
+  left: 66.6667%;
+}
+
+.unit-pull-xl-2-3 {
+  left: -66.6667%;
+}
+
+.unit-xl-1-4, .xl-1-4 {
+  width: 25.0000%;
+}
+
+.unit-offset-xl-1-4 {
+  margin-left: 25.0000%;
+}
+
+.unit-push-xl-1-4 {
+  left: 25.0000%;
+}
+
+.unit-pull-xl-1-4 {
+  left: -25.0000%;
+}
+
+.unit-xl-3-4, .xl-3-4 {
+  width: 75.0000%;
+}
+
+.unit-offset-xl-3-4 {
+  margin-left: 75.0000%;
+}
+
+.unit-push-xl-3-4 {
+  left: 75.0000%;
+}
+
+.unit-pull-xl-3-4 {
+  left: -75.0000%;
+}
+
+.unit-xl-1-2,.xl-1-2,.unit-xl-1-3,.xl-1-3,.unit-xl-2-3,.xl-2-3,.unit-xl-1-4,.xl-1-4,.unit-xl-3-4,.xl-3-4 {
+  display: inline-block;
+  visibility: visible;
+}
+
+}
+
 .unit-content-distribute {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -380,6 +626,9 @@
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 .content-fill {
