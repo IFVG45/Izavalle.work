@@ -1,273 +1,255 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
 
-html {
+html{
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
+  background-color: #b0d2d7;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+*,*::before, *::after{
+box-sizing: inherit;
+margin:0;
 }
 
-body {
-	margin: 0;
-	overflow: hidden;
+header{
+  text-align: center;
 }
 
-.lax {
-
+body{
+  margin:0;
 }
 
-img {
-	width: 100%;
-	margin: 0;
+main{
+  background-color: #b0d2d7;
+  padding-bottom: 3em;
+  padding-top: 3em;
 }
 
-.nav {
-	text-align: right;
-	padding-top: 1.5em;
-	margin-bottom: 2em;
-
+.work{
+  width: 100%;
+  padding-left: 10%;
 }
 
-.nav a {
-	margin-right: 1.5em;
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
-	padding: 1.5em;
-
+.me{
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding-top: 3em;
 }
 
-.navigation-holder {
-	display: none;
+.robot{
+  width: 80%;
+  padding-top: 3em;
+  padding-left: 5em;
 }
 
-.nav li {
-	display: inline-block;
-
+.about{
+  width: 50%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: 1em;
 }
 
-.logo {
-	width: 3%;
-
-
-}
-
-ul {
-	margin: 0;
-}
-
-header {
-	position: relative;
-	z-index: 1;
-	overflow: hidden;
-
-	background-color: white;
-}
-
-.image-grid {
-	margin: 10em;
+.description{
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2em;
+  font-size: 1em;
+  color: #0a2739;
+  margin: 10px 10px 20px 0;
 }
 
 
-
-.toggle-button {
-	background: url("../images/toggle-button.svg") no-repeat;
-	background-size: 80%;
-	height: 3em;
-	width: 3em;
-	position: absolute;
-	left: 89%;
-	text-align: right;
+h2{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-.toggle-nav {
-	display: none;
-	padding-top: 1em;
-	padding-bottom: 1em;
+h3{
+  font-size: 8em;
+  font-family:'Bungee Inline', cursive;
+  color: white;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
-.toggle-nav li {
-	list-style-type: none;
-	padding-top: .5em;
-	padding-left: 1em;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  display: block;
 }
 
-.toggle-nav a {
-	text-decoration: none;
-	color: black;
+li{
+  list-style-type: none;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.toggle-nav-open {
-	display: block;
-
+a{
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/*.banner {
-	background: url('../images/applestill.jpg') no-repeat;
-	background-size: cover;
-	background-position: center center;
-	padding-top: 30em;
-}
-.banner h1 {
-	text-align: center;
-	padding-top: 7em;
-	padding-bottom: 7em;
-	font-size: 300%;
-	color: white;
-}*/
-
-.wrapper {
-	height:100vh;
-	overflow-x: hidden;
-	overflow-y: auto;
-	-webkit-overflow-scrolling: touch;
-
-	-webkit-perspective: 1px;
-	perspective: 1px;
+a:hover{
+  color: white;
 }
 
-.parallax-scroll {
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-
+.about{
+  display: block;
+  margin: 0;
+  width: 100%;
+  text-align: center;
 }
 
-.back {
-	background: url("../images/applestill.jpg") center top / cover no-repeat;
-	padding-top: 50%;
-	-webkit-transform: translateZ(-1px) scale(2.05);
-	transform: translateZ(-1px) scale(2.05);
-	position: relative;
-	top: calc(((100vh - 40vw) / 4 ) * -2 );
+footer{
+  padding: 1em 2em;
+  background-color: #b0d2d7;
+  text-align: center;
 }
 
-.mid {
-
-	transform: translate(-0.5px);
-	color: black;
-	font-size: 200%;
-	position: absolute;
-	top: 9em;
-	text-align: center;
-	font-weight: bold;
-	color: white;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+.social{
+  width: 25%;
 }
 
-.front {
+/* Page Layout */
 
-	background-color: white;
-	color: black;
-	padding:15em 1em;
-	transform: translateZ(0);
-
-	text-align: center;
-
+#gallery {
+  width:600%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+  border: 2px solid #003C72;
 }
 
-.hover-indent {
-	transform: scale(1);
-	-webkit-transition: all 1000ms;
-	transition: all 1000ms;
+#navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
 }
 
-.hover-indent:hover {
-
-
-	transform: scale(1.05);
-	z-index: 1;
-	/*-webkit-filter: grayscale(100%) blur(2px);
-	filter: grayscale(100%) blur(2px);*/
-	-webkit-filter: brightness(30%);
-	filter: brightness(30%);
-	overflow: hidden;
-
+#navigation li{
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
 }
 
-.figcaption {
-	position: absolute;
-	bottom: 3em;
+#navigation li a img{
+  display: block;
+  border: none;
 }
 
-.video-1 {
-	padding-bottom: 55%;
-	position: relative;
-	padding-top:20px;
+#navigation li a{
+  display: block;
 }
 
-.video-1 iframe {
-	width: 100%;
-}
-
-.scroll-no-para {
-	overflow-y: auto;
+#full-picture{
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
 }
 
 
-
-
-
+/* Small */
 @media only screen and (min-width: 25em) {
 
-	.toggle-button {
-		left: 92%;
-	}
-
+html{
+font-size: 60%;
+line-height: 1.4;
 }
 
+h3{
+  font-size: 3em;
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  padding: 0;
+}
+
+.social{
+  width:10%;
+}
+}
+
+/* Med */
 @media only screen and (min-width: 38em) {
 
-	.toggle-button {
-		left: 93%;
-	}
-
-
+html{
+  font-size: 110%;
+  line-height: 1.4;
 }
 
-@media only screen and (min-width: 50em) {
-	.navigation-holder {
-		display: block;
-	}
-
-	.toggle-button {
-		display: none;
-	}
-	.toggle-nav {
-		display: none;
-	}
-	.logo{
-
-	float: left;
+main{
+  width: 100%;
 }
 
-
-
+h3{
+  font-size: 4em;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
+  margin-left: 0;
+  max-height: inherit;
 }
 
+h2{
+  padding-bottom: 1em;
+}
+
+.social{
+  width:10%;
+}
+
+.work{
+  padding-bottom: 3em;
+  padding-left: 3em;
+}
+}
+
+/* Lrg */
 @media only screen and (min-width: 60em) {
 
-
-
+html{
+  font-size: 140%;
+  line-height: 1.5;
 }
 
+header{
+  margin: 0;
+  overflow: hidden;
+}
 
-@media only screen and (min-width: 70em) {
-
-	.front {
-		padding-bottom: 26em;
-	}
-
+.social{
+  width: 4%;
+}
 }
