@@ -258,7 +258,7 @@ h1 {
 
 /* **********ABOUT********** */
 
-/*.charlie-quinn {
+/*.Izavalle {
   display: block;
   position: relative;
   margin: 0 auto;
@@ -273,7 +273,7 @@ h1 {
     rgba(244, 244, 244, 0) 100%
 );*/
   background-color: white;
-  color: #9b9b9b;
+  color: #f05b59;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -287,18 +287,18 @@ h1 {
 
 .about a {
   text-decoration: none;
-  color: #0e3b5e;
+  color: #f05b59;
 }
 
 .about a:focus,
 .about a:active,
 .about a:visited {
   cursor: pointer;
-  color: #0e3b5e;
+  color: #f05b59;
 }
 
 .about a:hover {
-  color: #13CFB0;
+  color: #f05b59;
 }
 
 /* **********PORTFOLIO******** */
