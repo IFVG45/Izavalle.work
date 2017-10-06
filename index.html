@@ -13,31 +13,38 @@
 
 <body>
 
-  <div class="wrapper">
+	<header>
+	 <nav>
+		 <ol>
+			 <li><a href="#home">Home.</a></li>
+			 <li><a href="#bio">About me</a></li>
+			 <li><a href="#projects">Work</a></li>
+			 <li><a href="#contact">Say hola!</a></li>
+		 </ol>
+	 </nav>
+ </header>
 
-    <header class="resize push banner">
+ <h1 class="monster">Want&nbsp;to&nbsp;see&nbsp;something neat?<br/>well&nbsp;you're&nbsp;in&nbsp;the&nbsp;right&nbsp;place</h1>
 
-      <div class="push">
-        <nav class="text-center gutter-2">
-          <input type="checkbox" class="nav-check" id="nav-check">
-          <label class="nav-label hide-custom-input island-1-2" for="nav-check">Menu</label>
-          <ul class="list-group grid gutter-2 nav">
-            <li class="unit xs-1 s-1 m-1-3 push-1-2"><a href="index.html">Home</a></li>
-            <li class="unit xs-1 s-1 m-1-3 push-1-2"><a href="about.html">Work</a></li>
-            <li class="unit xs-1 s-1 m-1-3 push-1-2"><a href="contact.html">Say hello!</a></li>
-          </ul>
-        </nav>
-      </div>
+<div class="social-media-top">
+	<a href="{{site.baseurl}}/mailto:hey@charliequinn.ca?Subject=Hello!" target="_top"><div class="email"></div></a>
+	<a href="{{site.baseurl}}/https://ca.linkedin.com/in/charliequinngd"><div class="linkedin"></div></a>
+	<a href="{{site.baseurl}}/https://twitter.com/charliequinn_"><div class="twitter"></div></a>
+	<a href="{{site.baseurl}}/https://instagram.com/notenoughquinn/"><div class="instagram"></div></a>
+</div>
 
-      <img class="img-flex image" src="images/izavalle.jpg" alt="">
-      <div class="banner-content gutter">
-        <div class="gutter intro">
-          <h1 class="push-0">Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator. I like being nerdy about concepts, typefaces, kerning, coding, motion graphics, hand lettering , music , wine and churros.</h1>
-          <a class="btn btn-ghost talk" href="contact.html">Let's talk design</a>
-        </div>
-      </div>
+<div class="scroll-down-wrapper"><a class="scroll-down" href='javascript:navigate("#about");'></a></div>
 
-    </header>
+ <!-- **********ABOUT********** -->
+
+	 <section class="about hideme" id="about">
+		 <div id="about-iza"></div>
+		 <div class="Izavalle">
+			 <h2> Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator.
+				 I like being nerdy about concepts, typefaces, kerning, coding, motion graphics, hand lettering , music , wine and churros.</h2>
+			 </div>
+	 </section>
+
 
     <div class="grid work">
       <div class="unit xs-1 s-1 m-1-2 l-1-3 push-1-2 gutter">
