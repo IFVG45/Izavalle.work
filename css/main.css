@@ -301,6 +301,27 @@ h1 {
   color: #13CFB0;
 }
 
+.container {
+  overflow: hidden;
+  position: relative;
+}
+
+.title-container {
+  position: absolute;
+  z-index: 1;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: all 1s ease;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* **********CONTACT********** */
 
 footer {
