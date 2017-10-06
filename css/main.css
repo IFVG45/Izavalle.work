@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #ffc107;
+  background-color: #f16562;
 }
 
 .nav {
@@ -52,7 +52,7 @@ header {
 }
 
 footer {
-  background-color: #ffc107;
+  background-color: #f16562;
 }
 
 .footer-text, .icon-group {
@@ -62,7 +62,7 @@ footer {
 
 .footer-icon {
   text-decoration-color: none;
-  color: #000;
+  color: #fff;
 }
 
 .copyright {
