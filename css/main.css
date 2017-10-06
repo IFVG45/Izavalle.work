@@ -1,4 +1,4 @@
-@moz-viewport { width: device-width; scale: 1; }
+@-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
@@ -11,19 +11,16 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Raleway", sans-serif;
-  background: #FCFCFC
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-
-h1 {
-  font-size: 1rem;
-  font-weight: 300;
+[hidden] {
+  display: none;
 }
+
 img {
   width: 100%;
 }
@@ -261,7 +258,7 @@ h1 {
 
 /* **********ABOUT********** */
 
-/*.About-Iza {
+/*.charlie-quinn {
   display: block;
   position: relative;
   margin: 0 auto;
@@ -290,7 +287,7 @@ h1 {
 
 .about a {
   text-decoration: none;
-  color: #2EE5CF;
+  color: #0e3b5e;
 }
 
 .about a:focus,
@@ -306,11 +303,8 @@ h1 {
 
 /* **********CONTACT********** */
 
-.contacts {
-  font-size: .7em;
-  padding: 3em 0;
-  margin: 0;
-  color: #13CFB0;
+.contact {
+  background-color: #13CFB0;
 }
 
 .contact h3 {
