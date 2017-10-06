@@ -13,16 +13,31 @@
 
 <body>
 
-	<header>
-	 <nav>
-		 <ol>
-			 <li><a href="#home">Home</a></li>
-			 <li><a href="aboutme.html">About me</a></li>
-			 <li><a href="#">Work</a></li>
-			 <li><a href="#contact">Say hola!</a></li>
-		 </ol>
-	 </nav>
- </header>
+
+    <!-- **********BANNER********** -->
+
+    <ul class="skip-links">
+      <li><a href="{{site.baseurl}}/#banner">Skip to Meet Charlie</a></li>
+      <li><a href="{{site.baseurl}}/#work">Skip to Work</a></li>
+      <li><a href="{{site.baseurl}}/#contact">Skip to Contact</a></li>
+    </ul>
+
+    <header class="banner {{page.extraBanner}}" id="banner">
+      <nav class="nav">
+        <ul class="nav-links">
+          <li class="About-me"><a href='javascript:navigate("#about");'  aria-label="Visit Iza Valle's About section">About</a></li>
+          <li class="My work"><a href='javascript:navigate("#work");'  aria-label="Visit Iza Valle's  Work section">Work</a></li>
+          <li class="Say Hola!"><a href='javascript:navigate("#contact");' aria-label="Visit Iza Valle's  Contact section">Contact</a></li>
+        </ul>
+              <a href='{{site.baseurl}}/index.html'><div class="logo"></div></a>
+        <div class="nav-background"></div>
+  <!--       <ul class="side-nav">
+          <li class="side-projects"><a href='#' aria-label="Visit Iza Valle's Side Projects section">Side Projecst</a></li>
+        </ul> -->
+      </nav>
+    </header>
+
+    {{content}}
 
  <h1 class="monster">Want&nbsp;to&nbsp;see&nbsp;something neat?<br/>well&nbsp;you're&nbsp;in&nbsp;the&nbsp;right&nbsp;place</h1>
 
@@ -45,57 +60,71 @@
 			 </div>
 	 </section>
 
-<h2> Work </h2>
-<div class="portfolio" id="work">
-    <div class="grid">
-      {% for item in site.data.portfolio-pieces %}
-      <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 hideme">
-        <a href="{{site.baseurl}}/#{{item.piece}}">{{item.title}}</a>
-        <img src="{{site.baseurl}}/images/{{item.thumbnail}}" alt="portfolio-piece alt description">
-      </div>
-      {% endfor %}
-      <div class="piece-hover"></div>
-    </div>
-      {% for item in site.data.portfolio-pieces %}
-    <div class="portfolio-opened" id="{{item.piece}}">
-      <div class="back-button-bg"><div class="back-to-landing-page"><a class="go-back" href='#work'></a></div></div>
-      <div class="work-together">
-      <div class="grid hero-and-text">
-        <div class="unit hero-image">
-          {% for image in item.hero-image %}
-          <img src="{{site.baseurl}}/images/{{image}}" alt="portfolio-piece hero image">
-        {% endfor %}
-        </div>
-        <div class="unit text">
-          <h3 class="unit title">{{item.title}}</h3>
-          <p class="unit description">{{item.description}}</p>
-          <p class="unit tags">{{item.tags}}</p>
-        </div>
-        </div>
-                <div class="unit unit-s-1 image">
-          <div class="big-images">
-        {% for video in item.work-videos %}
-        <div class="centered-embed">
-          <div class="embed">
-            <iframe class="embed-item" src="{{video}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-          </div>
-        {% endfor %}
-        {% for image in item.work-images %}
-          <img src="{{site.baseurl}}/images/{{image}}" alt="portfolio-piece description">
-        {% endfor %}
-        {% for video in item.work-videos %}
-          <video src="{{item.video}}">
-        {% endfor %}
-      </div>
-        </div>
-      </div>
-    </div>
-      {% endfor %}
+   <!-- **********PORTFOLIO********** -->
 
-  </div>
+     <div class="portfolio" id="work">
+       <div class="grid">
+         {% for item in site.data.portfolio-pieces %}
+         <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 hideme">
+           <a href="{{site.baseurl}}/#{{item.piece}}">{{item.title}}</a>
+           <img src="{{site.baseurl}}/images/{{item.thumbnail}}" alt="portfolio-piece alt description">
+         </div>
+         {% endfor %}
+         <div class="piece-hover"></div>
+       </div>
+         {% for item in site.data.portfolio-pieces %}
+       <div class="portfolio-opened" id="{{item.piece}}">
+         <div class="back-button-bg"><div class="back-to-landing-page"><a class="go-back" href='#work'></a></div></div>
+         <div class="work-together">
+         <div class="grid hero-and-text">
+           <div class="unit hero-image">
+             {% for image in item.hero-image %}
+             <img src="{{site.baseurl}}/images/{{image}}" alt="portfolio-piece hero image">
+           {% endfor %}
+           </div>
+           <div class="unit text">
+             <h3 class="unit title">{{item.title}}</h3>
+             <p class="unit description">{{item.description}}</p>
+             <p class="unit tags">{{item.tags}}</p>
+           </div>
+           </div>
+                   <div class="unit unit-s-1 image">
+             <div class="big-images">
+           {% for video in item.work-videos %}
+           <div class="centered-embed">
+             <div class="embed">
+               <iframe class="embed-item" src="{{video}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+             </div>
+             </div>
+           {% endfor %}
+           {% for image in item.work-images %}
+             <img src="{{site.baseurl}}/images/{{image}}" alt="portfolio-piece description">
+           {% endfor %}
+           {% for video in item.work-videos %}
+             <video src="{{item.video}}">
+           {% endfor %}
+         </div>
+           </div>
+         </div>
+       </div>
+         {% endfor %}
 
-	<footer>
+     </div>
+
+   <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     ga('create', 'UA-70344621-1', 'auto');
+     ga('send', 'pageview');
+   </script>
+
+</body>
+</html>
+
+<!-- **********CONTACT********** -->
+  <footer>
     <h3>contact.</h3>
     <section class="contact">
       <hr>
@@ -120,16 +149,4 @@
         </div>
       </div>
     </section>
-    </footer>
-
-  <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-70344621-1', 'auto');
-   ga('send', 'pageview');
-  </script>
-
-</body>
-</html>
+  </footer>
