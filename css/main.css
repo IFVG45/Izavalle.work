@@ -6,9 +6,15 @@
 
 html {
   box-sizing: border-box;
-  font-family: "Jura", sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 body {
   margin: 0;
