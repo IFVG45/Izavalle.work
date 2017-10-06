@@ -2,167 +2,110 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>The Portfolio of Charlie Quinn</title>
-  <meta name="description" content="I believe that everything I design, love, and work for, will unlock an awesome achievement.">
-  <meta name="handheldfriendly" content="true">
-  <meta name="mobileoptimized" content="240">
+  <title>Iza valle</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Yantramanav:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
-  <link href="images/cq-favicon.ico" rel="shortcut icon">
-
-<!--   <meta property="og:type" content="article">
-  <meta property="og:title" content=“The Portfolio of Charlie Quinn”>
-  <meta property="og:url" content="http://charliequinn.ca">
-  <meta property="og:image" content="images/charliequinn.jpg">
-  <meta property="og:site_name" content=“Charlie Quinn”>
-  <meta property="og:description" content="The portfolio of Charlie Quinn”>
-  <meta name="twitter:card" content="I believe that everything I design, love, and work for, will unlock an awesome achievement.">
-  <meta name="twitter:title" content="The Portfolio of Charlie Quinn">
-  <meta name="twitter:url" content="http://charliequinn.ca">
-  <meta name="twitter:description" content="The portfolio of Charlie Quinn”>
-  <meta name="twitter:image" content="images/charliequinn.jpg”> -->
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
 </head>
 <body>
 
-  <!-- **********BANNER********** -->
-
-  <ul class="skip-links">
-    <li><a href="{{site.baseurl}}/#banner">Skip to Meet Charlie</a></li>
-    <li><a href="{{site.baseurl}}/#work">Skip to Work</a></li>
-    <li><a href="{{site.baseurl}}/#contact">Skip to Contact</a></li>
-  </ul>
-
-  <header class="banner {{page.extraBanner}}" id="banner">
-    <nav class="nav">
-      <ul class="nav-links">
-        <li class="about-me"><a href='javascript:navigate("#about");'  aria-label="Visit Charlie Quinn's About section">About</a></li>
-        <li class="my-work"><a href='javascript:navigate("#work");'  aria-label="Visit Charlie Quinn's Work section">Work</a></li>
-        <li class="contact-me"><a href='javascript:navigate("#contact");' aria-label="Visit Charlie Quinn's Contact section">Contact</a></li>
-      </ul>
-            <a href='{{site.baseurl}}/index.html'><div class="logo"></div></a>
-      <div class="nav-background"></div>
-<!--       <ul class="side-nav">
-        <li class="side-projects"><a href='#' aria-label="Visit Charlie Quinn's Side Projects section">Side Projecst</a></li>
-      </ul> -->
+  <header>
+    <nav>
+      <ol>
+        <li><a href="#home">Home.</a></li>
+        <li><a href="#bio">About me</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Say hola!</a></li>
+      </ol>
     </nav>
   </header>
 
-	<h1 class="monster">I&nbsp;live&nbsp;my&nbsp;life <br/>like&nbsp;a&nbsp;video&nbsp;game.</h1>
+	<h1 class="monster">Want&nbsp;to&nbsp;see&nbsp;something neat?<br/>well&nbsp;you're&nbsp;in&nbsp;the&nbsp;right&nbsp;place</h1>
 
-	 <div class="social-media-top">
-		 <a href="{{site.baseurl}}/mailto:hey@charliequinn.ca?Subject=Hello!" target="_top"><div class="email"></div></a>
-		 <a href="{{site.baseurl}}/https://ca.linkedin.com/in/charliequinngd"><div class="linkedin"></div></a>
-		 <a href="{{site.baseurl}}/https://twitter.com/charliequinn_"><div class="twitter"></div></a>
-		 <a href="{{site.baseurl}}/https://instagram.com/notenoughquinn/"><div class="instagram"></div></a>
-	 </div>
-
-	 <div class="scroll-down-wrapper"><a class="scroll-down" href='javascript:navigate("#about");'></a></div>
-
-
-<!-- **********ABOUT********** -->
-
- <section class="about hideme" id="about">
-	 <div id="about-charlie"></div>
-	 <div class="charlie-quinn">
-		 <h2>Hey, my name is Charlie and I’m an independent graphic designer currently living in  Ottawa, Canada.</h2>
-		 </div>
- </section>
-
-<!-- **********PORTFOLIO********** -->
-
- <div class="portfolio" id="work">
-	 <div class="grid">
-		 {% for item in site.data.portfolio-pieces %}
-		 <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 hideme">
-			 <a href="{{site.baseurl}}/#{{item.piece}}">{{item.title}}</a>
-			 <img src="{{site.baseurl}}/images/{{item.thumbnail}}" alt="portfolio-piece alt description">
-		 </div>
-		 {% endfor %}
-		 <div class="piece-hover"></div>
-	 </div>
-		 {% for item in site.data.portfolio-pieces %}
-	 <div class="portfolio-opened" id="{{item.piece}}">
-		 <div class="back-button-bg"><div class="back-to-landing-page"><a class="go-back" href='#work'></a></div></div>
-		 <div class="work-together">
-		 <div class="grid hero-and-text">
-			 <div class="unit hero-image">
-				 {% for image in item.hero-image %}
-				 <img src="{{site.baseurl}}/images/{{image}}" alt="portfolio-piece hero image">
-			 {% endfor %}
-			 </div>
-			 <div class="unit text">
-				 <h3 class="unit title">{{item.title}}</h3>
-				 <p class="unit description">{{item.description}}</p>
-				 <p class="unit tags">{{item.tags}}</p>
-			 </div>
-			 </div>
-							 <div class="unit unit-s-1 image">
-				 <div class="big-images">
-			 {% for video in item.work-videos %}
-			 <div class="centered-embed">
-				 <div class="embed">
-					 <iframe class="embed-item" src="{{video}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				 </div>
-				 </div>
-			 {% endfor %}
-			 {% for image in item.work-images %}
-				 <img src="{{site.baseurl}}/images/{{image}}" alt="portfolio-piece description">
-			 {% endfor %}
-			 {% for video in item.work-videos %}
-				 <video src="{{item.video}}">
-			 {% endfor %}
-		 </div>
-			 </div>
-		 </div>
-	 </div>
-		 {% endfor %}
-
+ <div class="social-media-top">
+	 <a href="{{site.baseurl}}/mailto:hey@charliequinn.ca?Subject=Hello!" target="_top"><div class="email"></div></a>
+	 <a href="{{site.baseurl}}/https://ca.linkedin.com/in/charliequinngd"><div class="linkedin"></div></a>
+	 <a href="{{site.baseurl}}/https://twitter.com/charliequinn_"><div class="twitter"></div></a>
+	 <a href="{{site.baseurl}}/https://instagram.com/notenoughquinn/"><div class="instagram"></div></a>
  </div>
 
-  {{content}}
+ <div class="scroll-down-wrapper"><a class="scroll-down" href='javascript:navigate("#about");'></a></div>
 
-<!-- **********CONTACT********** -->
+	<!-- **********ABOUT********** -->
+
+	  <section class="about hideme" id="about">
+	    <div id="about-iza"></div>
+	    <div class="Izavalle">
+	      <h2> Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator.
+					I like being nerdy about concepts, typefaces, kerning, coding, motion graphics, hand lettering , music , wine and churros.</h2>
+	      </div>
+	  </section>
+
+<!-- **********PORTFOLIO********** -->
+  <main>
+    <h2>Work</h2>
+    <div class="grid">
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+      </div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+      </div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+      </div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+      </div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+      </div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+      </div>
+    </div>
+  </main>
+
   <footer>
-    <section class="contact">
-      <hr>
-      <div class="what-i-do">
-       <p><span class="like-a-video-game">I live my life like a video game.</span> <br>Developing new skills, unlocking achievements,  conquering challenges and leveling up.</p>
-       <p class="hey">I specialize in creating online experiences<br>and makin’ things move.</p>
-      </div>
-      <div class="next-level" id="contact"><h2>Let's take your project to the next level.</h2><div class="next-level-link"><a href="mailto:hey@charliequinn.ca?Subject=Hello!">START</a></div>
-      </div>
-      </div>
-      <div class="contact-footer">
-        <div class="contact-info unit unit-s-1 unit-m-1-2">
-          <a class="unit unit-s-1" href="mailto:hey@charliequinn.ca?Subject=Hello!">hey@charliequinn.ca</a>
-          <a class="unit unit-s-1" href="tel:613-327-8807">+1 613.327.8807</a>
-        </div>
-        <div class="social-media-bottom unit unit-s-1 unit-m-1-2">
-          <a href="mailto:hey@charliequinn.ca?Subject=Hello!" target="_top" title="E-mail Charlie Quinn"><div class="c-email"></div></a>
-          <a href="https://ca.linkedin.com/in/charliequinngd" title="Contact Charlie Quinn on LinkedIn"><div class="c-linkedin"></div></a>
-          <a href="https://twitter.com/charliequinn_" title="Contact Charlie Quinn on Twitter"><div class="c-twitter"></div></a>
-          <a href="https://instagram.com/notenoughquinn/" title="Contact Charlie Quinn on Instagram">
-          <div class="c-instagram"></div></a>
-        </div>
-        <div class="copyright-section">
-          <p class="copyright">Copyright © 2017 Charlie Quinn</p>
-        </div>
-      </div>
-    </section>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-  <script src="{{site.baseurl}}/js/main.js"></script>
+		<footer>
+		    <section class="contact">
+		      <hr>
+		      <div class="what-i-do">
+		       <p><span class="like-a-video-game"><br>Developing new skills, unlocking achievements,  conquering challenges and leveling up.</p>
+		       <p class="hey">I specialize in creating online experiences<br>and makin’ things move.</p>
+		      </div>
+		      <div class="next-level" id="contact"><h2>Let's take your project to the next level.</h2>
+					<div class="next-level-link"><a href="mailto:hey@izavalle.work">START</a></div>
+		      </div>
+		      </div>
+		      <div class="contact-footer">
+		        <div class="contact-info unit unit-s-1 unit-m-1-2">
+		          <a class="unit unit-s-1" href="mailto:hey@izavalle.work">hey@izavalle.work</a>
+		          <a class="unit unit-s-1" href="tel:613-327-8807">+1 613.327.8807</a>
+		        </div>
+		        <div class="social-media-bottom unit unit-s-1 unit-m-1-2">
+		          <a href="mailto:hey@izavalle.work" target="_top" title="E-mail Iza Valle"><div class="i-email"></div></a>
+		          <a href="https://www.linkedin.com/in/iza-valle-1b3770bb/" title="Contact Iza Valle on LinkedIn"><div class="i-linkedin"></div></a>
+							<a href="https://www.behance.net/vall01392e7d" title="Contact Iza Valle on Behance"><div class="i-behance"></div></a>
+		          <a href="https://www.instagram.com/_izavalle/" title="Contact Iza Valle on Instagram"><div class="c-instagram"></div></a>
+		        </div>
+		        <div class="copyright-section">
+		          <p class="copyright">Copyright © 2017 Iza valle</p>
+		        </div>
+		      </div>
+		    </section>
+		  </footer>
 
 	<script>
-	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	 ga('create', 'UA-70344621-1', 'auto');
-	 ga('send', 'pageview');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-70344621-1', 'auto');
+	  ga('send', 'pageview');
 	</script>
-
 </body>
 </html>
