@@ -52,11 +52,16 @@ body {
 }
 
 header {
-  background-image: url("../images/izavalle.jpg");
+  background-image: url("../images/charlie-half.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+}
+
+.banner-404 {
+  background-image: url("../images/404.jpg");
+  margin-bottom: -2em;
 }
 
 .side-projects-banner {
@@ -170,7 +175,7 @@ h1 {
 }
 
 .logo {
-  background-image: url("../images/.svg");
+  background-image: url("../images/wordmark-01.svg");
   transition:all .2s ease-in-out;
   background-repeat: no-repeat;
   position: absolute;
@@ -182,7 +187,7 @@ h1 {
 }
 
 .logo:hover {
-  background-image: url("../images/.svg");
+  background-image: url("../images/wordmark-02.svg");
 }
 
 .side-nav {
@@ -253,7 +258,7 @@ h1 {
 
 /* **********ABOUT********** */
 
-/*.Izavalle {
+/*.charlie-quinn {
   display: block;
   position: relative;
   margin: 0 auto;
