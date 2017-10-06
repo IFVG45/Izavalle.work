@@ -66,55 +66,154 @@
 	 </section>
 
    <!-- **********PORTFOLIO********** -->
+   <div class="grid topcontent">
 
-     <div class="portfolio" id="work">
-       <div class="grid">
-         {% for item in site.data.portfolio-pieces %}
-         <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 hideme">
-           <a href="{{site.baseurl}}/#{{item.piece}}">{{item.title}}</a>
-           <img src="{{site.baseurl}}/images/{{item.thumbnail}}" alt="portfolio-piece alt description">
-         </div>
-         {% endfor %}
-         <div class="piece-hover"></div>
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+         <img class="img-flex previewimg" src="images/newromantics.jpg">
        </div>
-         {% for item in site.data.portfolio-pieces %}
-       <div class="portfolio-opened" id="{{item.piece}}">
-         <div class="back-button-bg"><div class="back-to-landing-page"><a class="go-back" href='#work'></a></div></div>
-         <div class="work-together">
-         <div class="grid hero-and-text">
-           <div class="unit hero-image">
-             {% for image in item.hero-image %}
-             <img src="{{site.baseurl}}/images/{{image}}" alt="portfolio-piece hero image">
-           {% endfor %}
-           </div>
-           <div class="unit text">
-             <h3 class="unit title">{{item.title}}</h3>
-             <p class="unit description">{{item.description}}</p>
-             <p class="unit tags">{{item.tags}}</p>
-           </div>
-           </div>
-                   <div class="unit unit-s-1 image">
-             <div class="big-images">
-           {% for video in item.work-videos %}
-           <div class="centered-embed">
-             <div class="embed">
-               <iframe class="embed-item" src="{{video}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-             </div>
-             </div>
-           {% endfor %}
-           {% for image in item.work-images %}
-             <img src="{{site.baseurl}}/images/{{image}}" alt="portfolio-piece description">
-           {% endfor %}
-           {% for video in item.work-videos %}
-             <video src="{{item.video}}">
-           {% endfor %}
-         </div>
-           </div>
-         </div>
+       <div class="title-container">
+         <h2 class="title">HANDS<br>LIKE<br>HOUSES</h2>
+         <a href="newromantics.html" class="view">VIEW FULL PROJECT</a>
        </div>
-         {% endfor %}
-
      </div>
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+         <img class="img-flex previewimg" src="images/oneredrose.jpg">
+       </div>
+       <div class="title-container">
+         <h2 class="title">ONE RED<br>ROSE</h2>
+         <a href="oneredrose.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+
+
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+         <img class="img-flex previewimg" src="images/lady.jpg">
+       </div>
+       <div class="title-container">
+         <h2 class="title">LADY LOVE</h2>
+         <a href="ladylove.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+         <img class="img-flex previewimg" src="images/likepacific.jpg">
+       </div>
+       <div class="title-container">
+         <h2 class="title">LIKE PACIFIC</h2>
+         <a href="likepacific.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+   </div>
+
+   <div class="grid">
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+         <img class="img-flex previewimg" src="images/openletter.jpg">
+       </div>
+       <div class="title-container">
+         <h2 class="title">THE AMITY<BR>AFFLICTION</h2>
+         <a href="openletter.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+
+
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+         <img class="img-flex previewimg" src="images/trophyeyes.jpg">
+       </div>
+       <div class="title-container">
+         <h2 class="title">TROPHY EYES</h2>
+         <a href="trophyeyes.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+         <img class="img-flex previewimg" src="images/mooseblood.jpg">
+       </div>
+       <div class="title-container">
+         <h2 class="title">MOOSE<br>BLOOD</h2>
+         <a href="mooseblood.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+         <img class="img-flex previewimg" src="images/bearings.jpg">
+       </div>
+       <div class="title-container">
+         <h2 class="title">BEARINGS</h2>
+         <a href="bearings.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+   </div>
+
+
+   <div class="grid">
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+     <img src="http://via.placeholder.com/800x500">
+       </div>
+       <div class="title-container">
+         <h2 class="title">The Maple Valley logo</h2>
+         <a href="ladiesanddaggers.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+       <img src="http://via.placeholder.com/800x500">
+       </div>
+       <div class="title-container">
+         <h2 class="title">Project</h2>
+         <a href="nautical.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+           <img src="http://via.placeholder.com/800x500">
+       </div>
+       <div class="title-container">
+         <h2 class="title">Project</h2>
+         <a href="flowerpot.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+     <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
+       <div class="img">
+         <img src="http://via.placeholder.com/800x500"> 
+       </div>
+       <div class="title-container">
+         <h2 class="title">Project</h2>
+         <a href="skulls.html" class="view">VIEW FULL PROJECT</a>
+       </div>
+     </div>
+
+   </div>
+
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-70344621-1', 'auto');
+       ga('send', 'pageview');
+     </script>
 
 <!-- **********CONTACT********** -->
   <footer>
@@ -128,7 +227,7 @@
       <div class="contact-footer">
         <div class="contact-info unit unit-s-1 unit-m-1-2">
           <a class="unit unit-s-1" href="mailto:hey@izavalle.work">hey@izavalle.work</a>
-          <a class="unit unit-s-1" href="tel:613-327-8807">+1 613.327.8807</a>
+          <a class="unit unit-s-1" href="tel:613-327-8807">+1 613.558.1779</a>
         </div>
         <div class="social-media-bottom unit unit-s-1 unit-m-1-2">
           <a href="mailto:hey@izavalle.work" target="_top" title="E-mail Iza Valle"><div class="i-email"></div></a>
@@ -145,14 +244,7 @@
   </footer>
 
 
-     <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-       ga('create', 'UA-70344621-1', 'auto');
-       ga('send', 'pageview');
-     </script>
+
 
   </body>
   </html>
