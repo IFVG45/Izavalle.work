@@ -17,9 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-[hidden] {
-  display: none;
-}
 main {
   align-items: center;
   text-align: center;
