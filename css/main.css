@@ -261,7 +261,7 @@ h1 {
 
 /* **********ABOUT********** */
 
-/*.charlie-quinn {
+/*.About-Iza {
   display: block;
   position: relative;
   margin: 0 auto;
@@ -307,9 +307,10 @@ h1 {
 /* **********CONTACT********** */
 
 .contacts {
-  font-size: 1rem;
-  line-height: 1.4800;
-  background-color: #13CFB0;
+  font-size: .7em;
+  padding: 3em 0;
+  margin: 0;
+  color: #13CFB0;
 }
 
 .contact h3 {
