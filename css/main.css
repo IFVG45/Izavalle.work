@@ -307,6 +307,8 @@ h1 {
 /* **********CONTACT********** */
 
 .contacts {
+  font-size: 1rem;
+  line-height: 1.4800;
   background-color: #13CFB0;
 }
 
