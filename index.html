@@ -2,118 +2,94 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Iza valle</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meet Iza</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
 </head>
+
 <body>
 
-  <header>
-    <nav>
-      <ol>
-        <li><a href="#home">Home.</a></li>
-        <li><a href="#bio">About me</a></li>
-        <li><a href="#projects">Work</a></li>
-        <li><a href="#contact">Say hola!</a></li>
-      </ol>
-    </nav>
-  </header>
+  <div class="wrapper">
 
-	<h1 class="monster">Want&nbsp;to&nbsp;see&nbsp;something neat?<br/>well&nbsp;you're&nbsp;in&nbsp;the&nbsp;right&nbsp;place</h1>
+    <header class="resize push banner">
 
- <div class="social-media-top">
-	 <a href="{{site.baseurl}}/mailto:hey@charliequinn.ca?Subject=Hello!" target="_top"><div class="email"></div></a>
-	 <a href="{{site.baseurl}}/https://ca.linkedin.com/in/charliequinngd"><div class="linkedin"></div></a>
-	 <a href="{{site.baseurl}}/https://twitter.com/charliequinn_"><div class="twitter"></div></a>
-	 <a href="{{site.baseurl}}/https://instagram.com/notenoughquinn/"><div class="instagram"></div></a>
- </div>
-
- <div class="scroll-down-wrapper"><a class="scroll-down" href='javascript:navigate("#about");'></a></div>
-
-	<!-- **********ABOUT********** -->
-
-	  <section class="about hideme" id="about">
-	    <div id="about-iza"></div>
-	    <div class="Izavalle">
-	      <h2> Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator.
-					I like being nerdy about concepts, typefaces, kerning, coding, motion graphics, hand lettering , music , wine and churros.</h2>
-	      </div>
-	  </section>
-
-<!-- **********PORTFOLIO********** -->
-  <main>
-    <h2>Work</h2>
-    <div class="grid">
-
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-			<h2>The Maple Valley Teacup World inc.</h2>
-			 <p class="about-me">This is a poster created for a school project, where we had to choose a movie and create our own movie poster. I chose <em>"Interstellar"</em>, because I knew that I had a great deal of source material to work from, and I was inspired by the flim.</p>
-		</div>
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-			<div class="gutter">
-				<img src="https://placeholder.com" alt="piece-1">
-			</div>
-		</div>
-	  </div>
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+      <div class="push">
+        <nav class="text-center gutter-2">
+          <input type="checkbox" class="nav-check" id="nav-check">
+          <label class="nav-label hide-custom-input island-1-2" for="nav-check">Menu</label>
+          <ul class="list-group grid gutter-2 nav">
+            <li class="unit xs-1 s-1 m-1-3 push-1-2"><a href="index.html">Home</a></li>
+            <li class="unit xs-1 s-1 m-1-3 push-1-2"><a href="about.html">Work</a></li>
+            <li class="unit xs-1 s-1 m-1-3 push-1-2"><a href="contact.html">Say hello!</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+
+      <img class="img-flex image" src="images/izavalle.jpg" alt="">
+      <div class="banner-content gutter">
+        <div class="gutter intro">
+          <h1 class="push-0">Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator. I like being nerdy about concepts, typefaces, kerning, coding, motion graphics, hand lettering , music , wine and churros.</h1>
+          <a class="btn btn-ghost talk" href="contact.html">Let's talk design</a>
+        </div>
       </div>
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+
+    </header>
+
+    <div class="grid work">
+      <div class="unit xs-1 s-1 m-1-2 l-1-3 push-1-2 gutter">
+        <a href="logo.html"><img class="img-flex" src="http://via.placeholder.com/150x150" alt=""></a>
+        <h2 class="project-title text-center push-1-2 pad-t-1-2">Project Title</h2>
       </div>
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+      <div class="unit xs-1 s-1 m-1-2 l-1-3 push-1-2 gutter">
+        <a href=""><img class="img-flex" src="http://via.placeholder.com/150x150" alt="">
+        <h2 class="project-title text-center push-1-2 pad-t-1-2">Project Title</h2>
       </div>
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+      <div class="unit xs-1 s-1 m-1-2 l-1-3 push-1-2 gutter">
+        <a href=""><img class="img-flex" src="http://via.placeholder.com/150x150" alt="">
+        <h2 class="project-title text-center push-1-2 pad-t-1-2">Project Title</h2>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-3 push-1-2 gutter">
+        <a href=""><img class="img-flex" src="http://via.placeholder.com/150x150" alt="">
+        <h2 class="project-title text-center push-1-2 pad-t-1-2">Project Title</h2>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-3 push-1-2 gutter">
+        <a href=""><img class="img-flex" src="http://via.placeholder.com/150x150" alt="">
+        <h2 class="project-title text-center push-1-2 pad-t-1-2">Project Title</h2>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-3 push-1-2 gutter">
+        <a href=""><img class="img-flex" src="http://via.placeholder.com/150x150" alt="">
+        <h2 class="project-title text-center push-1-2 pad-t-1-2">Project Title</h2>
       </div>
     </div>
-  </main>
 
-  <footer>
-		<footer>
-		    <section class="contact">
-		      <hr>
-		      <div class="what-i-do">
-		       <p><span class="like-a-video-game"><br>Developing new skills, unlocking achievements,  conquering challenges and leveling up.</p>
-		       <p class="hey">I specialize in creating online experiences<br>and makin’ things move.</p>
-		      </div>
-		      <div class="next-level" id="contact"><h2>Let's take your project to the next level.</h2>
-					<div class="next-level-link"><a href="mailto:hey@izavalle.work">START</a></div>
-		      </div>
-		      </div>
-		      <div class="contact-footer">
-		        <div class="contact-info unit unit-s-1 unit-m-1-2">
-		          <a class="unit unit-s-1" href="mailto:hey@izavalle.work">hey@izavalle.work</a>
-		          <a class="unit unit-s-1" href="tel:613-327-8807">+1 613.327.8807</a>
-		        </div>
-		        <div class="social-media-bottom unit unit-s-1 unit-m-1-2">
-		          <a href="mailto:hey@izavalle.work" target="_top" title="E-mail Iza Valle"><div class="i-email"></div></a>
-		          <a href="https://www.linkedin.com/in/iza-valle-1b3770bb/" title="Contact Iza Valle on LinkedIn"><div class="i-linkedin"></div></a>
-							<a href="https://www.behance.net/vall01392e7d" title="Contact Iza Valle on Behance"><div class="i-behance"></div></a>
-		          <a href="https://www.instagram.com/_izavalle/" title="Contact Iza Valle on Instagram"><div class="c-instagram"></div></a>
-		        </div>
-		        <div class="copyright-section">
-		          <p class="copyright">Copyright © 2017 Iza valle</p>
-		        </div>
-		      </div>
-		    </section>
-		  </footer>
+    <footer class="text-center push">
+      <div class="grid gutter-2">
+        <div class="unit xs-1-3">
+          <i class="icon i-32 push-1-2">
+            <a class="icon-link social" href="https://www.behance.net/RHisko11"><svg><use xlink:href="images/icons.svg#behance" /></svg></a>
+          </i>
+        </div>
+        <div class="unit xs-1-3">
+          <i class="icon i-32 push-1-2">
+            <a class="icon-link social" href="https://www.instagram.com/hiskodesigns"><svg><use xlink:href="images/icons.svg#insta" /></svg></a>
+          </i>
+        </div>
+        <div class="unit xs-1-3">
+          <i class="icon i-32 push-1-2">
+            <a class="icon-link social" href="https://www.facebook.com/rhlovephotography/?ref=bookmarks"><svg><use xlink:href="images/icons.svg#facebook" /></svg></a>
+          </i>
+        </div>
+      </div>
+      <div>
+        <p class="push-0">© Iza valle // Graphic Designer</p>
+      </div>
+    </footer>
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	  ga('create', 'UA-70344621-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
+  </div>
+
 </body>
 </html>
