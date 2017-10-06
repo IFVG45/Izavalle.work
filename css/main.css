@@ -290,7 +290,7 @@ h1 {
 
 .about a {
   text-decoration: none;
-  color: #0e3b5e;
+  color: #2EE5CF;
 }
 
 .about a:focus,
@@ -306,8 +306,8 @@ h1 {
 
 /* **********CONTACT********** */
 
-footer {
-  background-color: #2EE5CF;
+.contacts {
+  background-color: #13CFB0;
 }
 
 .contact h3 {
