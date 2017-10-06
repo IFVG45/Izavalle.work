@@ -20,6 +20,10 @@ html {
 [hidden] {
   display: none;
 }
+main {
+  align-items: center;
+  text-align: center;
+}
 
 img {
   width: 100%;
@@ -112,7 +116,7 @@ nav a {
   color: #0e3b5e;
 }
 
-nav a:hover {
+a:hover {
   transition:all .2s ease-in-out;
   color: #13CFB0;
   border-bottom: 6px solid #13CFB0;
