@@ -31,14 +31,14 @@
      <li><a href="#contact">Skip to Contact</a></li>
    </ul>
 
-   <header class="banner {{page.extraBanner}}" id="banner">
+   <header class="banner" id="banner">
      <nav class="nav">
        <ul class="nav-links">
          <li class="about-me"><a href='javascript:navigate("#about");'  aria-label="Visit Iza valle's About section">About</a></li>
          <li class="my-work"><a href='javascript:navigate("#work");'  aria-label="Visit Iza valle's Work section">Work</a></li>
          <li class="contact-me"><a href='javascript:navigate("#contact");' aria-label="Visit Iza valle's Contact section">Contact</a></li>
        </ul>
-           <a href='{{site.baseurl}}/index.html'><div class="logo"></div></a>
+           <a href='index.html'><div class="logo"></div></a>
        <div class="nav-background"></div>
  <!--       <ul class="side-nav">
          <li class="side-projects"><a href='#' aria-label="Visit Charlie Quinn's Side Projects section">Side Projecst</a></li>
@@ -54,52 +54,40 @@
  		 <p class="center-intro">I would like to be a major part of the graphic design development in ottawa. I get inspired by the other designers I'm surrounded with, in my school, and those I work with. I have a diverse background in Fine Arts, and years of experiance using a paintbrush. The brush I use now is digital, and my paint is pixels.</p>
 		 </div>
  </section>
+
+ <main>
 		<div class="expanding-divs">
 
-			<main>
-     <h2>projects.</h2>
-     <div class="grid topcontent">
-   <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
-     <div class="img">
-    <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
-     </div>
-     <div class="title-container">
-       <h2 class="title">The Maple Valle Branding</h2>
-       <a href="logo.html" class="view">VIEW FULL PROJECT</a>
-     </div>
-   </div>
-
-   <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
-     <div class="img">
-     <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
-     </div>
-     <div class="title-container">
-       <h2 class="title">project 2</h2>
-       <a href="empty-space.html" class="view">VIEW FULL PROJECT</a>
-     </div>
-   </div>
-
-   <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
-     <div class="img">
-     <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
-     </div>
-     <div class="title-container">
-       <h2 class="title">project 3</h2>
-       <a href="font.html" class="view">VIEW FULL PROJECT</a>
-     </div>
-   </div>
-
-   <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4 content container">
-     <div class="img">
-     <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
-     </div>
-     <div class="title-container">
-       <h2 class="title">project 4</h2>
-       <a href="font.html" class="view">VIEW FULL PROJECT</a>
-     </div>
-   </div>
-  </main>
-
+      div class="gutter-half">
+        <div class="unit xs-1 s-1 m-1 l-2-3 xl-2-3 gutter-half push">
+          <h3 class="text-lower">The Maple Valle Branding</h3>
+          <a href="logo.html" class="view">VIEW FULL PROJECT</a>
+        </div>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-3 xl-1-3 gutter-half push-half">
+            <div class="push">
+              <a href="https://placeholder.com"><img src="http://via.placeholder.com/800x500"></a>
+            </div>
+            <h4 class="push-quarter text-lower kilo">Project 2</h4>
+           <a href="logo.html" class="view">VIEW FULL PROJECT</a>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-3 xl-1-3 gutter-half push-half">
+            <div class="push">
+              <img class="img-flex" src="{{site.baseurl}}/images/{{portfolio.concept.c2.image}}" alt="{{portfolio.concept.c2.alt}}">
+            </div>
+            <h4 class="push-quarter text-lower kilo">Project 3</h4>
+            <a href="logo.html" class="view">VIEW FULL PROJECT</a>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-3 xl-1-3 gutter-half push-half">
+            <div class="push">
+              <img class="img-flex" src="{{site.baseurl}}/images/{{portfolio.concept.c3.image}}" alt="{{portfolio.concept.c3.alt}}">
+            </div>
+            <h4 class="push-quarter text-lower kilo">Project 4</h4>
+            <a href="logo.html" class="view">VIEW FULL PROJECT</a>
+          </div>
+        </div>
+      </div>
+</main>
 
   </div>
 
