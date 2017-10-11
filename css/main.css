@@ -473,7 +473,9 @@ footer {
   }
 
   nav a {
-    color: #0e3b5e;
+  border: solid black 3px;
+  background-color: #6ecbd9;
+
   }
 
   .about {
