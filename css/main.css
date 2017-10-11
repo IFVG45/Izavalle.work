@@ -351,7 +351,7 @@ footer {
 }
 
 /* **********DESKTOP********** */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 38px) {
 
   h1 {
     left: 66%;
@@ -400,7 +400,7 @@ footer {
 }
 
 /* **********IPAD PORTRAIT********** */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 60px) {
 
   h1 {
     top: 40vh;
@@ -525,7 +525,7 @@ footer {
   }
 
 /* **********IPAD LANDSCAPE********** */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 90px) {
 
   h1 {
     left: 70%;
