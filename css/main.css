@@ -272,8 +272,8 @@ h1 {
     rgba(244, 244, 244, 1) 0%,
     rgba(244, 244, 244, 0) 100%
 );*/
-  background-color: white;
-  color: ##6ecbd9;
+  background-color: #f44a52;
+  color: #000;
   display: inline-block;
   width: 100%;
   text-align: center;
