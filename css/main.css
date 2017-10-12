@@ -529,41 +529,6 @@ footer {
   }*/
 
 
-  .portfolio-opened {
-    position:fixed;
-    top: -100vh;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100vh;
-  }
-
-  .portfolio-opened:target {
-    top: 0;
-  }
-
-  .hero-image {
-    width: 60%;
-    margin: auto 0;
-  }
-
-  .hero-and-text .text {
-    background-color: white;
-    width: 40%;
-    margin: auto 0;
-  }
-
-  .hero-and-text {
-    background-color: #f44a52;
-    display: block;
-    width: 100%;
-  }
-
-
-  .portfolio-opened {
-    transition: all .75s ease;
-  }
-
 /* **********IPAD LANDSCAPE********** */
 @media only screen and (min-width: 90px) {
 
