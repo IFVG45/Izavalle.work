@@ -502,9 +502,9 @@ footer {
   }
 
   .nav-links {
-    width: 50%;
+    width: 60%;
     text-align: right;
-    left: 50%;
+    left: 40%;
     font-size: 1.25em;
     padding-top: .8em;
   }
