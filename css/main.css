@@ -378,7 +378,6 @@ footer {
   text-decoration: none;
   cursor: pointer;
   color: rgba(0,0,0,0);
-  font-weight: 300;
 }
 
 .container:hover .image {
