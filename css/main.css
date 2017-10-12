@@ -394,7 +394,7 @@ hr {
   margin: 2em 0;
 }
 
-.charlie-quinn h2 {
+.iza-valle h2 {
   color: #0e3b5e;
   font-weight: 200;
   max-width: 400px;
@@ -410,7 +410,7 @@ hr {
 .what-i-do {
   font-size: 2em;
   font-weight: 200;
-  color: #0e3b5e;
+  color:  #f44a52;
   line-height: 1.25em;
   text-align: center;
   background-color: white;
@@ -424,11 +424,11 @@ hr {
 }
 
 .like-a-video-game {
-  color: #13CFB0;
+  color: #f44a52;
 }
 
 .next-level {
-  background-color: #13CFB0;
+  background-color: #7a7979;
   color: white;
   padding: 3em 0;
 }
@@ -452,7 +452,7 @@ hr {
   color: white;
   font-weight: 200;
   font-size: 2em;
-  background-color: #0e3b5e;
+  background-color: #f44a52;
   box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
   border-radius: 50%;
   -moz-border-radius: 50%;
@@ -466,9 +466,9 @@ hr {
 .next-level-link a:hover,
 .next-level-link a:target {
   cursor: pointer;
-  color: #0e3b5e;
+  color: #6ecbd9;
   background-color: white;
-  border: solid 4px #88e5d3;
+  border: solid 4px #6ecbd9;
 }
 
 .back-button-bg {
