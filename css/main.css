@@ -116,7 +116,7 @@ nav a {
 nav a:hover {
   transition:all .2s ease-in-out;
   color: #f44a52;
-  border-bo: px solid black #f44a52;
+  border-bottom: px solid black #f44a52;
 }
 
 /* **********BILLBOARD********** */
