@@ -107,7 +107,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  margin: 0 1em;
+  margin: 0.5em;
   font-weight: 500;
   color: #fff;
 }
@@ -138,7 +138,7 @@ h1 {
   font-weight: 200;
   font-size: 1.5em;
   line-height: 1.25em;
--webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */
          -o-animation: fadein 3s; /* Opera < 12.1 */
