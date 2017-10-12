@@ -349,21 +349,16 @@ footer {
 .i-instagram:hover {
   opacity: 0.5;
 }
-
-.container {
-    position: relative;
+.portfolio {
+  margin: 1em;
 }
 
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .25s ease;
-  backface-visibility: hidden;
+.portfolio-piece-1 {
+  position: relative;
 }
 
-.middle {
+.portfolio-piece-1 a,
+.portfolio-piece-1 a:visited {
   position: absolute;
   width: calc(100% - .65em);
   height: calc(100% - .65em);
@@ -378,29 +373,175 @@ footer {
   text-decoration: none;
   cursor: pointer;
   color: rgba(0,0,0,0);
+  font-weight: 300;
 }
 
-.container:hover .image {
-  opacity: 0.3;
+.portfolio-piece-1 a:hover {
+  opacity: 1;
   background-color: rgba(19,207,176,0.8);
   vertical-align: middle;
   color: rgba(255,255,255,1);
 }
 
-.container:hover .middle {
-  opacity: 1;
+.portfolio-opened {
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 101;
+}
+
+.portfolio-opened:target {
+  top: 0;
+  transition: all .75s ease-out;
+}
+
+.work-together {
+  position:relative;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  top: -100%;
+  transition: all .5s linear;
+  height: 100%;
+}
+
+.item {
+  padding: .5em;
+  margin: 0;
+  transition: all .1s ease;
+  transition-property: transform;
+}
+
+.item img {
+  display: block;
+}
+
+.item img:hover,
+.item img:focus,
+.item img:active {
+  cursor: pointer;
+}
+
+.item h3 {
+  margin: 1em 0 0.25em;
+}
+
+.hero-image {
+  width: 100%;
+  background-color: white;
+}
+
+.big-images {
+  display: none;
+}
+
+.hero-and-text {
+  background-color: white;
 }
 
 .text {
-  background-color: #f44a4f;
-  color: black;
-  padding: 16px 24px;
-  border-radius: 2px;
+  width: 100%;
+  background-color: white;
+  padding: 0 2em 2em 2em;
+  z-index: 101;
+}
+
+.text a,
+.text a:visited {
+  color: #13CFB0
+}
+
+.text a:hover {
+  color: #13CFB0;
+}
+
+.text .title {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 2em;
 }
 
 .text p {
+  color: #9B9B9B;
+  font-weight: 300;
+}
+
+.tags {
+  background-color: rgba(80,227,194,0.15);
+  padding: .5em;
+  width: 100%;
+  text-align: center;
   margin: 0;
 }
+
+.image {
+  -webkit-overflow-scrolling: touch;
+  background-color: #f5f5f5;
+  padding: 2em 2em 5.6em 2em;
+  width: 100%;
+}
+
+.image img {
+   box-shadow: 1px -1px 20px rgba(0,0,0,0.1);
+   margin-bottom: 2em;
+}
+
+.image img:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio .image img{
+  max-width: 50em;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio-opened:target .work-together {
+  top: 0;
+}
+
+.portfolio-opened:target .big-images {
+  display: block;
+}
+
+.portfolio-opened:target .exit {
+  top: 0;
+}
+
+.centered-embed {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.embed {
+  position: relative;
+  margin: 2em 0;
+  padding-top: 56.25%;
+}
+
+.embed-item{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#piece-1 .big-images img,
+#piece-2 .big-images img,
+#piece-3 .big-images img,
+#piece-4 .big-images img,
+#piece-5 .big-images img,
+#piece-6 .big-images img,
+#piece-7 .big-images img,
+#piece-8 .big-images img,
+#piece-9 .big-images img {
+  margin-bottom: 2em;
+}
+
+
 /* **********DESKTOP********** */
 @media only screen and (min-width: 38px) {
 
