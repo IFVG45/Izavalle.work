@@ -920,20 +920,9 @@ hr {
   height: 100%;
 }
 
-#piece-1 .big-images img,
-#piece-2 .big-images img,
-#piece-3 .big-images img,
-#piece-4 .big-images img,
-#piece-5 .big-images img,
-#piece-6 .big-images img,
-#piece-7 .big-images img,
-#piece-8 .big-images img,
-#piece-9 .big-images img {
-  margin-bottom: 2em;
-}
 
 .contact-footer {
-  color: #0e3b5e;
+  color: #f44a52;
   padding: 6em 0 3em;
   width: 100%;
 }
@@ -954,7 +943,7 @@ hr {
 
 .contact-info a,
 .contact-info a:visited {
-  color: #13CFB0;
+  color: #f44a52;
   text-decoration: none;
   font-size: 1.5em;
   font-weight: 400;
@@ -981,7 +970,7 @@ hr {
   font-size: .7em;
   padding: 3em 0;
   margin: 0;
-  color: #13CFB0;
+  color: #f44a52;
 }
 
 
