@@ -382,8 +382,8 @@ footer {
 }
 
 .text {
-  background-color: #FF0000;
-  color: white;
+  background-color: #f44a4f;
+  color: black;
   padding: 16px 24px;
   border-radius: 8px;
 }
