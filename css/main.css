@@ -109,14 +109,14 @@ nav a {
   text-decoration: none;
   margin: 0 1em;
   font-weight: 500;
-  color: ##6ecbd9;
-  border: px solid black #6ecbd9;
+  color: #f44a52;
+  border: px solid black #f44a52;
 }
 
 nav a:hover {
   transition:all .2s ease-in-out;
-  color: #6ecbd9;
-  border-bo: px solid black #6ecbd9;
+  color: #f44a52;
+  border-bo: px solid black #f44a52;
 }
 
 /* **********BILLBOARD********** */
