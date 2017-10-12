@@ -109,8 +109,7 @@ nav a {
   text-decoration: none;
   margin: 0 1em;
   font-weight: 500;
-  color: #f44a52;
-  border: px solid black #f44a52;
+  color: #fff;
 }
 
 nav a:hover {
