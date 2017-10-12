@@ -207,7 +207,7 @@ h1 {
 
 .scroll-down {
   position: absolute;
-  background-image: url("../images/down-arrow-02.svg");
+  background-image: url("../images/down-arrow-01.svg");
   background-repeat: no-repeat;
   transition:all .2s ease-in-out;
   bottom: 1.75em;
