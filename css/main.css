@@ -387,6 +387,9 @@ footer {
 
 .container:hover .middle {
   opacity: 1;
+  background-color: rgba(19,207,176,0.8);
+  vertical-align: middle;
+  color: rgba(255,255,255,1);
 }
 
 .text {
