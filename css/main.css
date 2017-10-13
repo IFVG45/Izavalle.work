@@ -145,8 +145,9 @@ h1 {
             animation: fadein 3s;
 }
 
-.extrabanner {
+.extra-banner {
   position: relative;
+  background-image: url("../images/.jpg");
 }
 
 @keyframes fadein {
