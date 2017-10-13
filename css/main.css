@@ -147,7 +147,7 @@ h1 {
 
 .extra-banner {
   position: relative;
-  background-image: url("../images/.jpg");
+  background-image: url("../images/placeholder.jpg");
 }
 
 @keyframes fadein {
