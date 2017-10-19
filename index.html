@@ -22,32 +22,84 @@ layout:default
        </section>
 
        <!-- **********Portfolio********** -->
+
        <div class="portfolio" id="work">
-          <div class="grid">
-            {% for item in site.data.portfolio-pieces %}
-            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 style="opacity: 1;>
-              <a href="{{site.baseurl}}/#{{item.piece}}">{{item.title}}</a>
-              <img src="{{site.baseurl}}/http://via.placeholder.com/800x500/{{item.thumbnail}}" alt="portfolio-piece alt description">
-            </div>
-          {% endfor %}
-          <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 style="opacity: 1;>
-            <a href="/#piece-2">Parallax</a>
-              <img src="http://via.placeholder.com/800x500" alt="portfolio-piece alt description">
-          </div>
-          <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 style="opacity: 1;>
-            <a href="/#piece-3">Isometric</a>
-              <img src="http://via.placeholder.com/800x500" alt="portfolio-piece alt description">
-          </div>
-          <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 style="opacity: 1;>
-            <a href="/#piece-4">Dingbats</a>
-              <img src="http://via.placeholder.com/800x500" alt="portfolio-piece alt description">
-          </div>
-          <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 style="opacity: 1;>
-            <a href="/#piece-5">Yoga 101</a>
-              <img src="http://via.placeholder.com/800x500" alt="portfolio-piece alt description">
-          </div>
-          <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 style="opacity: 1;>
-            <a href="/#piece-5">Handlettering</a>
-              <img src="http://via.placeholder.com/800x500" alt="portfolio-piece alt description">
-          </div>
-        </div>
+   <div class="grid">
+     {% for item in site.data.portfolio-pieces %}
+     <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 item portfolio-piece-1 hideme">
+       <a href="{{site.baseurl}}/#{{item.piece}}">{{item.title}}</a>
+       <img src="{{site.baseurl}}/http://via.placeholder.com/800x500/{{item.thumbnail}}" alt="portfolio-piece alt description">
+     </div>
+     {% endfor %}
+     <div class="piece-hover"></div>
+   </div>
+     {% for item in site.data.portfolio-pieces %}
+   <div class="portfolio-opened" id="{{item.piece}}">
+     <div class="back-button-bg"><div class="back-to-landing-page"><a class="go-back" href='#work'></a></div></div>
+     <div class="work-together">
+     <div class="grid hero-and-text">
+       <div class="unit hero-image">
+         {% for image in item.hero-image %}
+         <img src="{{site.baseurl}}/http://via.placeholder.com/800x500/{{image}}" alt="portfolio-piece hero image">
+       {% endfor %}
+       </div>
+       <div class="unit text">
+         <h3 class="unit title">{{item.title}}</h3>
+         <p class="unit description">{{item.description}}</p>
+         <p class="unit tags">{{item.tags}}</p>
+       </div>
+       </div>
+
+       <div class="portfolio-opened" id="{{item.piece}}">
+         <div class="back-button-bg"><div class="back-to-landing-page"><a class="go-back" href='#work'></a></div></div>
+         <div class="work-together">
+         <div class="grid hero-and-text">
+           <div class="unit hero-image">
+             {% for image in item.hero-image %}
+             <img src="{{site.baseurl}}/http://via.placeholder.com/800x500/{{image}}" alt="portfolio-piece hero image">
+           {% endfor %}
+           </div>
+           <div class="unit text">
+             <h3 class="unit title">{{item.title}}</h3>
+             <p class="unit description">{{item.description}}</p>
+             <p class="unit tags">{{item.tags}}</p>
+           </div>
+           </div>
+
+           <div class="portfolio-opened" id="{{item.piece}}">
+             <div class="back-button-bg"><div class="back-to-landing-page"><a class="go-back" href='#work'></a></div></div>
+             <div class="work-together">
+             <div class="grid hero-and-text">
+               <div class="unit hero-image">
+                 {% for image in item.hero-image %}
+                 <img src="{{site.baseurl}}/http://via.placeholder.com/800x500/{{image}}" alt="portfolio-piece hero image">
+               {% endfor %}
+               </div>
+               <div class="unit text">
+                 <h3 class="unit title">{{item.title}}</h3>
+                 <p class="unit description">{{item.description}}</p>
+                 <p class="unit tags">{{item.tags}}</p>
+               </div>
+               </div>
+
+               <div class="portfolio-opened" id="{{item.piece}}">
+                 <div class="back-button-bg"><div class="back-to-landing-page"><a class="go-back" href='#work'></a></div></div>
+                 <div class="work-together">
+                 <div class="grid hero-and-text">
+                   <div class="unit hero-image">
+                     {% for image in item.hero-image %}
+                     <img src="{{site.baseurl}}/http://via.placeholder.com/800x500/{{image}}" alt="portfolio-piece hero image">
+                   {% endfor %}
+                   </div>
+                   <div class="unit text">
+                     <h3 class="unit title">{{item.title}}</h3>
+                     <p class="unit description">{{item.description}}</p>
+                     <p class="unit tags">{{item.tags}}</p>
+                   </div>
+                   </div>
+
+
+
+ </div>
+</div>
+    
