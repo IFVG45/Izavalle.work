@@ -8,75 +8,62 @@
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Yantramanav:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
   <link href="images/cq-favicon.ico" rel="shortcut icon">
 
 </head>
 <body>
 
-  <ul class="skip-links">
-    <li><a href="#banner">Skip to Meet Iza</a></li>
-    <li><a href="#work">Skip to Work</a></li>
-    <li><a href="#contact">Skip to Contact</a></li>
-  </ul>
+   <nav class="nav">
+       <ul class="nav-links">
+         <li class="about-me"><a href='javascript:changePage("about-me");'  aria-label="Visit Iza Valle's About section">About</a></li>
+         <li class="my-work"><a href='javascript:changePage("home");'  aria-label="Visit Iza Valle's Work section">Work</a></li>
+         <li class="my-side-projects"><a class="{% if page.url == '/side-projects.html' %}current{% endif %}" href='javascript:changePage("side-projects");'  aria-label="Visit Iza Valle's Work section">-[<span>&hearts;</span>]-</a></li>
+         <li class="contact-me"><a href="#contact" aria-label="Visit Iza Valle's Contact section">Contact</a></li>
+           <a href='{{site.baseurl}}/index.html'><div class="logo"></div></a>
+     <div class="nav-background"></div>
+   </nav>
+ </header>
 
-  <header class="banner" id="banner">
-    <nav class="nav">
-      <ul class="nav-links">
-        <li class="about-me"><a href="{{site.baseurl}}/#about">About</a></li>
-        <li class="my-work"><a href="{{site.baseurl}}/#work">Work</a></li>
-        <li class="contact-me"><a href="{{site.baseurl}}/#contact">Contact</a></li>
-      </ul>
-            <a href='index.html'><div class="logo"></div></a>
-      <div class="nav-background"></div>
-<!--       <ul class="side-nav">
-        <li class="side-projects"><a href='#' aria-label="Visit Iza valle's Side Projects section">Side Projecst</a></li>
-      </ul> -->
-    </nav>
-  </header>
+<!-- **********BANNER********** -->
 
-  <!-- **********BANNER********** -->
+  {{content}}
 
-   {{content}}
+<!-- **********CONTACT********** -->
+<footer>
+      <section class="contact">
+        <hr>
+        <div class="what-i-do">
+         <p><span class="like-a-video-game">I live my life to the fullest.</span> <br>Developing new skills, unlocking achievements,  conquering challenges and leveling up.</p>
+         <p class="hey">I specialize in creating online experiences<br>and makin’ things move.</p>
+        </div>
+        <div class="next-level" id="contact"><h2>Goodbye?Adios?Oh no,please,can't we just go back and start all over again?</h2><div class="next-level-link"><a href="mailto:hey@izavalle.work">Say Hola!</a></div>
+        </div>
+        </div>
+        <div class="contact-footer">
+          <div class="contact-info unit unit-s-1 unit-m-1-2">
+            <a class="unit unit-s-1" href="mailto:hey@izavalle.work">hey@izavalle.work</a>
+            <a class="unit unit-s-1" href="tel:613-558-1779">+1 613.558.1779</a>
+          </div>
 
-   <!-- **********CONTACT********** -->
-     <footer>
-       <section class="contact">
-         <hr>
-         <div class="what-i-do">
-          <p><span class="like-a-video-game">I live my life to the fullest.</span> <br>Developing new skills, unlocking achievements,  conquering challenges and leveling up.</p>
-          <p class="hey">I specialize in creating online experiences<br>and makin’ things move.</p>
-         </div>
-         <div class="next-level" id="contact"><h2>Goodbye?Adios?Oh no,please,can't we just go back and start all over again?</h2><div class="next-level-link"><a href="mailto:hey@izavalle.work">Say Hola!</a></div>
-         </div>
-         </div>
-         <div class="contact-footer">
-           <div class="contact-info unit unit-s-1 unit-m-1-2">
-             <a class="unit unit-s-1" href="mailto:hey@izavalle.work">hey@izavalle.work</a>
-             <a class="unit unit-s-1" href="tel:613-558-1779">+1 613.558.1779</a>
-           </div>
+          <div class="social-media-bottom unit unit-s-1 unit-m-1-2">
+            <a href="mailto:hey@izavalle.work" target="_top" title="E-mail Iza Valle"><div class="i-email"></div></a>
+            <a href="https://www.linkedin.com/uas/login-submit" title="Contact Iza Valle on LinkedIn"><div class="i-linkedin"></div></a>
+            <a href="https://twitter.com" title="Contact Iza Valle on Twitter"><div class="i-twitter"></div></a>
+            <a href="https://www.instagram.com/_izavalle/" title="Contact Iza Valle on Instagram"><div class="i-instagram"></div></a>
+          </div>
+          <div class="copyright-section">
+            <p class="copyright">Copyright © 2018 Iza Valle</p>
+          </div>
+        </div>
+      </section>
+    </footer>
 
-           <div class="social-media-bottom unit unit-s-1 unit-m-1-2">
-             <a href="mailto:hey@izavalle.work" target="_top" title="E-mail Iza Valle"><div class="i-email"></div></a>
-             <a href="https://www.linkedin.com/uas/login-submit" title="Contact Iza Valle on LinkedIn"><div class="i-linkedin"></div></a>
-             <a href="https://twitter.com" title="Contact Iza Valle on Twitter"><div class="i-twitter"></div></a>
-             <a href="https://www.instagram.com/_izavalle/" title="Contact Iza Valle on Instagram"><div class="i-instagram"></div></a>
-           </div>
-           <div class="copyright-section">
-             <p class="copyright">Copyright © 2018 Iza Valle</p>
-           </div>
-         </div>
-       </section>
-     </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/"></script>
   <script src="{{site.baseurl}}/js/main.js"></script>
 
-
-   </body>
-   </html>
+</body>
+</html>
