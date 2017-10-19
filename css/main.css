@@ -1,9 +1,0 @@
----
----
-
-{% include css/common.css %}
-{% include css/small-screens.css %}
-{% include css/medium-screens.css %}
-{% include css/large-screens.css %}
-{% include css/grid.css %}
-{% include css/animate.css %}
