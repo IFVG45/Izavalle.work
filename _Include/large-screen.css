@@ -1,0 +1,48 @@
+/* **********DESKTOP********** */
+@media only screen and (min-width: 960px) {
+
+  h1 {
+    left: 66%;
+    top: 45vh;
+    font-size: 3em;
+  }
+
+  header {
+    background-image: url("../images/charlie.jpg");
+  }
+
+/*  .about {
+    width: 33.3%;
+    margin: 0 calc((100% - 33.3%) / 2);
+  }*/
+
+  .fourohfour {
+    font-size: 6em;
+    top: 46%;
+    left: 13%;
+  }
+
+  .play-pause {
+    width: 6em;
+    top: 42%;
+    left: 19%;
+}
+
+.pause {
+  width: 100%;
+  position: relative;
+}
+
+.play {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.play:hover {
+  opacity: 1;
+}
+
+}
