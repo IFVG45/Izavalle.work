@@ -57,26 +57,6 @@ layout: default
            <p class="unit tags">{{item.tags}}</p>
          </div>
          </div>
-                 <div class="unit unit-s-1 image">
-           <div class="big-images">
-         {% for video in item.work-videos %}
-         <div class="centered-embed">
-           <div class="embed">
-             <iframe class="embed-item" src="{{video}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-           </div>
-           </div>
-         {% endfor %}
-         {% for image in item.work-images %}
-           <img src="{{site.baseurl}}/images/{{image}}" alt="portfolio-piece description">
-         {% endfor %}
-         {% for video in item.work-videos %}
-           <video src="{{item.video}}">
-         {% endfor %}
-       </div>
-         </div>
-       </div>
-     </div>
-       {% endfor %}
 
    </div>
  </div>
