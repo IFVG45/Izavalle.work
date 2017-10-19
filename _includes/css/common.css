@@ -146,18 +146,23 @@ nav a:hover {
 
 h1 {
   position: absolute;
-  margin: 0;
-  left: 46%;
-  top: 40vh;
-  color: #0e3b5e;
-  font-weight: 200;
-  font-size: 1.5em;
-  line-height: 1.25em;
+ margin: 0;
+ left: 46%;
+ top: 40vh;
+ color: #0e3b5e;
+ font-weight: 200;
+ font-size: 1.5em;
+ line-height: 1.25em;
 -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+      -moz-animation: fadein 3s; /* Firefox < 16 */
+       -ms-animation: fadein 3s; /* Internet Explorer */
+        -o-animation: fadein 3s; /* Opera < 12.1 */
+           animation: fadein 3s;
+}
+
+.extra-banner {
+  position: relative;
+  background-image: url("../images/placeholder.jpg");
 }
 
 @keyframes fadein {
