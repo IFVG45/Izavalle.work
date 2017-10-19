@@ -210,6 +210,7 @@ h1 {
   background-image: url("../images/wordmark-02.svg");
 }
 
+
 .scroll-down {
   position: absolute;
   background-image: url("../images/down-arrow-02.svg");
@@ -263,7 +264,7 @@ h1 {
 
 /* **********ABOUT********** */
 
-/*.charlie-quinn {
+/*.iza-valle{
   display: block;
   position: relative;
   margin: 0 auto;
@@ -277,8 +278,8 @@ h1 {
     rgba(244, 244, 244, 1) 0%,
     rgba(244, 244, 244, 0) 100%
 );*/
-  background-color: white;
-  color: #9b9b9b;
+  background-color: #f44a52;
+  color: #fff;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -303,13 +304,14 @@ h1 {
 }
 
 .about a:hover {
-  color: #13CFB0;
+  color:  #f44a52;
 }
+
 
 /* **********CONTACT********** */
 
 footer {
-  background-color: rgba(244, 244, 244, 1);
+  background-color:  rgba(244, 74, 79, 1);
 }
 
 .contact h3 {
@@ -320,37 +322,37 @@ footer {
   margin: 0;
 }
 
-.c-email {
+.i-email {
   width: 3em;
   height: 2em;
   background-image: url("../images/email-teal.svg");
   background-repeat: no-repeat;
 }
 
-.c-linkedin {
+.i-linkedin {
   width: 2em;
   height: 2em;
   background-image: url("../images/linkedin-teal.svg");
   background-repeat: no-repeat;
 }
 
-.c-twitter {
+.i-twitter {
   width: 2.5em;
   height: 2em;
   background-image: url("../images/twitter-teal.svg");
   background-repeat: no-repeat;
 }
 
-.c-instagram {
+.i-instagram {
   width: 2em;
   height: 2em;
   background-image: url("../images/instagram-teal.svg");
   background-repeat: no-repeat;
 }
 
-.c-email:hover,
-.c-linkedin:hover,
-.c-twitter:hover,
-.c-instagram:hover {
+.i-email:hover,
+.i-linkedin:hover,
+.i-twitter:hover,
+.i-instagram:hover {
   opacity: 0.5;
 }
