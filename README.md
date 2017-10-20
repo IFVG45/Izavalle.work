@@ -1,13 +1,16 @@
-# teridibbits.ca
+# Izavalle
 
-#### [ teridibbits.ca](https://teridibbits.ca)
+#### [Izavalle.work](http://Izavalle.work)
 
-In high school it quickly became clear to me that I have a passion and love for art. There is an excitement that stirs within me whenever I am presented with a creative opportunity. I am student designer and proactive worm catcher. Not your typical early bird; I have surpassing organization skills paired with an original creative flare for concept driven design. A smiley solution to your problem.
+![](images/iza.jpg)
 
-- **[hello@teridibbits.ca](milto:hello@teridibbits.ca)**
-- [GitHub](https://github.com/teridibbits)
-- [Keybase](https://keybase.io/teridibbits)
+Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator. I like being nerdy about concepts,
+typefaces, kerning, coding, motion graphics, hand lettering , music , wine and churros.
 
----
+- **[hey@izavalle.work](mailto:hey@izavalle.work)**
+- [GitHub](http://github.com/izavalle23)
+- [behance] (https://www.behance.net/vall01392e7d)
+- [linkedin] (https://www.linkedin.com/in/iza-valle-1b3770bb/)
 
-© Teri Dibbits
+
+2017 Iza Valle
