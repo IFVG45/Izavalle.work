@@ -258,7 +258,7 @@ h1 {
 
 /* **********ABOUT********** */
 
-/*.charlie-quinn {
+/*.iza-valle {
   display: block;
   position: relative;
   margin: 0 auto;
@@ -315,37 +315,37 @@ footer {
   margin: 0;
 }
 
-.c-email {
+.i-email {
   width: 3em;
   height: 2em;
   background-image: url("../images/email-teal.svg");
   background-repeat: no-repeat;
 }
 
-.c-linkedin {
+.i-linkedin {
   width: 2em;
   height: 2em;
   background-image: url("../images/linkedin-teal.svg");
   background-repeat: no-repeat;
 }
 
-.c-twitter {
+.i-twitter {
   width: 2.5em;
   height: 2em;
   background-image: url("../images/twitter-teal.svg");
   background-repeat: no-repeat;
 }
 
-.c-instagram {
+.i-instagram {
   width: 2em;
   height: 2em;
   background-image: url("../images/instagram-teal.svg");
   background-repeat: no-repeat;
 }
 
-.c-email:hover,
-.c-linkedin:hover,
-.c-twitter:hover,
-.c-instagram:hover {
+.i-email:hover,
+.i-linkedin:hover,
+.i-twitter:hover,
+.i-instagram:hover {
   opacity: 0.5;
 }
