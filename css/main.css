@@ -268,6 +268,40 @@ a:hover
   transform: none;
 }
 
+.i-email {
+  width: 3em;
+  height: 2em;
+  background-image: url("../images/email-teal.svg");
+  background-repeat: no-repeat;
+}
+
+.i-linkedin {
+  width: 2em;
+  height: 2em;
+  background-image: url("../images/linkedin-teal.svg");
+  background-repeat: no-repeat;
+}
+
+.i-twitter {
+  width: 2.5em;
+  height: 2em;
+  background-image: url("../images/twitter-teal.svg");
+  background-repeat: no-repeat;
+}
+
+.i-instagram {
+  width: 2em;
+  height: 2em;
+  background-image: url("../images/instagram-teal.svg");
+  background-repeat: no-repeat;
+}
+
+.i-email:hover,
+.i-linkedin:hover,
+.i-twitter:hover,
+.i-instagram:hover {
+  opacity: 0.5;
+}
 @media only screen and (min-width: 38em) {
 
   html {
