@@ -543,55 +543,6 @@ footer {
 
   }
 
-  .portfolio {
-    margin: 1em;
-  }
-
-  .portfolio-piece-1 {
-    position: relative;
-  }
-
-  .portfolio-piece-1 a,
-  .portfolio-piece-1 a:visited {
-    position: absolute;
-    width: calc(100% - .65em);
-    height: calc(100% - .65em);
-    background-color: none;
-    text-align: center;
-    padding: 25% 0 0;
-    line-height: 0;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-    font-weight: 300;
-    transition: all .2s ease-in-out;
-    text-decoration: none;
-    cursor: pointer;
-    color: rgba(0,0,0,0);
-    font-weight: 300;
-  }
-
-  .portfolio-piece-1 a:hover {
-    opacity: 1;
-    background-color: rgba(19,207,176,0.8);
-    vertical-align: middle;
-    color: rgba(255,255,255,1);
-  }
-
-  .portfolio-opened {
-    position: fixed;
-    top: -100vh;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100vh;
-    z-index: 101;
-  }
-
-  .portfolio-opened:target {
-    top: 0;
-    transition: all .75s ease-out;
-  }
-
   .work-together {
     position:relative;
     -webkit-overflow-scrolling: touch;
@@ -875,7 +826,7 @@ footer {
     font-size: .7em;
     padding: 3em 0;
     margin: 0;
-    color: #13CFB0;
+    color: #9965FF;
   }
 
 
