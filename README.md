@@ -1,18 +1,13 @@
-# Charlie Quinn
+# teridibbits.ca
 
-[The Portfolio of Charlie Quinn](http://charliequinn.ca/)
+#### [ teridibbits.ca](https://teridibbits.ca)
 
-I live my life like a video game.
-I believe that everything I design, love, and work for, will unlock an awesome achievement.
-I’m constantly working towards the next level, but I’ve made a habit of going back to upgrade my skills and search for hidden treasures.
+In high school it quickly became clear to me that I have a passion and love for art. There is an excitement that stirs within me whenever I am presented with a creative opportunity. I am student designer and proactive worm catcher. Not your typical early bird; I have surpassing organization skills paired with an original creative flare for concept driven design. A smiley solution to your problem.
 
-More than anything, I like finding new hats to wear (seriously, you should see [my collection!](http://charlie-quinn.github.io/portfolio/hat-collection.html)).
-At times I’m a craftsman, at others an accountant, and often a pastry chef.
+- **[hello@teridibbits.ca](milto:hello@teridibbits.ca)**
+- [GitHub](https://github.com/teridibbits)
+- [Keybase](https://keybase.io/teridibbits)
 
-The design process can get a little crazy.
-I love what I do for a living.
+---
 
-- [hey@charliequinn.ca](mailto:hey@charliequinn.ca)
-- [LinkedIn](https://www.linkedin.com/in/charliequinngd)
-- [Twitter](https://twitter.com/charliequinn_)
-- [Instagram](https://instagram.com/notenoughquinn/)
+© Teri Dibbits

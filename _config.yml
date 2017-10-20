@@ -1,4 +1,2 @@
 permalink: pretty
-markdown: redcarpet
-baseurl: ""
-exclude: ['README.md']
+baseurl: "/basic-jekyll-site"

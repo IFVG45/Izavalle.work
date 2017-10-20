@@ -2,72 +2,73 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>The Portfolio of Iza Valle</title>
-  <meta name="description" content="I believe that everything I design, love, and work for, will unlock an awesome achievement.">
-  <meta name="handheldfriendly" content="true">
-  <meta name="mobileoptimized" content="240">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Yantramanav:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
-  <link href="images/cq-favicon.ico" rel="shortcut icon">
-
 </head>
 <body>
 
-  <!-- **********BANNER********** -->
-
-  <ul class="skip-links">
-    <li><a href="{{site.baseurl}}/#banner">Skip to Meet Iza</a></li>
-    <li><a href="{{site.baseurl}}/#work">Skip to Work</a></li>
-    <li><a href="{{site.baseurl}}/#contact">Skip to Contact</a></li>
-  </ul>
-
-  <header class="banner {{page.extraBanner}}" id="banner">
-    <nav class="nav">
-      <ul class="nav-links">
-        <li class="about-me"><a href='javascript:navigate("#about");'  aria-label="Visit Iza valle's About section">About</a></li>
-        <li class="my-work"><a href='javascript:navigate("#work");'  aria-label="Visit Iza valle's Work section">Work</a></li>
-        <li class="contact-me"><a href='javascript:navigate("#contact");' aria-label="Visit Iza valle's Contact section">Contact</a></li>
-      </ul>
-            <a href='{{site.baseurl}}/index.html'><div class="logo"></div></a>
-      <div class="nav-background"></div>
-    </nav>
+  <header id="home">
+    <div class="masthead">
+      <nav class="absolute" role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="{{site.baseurl}}/#home"><li>Home</li></a>
+            <a href="{{site.baseurl}}/#about"><li>About</li></a>
+            <a href="{{site.baseurl}}/#work"><li>Work</li></a>
+          </ul>
+        </div>
+      </nav>
+      <div class="gutter wordmark-position island">
+        <i>
+          <img class="wordmark" src="{{site.baseurl}}/images/wordmark.svg" alt="">
+        </i>
+      </div>
+    </div>
   </header>
 
-  {{content}}
+  {% if page.url == "/" %}
+  <article class="banner">
+    <div>
+      <img class="img-flex static" src="{{site.baseurl}}/images/banner.jpg" alt="">
+    </div>
+    <div class="banner-body">
+      <div class="banner-copy">
+        <h2 class="banner-title pad-b gutter-2">I'm a proactive worm catcher; not your typical early bird</h2>
+        <a class="btn-ghost" href="#about">Learn more about me</a>
+      </div>
+    </div>
+  </article>
 
-<!-- **********CONTACT********** -->
+  {% else %}
+  <article class="banner">
+    <div>
+      <img class="img-flex padding-none" src="{{site.baseurl}}/images/{{page.banner_img}}" alt="">
+    </div>
+  </article>
+  {% endif %}
+
+  <main>
+    {{content}}
+  </main>
+
   <footer>
-    <section class="contact">
-      <hr>
-      <div class="what-i-do">
-       <p><span class="like-a-video-game">I live my life like a video game.</span> <br>Developing new skills, unlocking achievements,  conquering challenges and leveling up.</p>
-       <p class="hey">I specialize in creating online experiences<br>and makin’ things move.</p>
-      </div>
-      <div class="next-level" id="contact"><h2>Let's take your project to the next level.</h2><div class="next-level-link"><a href="mailto:hey@charliequinn.ca?Subject=Hello!">START</a></div>
-      </div>
-      </div>
-      <div class="contact-footer">
-        <div class="contact-info unit unit-s-1 unit-m-1-2">
-          <a class="unit unit-s-1" href="mailto:hey@izavalle.work">hey@izavalle.work</a>
-          <a class="unit unit-s-1" href="tel:613-558-1779">+1 613.558.1779</a>
-        </div>
-        <div class="social-media-bottom unit unit-s-1 unit-m-1-2">
-          <a href="mailto:hey@charliequinn.ca?Subject=Hello!" target="_top" title="E-mail Iza valle"><div class="i-email"></div></a>
-          <a href="https://ca.linkedin.com/in/charliequinngd" title="Contact Iza valle on LinkedIn"><div class="i-linkedin"></div></a>
-          <a href="https://twitter.com/charliequinn_" title="Contact Iza valle on Twitter"><div class="i-twitter"></div></a>
-          <a href="https://instagram.com/notenoughquinn/" title="Contact Iza valle on Instagram">
-          <div class="i-instagram"></div></a>
-        </div>
-        <div class="copyright-section">
-          <p class="copyright">Copyright © 2018 Iza Valle</p>
-        </div>
-      </div>
-    </section>
+    <p class="footer-text pad-t-1-2 push-0"> Like what you see? Feel free to reach out.</p>
+    <ul class="icon-group grid grid-middle">
+      <li class="island-1-2 unit xs-1-3 s-1-3 m-1-3 l-1-3"><a class="footer-icon" href="https://www.behance.net/dibb0005e6af">Behance</a></li>
+      <li class="island-1-2 unit xs-1-3 s-1-3 m-1-3 l-1-3"><a class="footer-icon" href="https://www.linkedin.com/in/teri-dibbits-425935139/">Linkedin</a></li>
+      <li class="island-1-2 unit xs-1-3 s-1-3 m-1-3 l-1-3"><a class="footer-icon" href="mailto: hello@teridibbits.com">Email</a></li>
+    </ul>
+    <p class="island-1-2 micro copyright push-0">© Teri Dibbits</p>
   </footer>
-
-  <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-  <script src="{{site.baseurl}}/js/main.js"></script>
 
 </body>
 </html>
