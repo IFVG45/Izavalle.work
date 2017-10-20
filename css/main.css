@@ -25,13 +25,13 @@ body {
 }
 
 main {
-  background-color: #f1f2f2;
+  background-color: #E5ACB5;
 }
 
 /*-----------------------NAV---------------------*/
 
 nav {
-  background-color: #fff;
+  background-color: #ffff;
 }
 
 nav a {
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #024626;
+  background-color: #6CC1D1;
   color: white;
 }
 
@@ -116,7 +116,7 @@ h3 {
 /*-----------------------FOOTER---------------------*/
 
 footer {
-  background-color: #024626;
+  background-color: #6CC1D1;
   text-align: center;
   padding: 1em 2em;
 }
