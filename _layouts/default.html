@@ -40,26 +40,6 @@
     </div>
   </header>
 
-  {% if page.url == "/" %}
-  <article class="banner">
-    <div>
-      <img class="img-flex static" src="{{site.baseurl}}/images/banner.jpg" alt="">
-    </div>
-    <div class="banner-body">
-      <div class="banner-copy">
-        <h2 class="banner-title pad-b gutter-2">I'm a proactive worm catcher; not your typical early bird</h2>
-        <a class="btn-ghost" href="#about">Learn more about me</a>
-      </div>
-    </div>
-  </article>
-
-  {% else %}
-  <article class="banner">
-    <div>
-      <img class="img-flex padding-none" src="{{site.baseurl}}/images/{{page.banner_img}}" alt="">
-    </div>
-  </article>
-  {% endif %}
 
   <main>
     {{content}}
@@ -82,7 +62,7 @@
           <a class="unit unit-s-1" href="tel:613-558-1779">+1 613.558.1779</a>
         </div>
 
-        <div class="social-media-bottom unit unit-s-1 unit-m-1-2">
+        <div class="social-media-bottom unit unit-s-1 unit-m-1-2 ">
           <a href="mailto:hey@izavalle.work" target="_top" title="E-mail Iza Valle"><div class="i-email"></div></a>
           <a href="https://www.linkedin.com/uas/login-submit" title="Contact Iza Valle on LinkedIn"><div class="i-linkedin"></div></a>
           <a href="https://twitter.com" title="Contact Iza Valle on Twitter"><div class="i-twitter"></div></a>
