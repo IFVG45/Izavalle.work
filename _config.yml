@@ -1,2 +1,3 @@
 permalink: pretty
 baseurl: "https://izavalle23.github.io/Izavalle.work"
+exclude: ['READEME.md']
