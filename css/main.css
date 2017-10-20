@@ -305,6 +305,51 @@ footer {
 .i-instagram:hover {
   opacity: 0.5;
 }
+
+//*about*///
+/*.iza-valle{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  float: center;
+}*/
+
+.about {
+/*  background-image: linear-gradient(
+    to bottom,
+    rgba(244, 244, 244, 1) 0%,
+    rgba(244, 244, 244, 0) 100%
+);*/
+  background-color: #f44a52;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+  padding: 2.5em 0 1em 0;
+}
+
+.about p {
+  padding: .2em 0;
+}
+
+.about a {
+  text-decoration: none;
+  color: #0e3b5e;
+}
+
+.about a:focus,
+.about a:active,
+.about a:visited {
+  cursor: pointer;
+  color: #0e3b5e;
+}
+
+.about a:hover {
+  color:  #f44a52;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
