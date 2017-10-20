@@ -6,10 +6,8 @@
     font-size: 3em;
   }
 
-  .iza-valle h2 {
+  .charlie-quinn h2 {
   max-width: 700px;
-  font-size: 2.5em;
-  text-align: center;
 }
 
 .contact-footer {
@@ -81,29 +79,14 @@
     font-size: 2em;
   }
 
-  .about-me-photo {
-  background-image: url("../images/charlie-about-me.jpg");
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-  max-width: 300px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.about-me-page br {
-  display: block;
-}
-
 /* **********PORTFOLIO********** */
-
+  
  /* .portfolio-piece-1:hover {
     opacity: 0.7;
   }*/
 
 
-  .portfolio-opened,
-  .side-projects-opened {
+  .portfolio-opened {
     position:fixed;
     top: -100vh;
     left: 0;
@@ -112,8 +95,7 @@
     height: 100vh;
   }
 
-  .portfolio-opened:target,
-  .side-projects-opened:target {
+  .portfolio-opened:target {
     top: 0;
   }
 
@@ -135,8 +117,7 @@
   }
 
 
-  .portfolio-opened,
-  .side-projects-opened {
+  .portfolio-opened {
     transition: all .75s ease;
   }
 

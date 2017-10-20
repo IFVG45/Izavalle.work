@@ -2,7 +2,7 @@
 
 .fourohfour {
   position: absolute;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   font-size: 4em;
   color: #0e3b5e;
   top: 40%;
@@ -42,20 +42,17 @@ hr {
   margin: 2em 0;
 }
 
-.iza-valle h2 {
-  text-align: center;
+.charlie-quinn h2 {
   color: #0e3b5e;
   font-weight: 200;
   max-width: 400px;
-  margin: 2em auto 1em ;
+  margin: 1em auto;
   padding: 0 .5em;
-  font-size: 2.5em;
 }
 
 .about {
   font-size: 1.1em;
   color: #000;
-  padding-bottom: 0;
 }
 
 .what-i-do {
@@ -65,16 +62,12 @@ hr {
   line-height: 1.25em;
   text-align: center;
   background-color: white;
-  padding-bottom: 2em;
-}
-
-.what-i-do p:first-child {
-  margin-top: 0;
+  padding: 2em 0;
 }
 
 .what-i-do p {
     max-width: 700px;
-    margin: 1em auto 0em;
+    margin: 1em auto;
     padding: 0 .5em;
 }
 
@@ -109,9 +102,9 @@ hr {
   font-size: 2em;
   background-color: #0e3b5e;
   box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
+  border-radius: 50%; 
+  -moz-border-radius: 50%; 
+  -webkit-border-radius: 50%; 
   max-width: 8em;
   padding: 1.25em .65em;
   transition:all .1s ease-in-out;
@@ -143,9 +136,9 @@ hr {
   position: absolute;
   background-image: url("../images/back-arrow-03-01.svg");
   box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-  border-radius: 100px;
--moz-border-radius: 100px;
--webkit-border-radius:100px;
+  border-radius: 100px; 
+-moz-border-radius: 100px; 
+-webkit-border-radius:100px; 
   background-repeat: no-repeat;
   transition:all .2s ease-in-out;
   top: .75em;
@@ -378,97 +371,6 @@ hr {
 #piece-9 .big-images img {
   margin-bottom: 2em;
 }
-
-.my-side-projects span {
-  font-size: .7em;
-}
-
-/* -------------------- SIDE PROJECTS */
-
-.side-projects {
-  margin: 1em;
-}
-
-.side-projects-page {
-  margin-top: 4.75em;
-}
-
-#side-piece-1 .big-images img,
-#side-piece-2 .big-images img,
-#side-piece-3 .big-images img,
-#side-piece-4 .big-images img,
-#side-piece-5 .big-images img,
-#side-piece-6 .big-images img,
-#side-piece-7 .big-images img,
-#side-piece-8 .big-images img,
-#side-piece-9 .big-images img {
-  margin-bottom: 2em;
-}
-
-.my-side-projects span {
-  font-size: .7em;
-}
-
-.creative-juice {
-  font-size: 1.25em;
-  font-weight: 200;
-  max-width: 453px;
-  margin: 5em auto 2em;
-}
-
-.about-me-page {
-  margin: 6em;
-}
-
-.about-me-section {
-  margin: 0 auto;
-}
-
-.about-me-page br {
-  display: none;
-}
-
-.about-me-page p {
-  font-weight: 200;
-  font-size: 18px;
-  line-height: 25px;
-}
-
-.about-me-info {
-  margin: 2em;
-}
-
-.about-me-info p {
-  margin: 1em;
-}
-
-.info-1 p {
-  font-size: 2em;
-  margin: .5em;
-  line-height: 40px;
-}
-
-.about-me-photo {
-  background-image: url("../images/charlie-about-me.jpg");
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-  max-width: 300px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-}
-
-.creative-juice span {
-  background-color: rgba(19,207,176,0.15);
-  padding: 0 2px;
-}
-
-#side-piece-6 .big-images img {
-  border: white solid 34px;
-}
-
-/* */
 
 .contact-footer {
   color: #0e3b5e;
