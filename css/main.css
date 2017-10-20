@@ -356,12 +356,620 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
-  html {
-    font-size: 110%;
-    line-height: 1.4;
+  .fourohfour {
+    position: absolute;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 4em;
+    color: #0e3b5e;
+    top: 40%;
+    left: 16%;
   }
 
-}
+  .play-pause {
+    width: 6em;
+    position: absolute;
+    top: 8em;
+    left: 6.9em;
+  }
+
+  .pause {
+    width: 100%;
+    position: relative;
+  }
+
+  .play {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+  }
+
+  .play:hover {
+    opacity: 1;
+  }
+
+  hr {
+    height: 1px;
+    width: 100%;
+    background-color: #e2e2e2;
+    border: 0;
+    padding: 0;
+    margin: 2em 0;
+  }
+
+  .charlie-quinn h2 {
+    text-align: center;
+    color: #0e3b5e;
+    font-weight: 200;
+    max-width: 400px;
+    margin: 2em auto 1em ;
+    padding: 0 .5em;
+    font-size: 2.5em;
+  }
+
+  .about {
+    font-size: 1.1em;
+    color: #000;
+    padding-bottom: 0;
+  }
+
+  .what-i-do {
+    font-size: 2em;
+    font-weight: 200;
+    color: #0e3b5e;
+    line-height: 1.25em;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 2em;
+  }
+
+  .what-i-do p:first-child {
+    margin-top: 0;
+  }
+
+  .what-i-do p {
+      max-width: 700px;
+      margin: 1em auto 0em;
+      padding: 0 .5em;
+  }
+
+  .like-a-video-game {
+    color: #13CFB0;
+  }
+
+  .next-level {
+    background-color: #13CFB0;
+    color: white;
+    padding: 3em 0;
+  }
+
+  .next-level h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.1em;
+    font-size: 3em;
+    padding: 1em;
+  }
+
+  .next-level-link {
+    text-align: center;
+    padding: 1em 0 5.75em 0;
+  }
+
+  .next-level-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 2em;
+    background-color: #0e3b5e;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    max-width: 8em;
+    padding: 1.25em .65em;
+    transition:all .1s ease-in-out;
+    border: solid transparent 4px;
+  }
+
+  .next-level-link a:hover,
+  .next-level-link a:target {
+    cursor: pointer;
+    color: #0e3b5e;
+    background-color: white;
+    border: solid 4px #88e5d3;
+  }
+
+  .back-button-bg {
+    background-color: white;
+    width: 100%;
+    height: 4em;
+    transition: all 200ms linear;
+  }
+
+  .back-to-landing-page a {
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+  }
+
+  .back-to-landing-page {
+    position: absolute;
+    background-image: url("../images/back-arrow-03-01.svg");
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius:100px;
+    background-repeat: no-repeat;
+    transition:all .2s ease-in-out;
+    top: .75em;
+    left: .75em;
+    width: 2.5em;
+    height: 2.5em;
+    z-index: 100;
+    cursor: pointer;
+    display: block;
+    -webkit-animation: back-to-landing-page-moving .5s ease-in-out infinite alternate;
+    animation: back-to-landing-page-moving .5s ease-in-out infinite alternate;
+  }
+
+  .back-to-landing-page:hover {
+    background-image: url("../images/back-arrow-02.svg");
+  }
+
+  @-webkit-keyframes back-to-landing-page-moving {
+
+    0% {
+      -webkit-transform: translateX(0px);
+    }
+
+    100% {
+      -webkit-transform: translateX(10px);
+    }
+
+  }
+
+  @keyframes back-to-landing-page-moving {
+
+    0% {
+      transform: translateX(0px));
+    }
+
+    100% {
+      transform: translateX(10px);
+    }
+
+  }
+
+  .portfolio {
+    margin: 1em;
+  }
+
+  .portfolio-piece-1 {
+    position: relative;
+  }
+
+  .portfolio-piece-1 a,
+  .portfolio-piece-1 a:visited {
+    position: absolute;
+    width: calc(100% - .65em);
+    height: calc(100% - .65em);
+    background-color: none;
+    text-align: center;
+    padding: 25% 0 0;
+    line-height: 0;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(0,0,0,0);
+    font-weight: 300;
+  }
+
+  .portfolio-piece-1 a:hover {
+    opacity: 1;
+    background-color: rgba(19,207,176,0.8);
+    vertical-align: middle;
+    color: rgba(255,255,255,1);
+  }
+
+  .portfolio-opened {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 101;
+  }
+
+  .portfolio-opened:target {
+    top: 0;
+    transition: all .75s ease-out;
+  }
+
+  .work-together {
+    position:relative;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    top: -100%;
+    transition: all .5s linear;
+    height: 100%;
+  }
+
+  .item {
+    padding: .5em;
+    margin: 0;
+    transition: all .1s ease;
+    transition-property: transform;
+  }
+
+  .item img {
+    display: block;
+  }
+
+  .item img:hover,
+  .item img:focus,
+  .item img:active {
+    cursor: pointer;
+  }
+
+  .item h3 {
+    margin: 1em 0 0.25em;
+  }
+
+  .hero-image {
+    width: 100%;
+    background-color: white;
+  }
+
+  .big-images {
+    display: none;
+  }
+
+  .hero-and-text {
+    background-color: white;
+  }
+
+  .text {
+    width: 100%;
+    background-color: white;
+    padding: 0 2em 2em 2em;
+    z-index: 101;
+  }
+
+  .text a,
+  .text a:visited {
+    color: #13CFB0
+  }
+
+  .text a:hover {
+    color: #13CFB0;
+  }
+
+  .text .title {
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 2em;
+  }
+
+  .text p {
+    color: #9B9B9B;
+    font-weight: 300;
+  }
+
+  .tags {
+    background-color: rgba(80,227,194,0.15);
+    padding: .5em;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .image {
+    -webkit-overflow-scrolling: touch;
+    background-color: #f5f5f5;
+    padding: 2em 2em 5.6em 2em;
+    width: 100%;
+  }
+
+  .image img {
+     box-shadow: 1px -1px 20px rgba(0,0,0,0.1);
+     margin-bottom: 2em;
+  }
+
+  .image img:last-child {
+    margin-bottom: 0;
+  }
+
+  .portfolio .image img{
+    max-width: 50em;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .portfolio-opened:target .work-together {
+    top: 0;
+  }
+
+  .portfolio-opened:target .big-images {
+    display: block;
+  }
+
+  .portfolio-opened:target .exit {
+    top: 0;
+  }
+
+  .centered-embed {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  .embed {
+    position: relative;
+    margin: 2em 0;
+    padding-top: 56.25%;
+  }
+
+  .embed-item{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #piece-1 .big-images img,
+  #piece-2 .big-images img,
+  #piece-3 .big-images img,
+  #piece-4 .big-images img,
+  #piece-5 .big-images img,
+  #piece-6 .big-images img,
+  #piece-7 .big-images img,
+  #piece-8 .big-images img,
+  #piece-9 .big-images img {
+    margin-bottom: 2em;
+  }
+
+  .my-side-projects span {
+    font-size: .7em;
+  }
+
+  /* -------------------- SIDE PROJECTS */
+
+  .side-projects {
+    margin: 1em;
+  }
+
+  .side-projects-page {
+    margin-top: 4.75em;
+  }
+
+  #side-piece-1 .big-images img,
+  #side-piece-2 .big-images img,
+  #side-piece-3 .big-images img,
+  #side-piece-4 .big-images img,
+  #side-piece-5 .big-images img,
+  #side-piece-6 .big-images img,
+  #side-piece-7 .big-images img,
+  #side-piece-8 .big-images img,
+  #side-piece-9 .big-images img {
+    margin-bottom: 2em;
+  }
+
+  .my-side-projects span {
+    font-size: .7em;
+  }
+
+  .creative-juice {
+    font-size: 1.25em;
+    font-weight: 200;
+    max-width: 453px;
+    margin: 5em auto 2em;
+  }
+
+  .about-me-page {
+    margin: 6em;
+  }
+
+  .about-me-section {
+    margin: 0 auto;
+  }
+
+  .about-me-page br {
+    display: none;
+  }
+
+  .about-me-page p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .about-me-info {
+    margin: 2em;
+  }
+
+  .about-me-info p {
+    margin: 1em;
+  }
+
+  .info-1 p {
+    font-size: 2em;
+    margin: .5em;
+    line-height: 40px;
+  }
+
+  .about-me-photo {
+    background-image: url("../images/charlie-about-me.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .creative-juice span {
+    background-color: rgba(19,207,176,0.15);
+    padding: 0 2px;
+  }
+
+  #side-piece-6 .big-images img {
+    border: white solid 34px;
+  }
+
+  /* */
+
+  .contact-footer {
+    color: #0e3b5e;
+    padding: 6em 0 3em;
+    width: 100%;
+  }
+
+  .contact h3 br {
+    display: none;
+  }
+
+  .contact-info {
+    margin: 0 auto;
+    display: table;
+  }
+
+  .social-media-bottom {
+    margin: 1em auto 2em;
+    display: table;
+  }
+
+  .contact-info a,
+  .contact-info a:visited {
+    color: #13CFB0;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.5em;
+    display: block;
+  }
+
+  .contact-info a:hover,
+  .contact-info a:target {
+    opacity: 0.5;
+  }
+
+  .social-media-bottom a {
+    display: inline-block;
+    padding: 0 .75em;
+    margin-top: 1em;
+  }
+
+  .copyright-section {
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: .7em;
+    padding: 3em 0;
+    margin: 0;
+    color: #13CFB0;
+  }
+
+
+  /* **********IPHONE 6 PORTRAIT********** */
+  @media only screen and (min-width: 375px) {
+
+    h1 {
+      left: 47%;
+      font-size: 1.7em;
+    }
+
+    .fourohfour {
+      top: 40%;
+      left: 22%;
+    }
+
+    .play-pause {
+      top: 12em;
+      left: 8.8em;
+    }
+
+  }
+
+  /* **********IPHONE 6+ PORTRAIT********** */
+  @media only screen and (min-width: 414px) {
+
+    h1 {
+      left: 50%;
+    }
+
+  }
+
+  /* **********IPHONE 4 LANDSCAPE********** */
+  @media only screen and (min-width: 480px) {
+
+    h1 {
+      left: 43%;
+      top: 46vh;
+    }
+
+    .next-level h2 {
+    max-width: 550px;
+  }
+
+  }
+
+  /* **********IPHONE 5 LANDSCAPE********** */
+  @media only screen and (min-width: 568px) {
+
+    h1 {
+      font-size: 2em;
+    }
+
+    .fourohfour {
+      top: 50%;
+      left: 13%;
+    }
+
+    .play-pause {
+      top: 5em;
+      left: 4em;
+    }
+
+    .contact h3 br {
+    display: block;
+  }
+
+  }
+
+  /* **********BLACKBERRY PLAYBOOK PORTRAIT********** */
+  @media only screen and (min-width: 600px) {
+
+    h1 {
+      left: 50%;
+      top: 40vh;
+    }
+
+  }
+
+  /* **********IPHONE 6 LANDSCAPE********** */
+  @media only screen and (min-width: 667px) {
+
+    h1 {
+      left: 43%;
+      top: 46vh;
+      font-size: 2.25em;
+    }
+
+  }
+
+  /* **********IPHONE 6+ LANDSCAPE********** */
+  @media only screen and (min-width: 736px) {
+
+  }
 
 @media only screen and (min-width: 60em) {
 
@@ -376,13 +984,54 @@ footer {
 
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 960px) {
 
-  html {
-    font-size: 130%;
+  h1 {
+    left: 66%;
+    top: 45vh;
+    font-size: 3em;
   }
 
+  header {
+    background-image: url("../images/iza.jpg");
+  }
+
+/*  .about {
+    width: 33.3%;
+    margin: 0 calc((100% - 33.3%) / 2);
+  }*/
+
+  .fourohfour {
+    font-size: 6em;
+    top: 46%;
+    left: 13%;
+  }
+
+  .play-pause {
+    width: 6em;
+    top: 42%;
+    left: 19%;
 }
+
+.pause {
+  width: 100%;
+  position: relative;
+}
+
+.play {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.play:hover {
+  opacity: 1;
+}
+
+}
+
 @media only screen and (min-width: 768px) {
 
   h1 {
