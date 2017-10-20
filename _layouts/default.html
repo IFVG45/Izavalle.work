@@ -40,6 +40,25 @@
     </div>
   </header>
 
+  {% if page.url == "/" %}
+  <article class="banner">
+    <div>
+      <img class="img-flex static" src="{{site.baseurl}}/images/banner.jpg" alt="">
+    </div>
+    <div class="banner-body">
+      <div class="banner-copy">
+        <h2 class="banner-title pad-b gutter-2">I'm a proactive worm catcher; not your typical early bird</h2>
+      </div>
+    </div>
+  </article>
+
+  {% else %}
+  <article class="banner">
+    <div>
+      <img class="img-flex padding-none" src="{{site.baseurl}}/images/{{page.banner_img}}" alt="">
+    </div>
+  </article>
+  {% endif %}
 
   <main>
     {{content}}
