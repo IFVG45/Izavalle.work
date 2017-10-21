@@ -31,12 +31,12 @@ main {
 /*-----------------------NAV---------------------*/
 
 nav {
-  background-color: #EBE07C;
+  background-color: #ffff;
 }
 
 nav a {
   text-decoration: none;
-  color: #ffff;
+  color: #024626;
   font-weight: 500;
   padding: 0;
 }
