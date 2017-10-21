@@ -81,6 +81,11 @@ nav a:hover {
   padding: 1em;
 }
 
+a:hover
+{
+  color: #6CC1D1;
+}
+
 .hvr-shrink {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
