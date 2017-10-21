@@ -81,10 +81,6 @@ nav a:hover {
   padding: 1em;
 }
 
-a:hover
-{
-  color: #6CC1D1;
-}
 
 .hvr-shrink {
   -webkit-transform: translateZ(0);
@@ -250,8 +246,9 @@ hr {
 .error404 {
   padding: 2em;
   background-color: #f5edde;
-  background-image: url("../images/glasses-bg.svg");
+  background-image: url("../images/iza.jpg");
   background-size: 80px auto;
+  border-radius: 50%;
 }
 
 .error-main {
