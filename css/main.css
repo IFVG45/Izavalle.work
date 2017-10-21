@@ -181,10 +181,11 @@ footer {
   margin: auto;
 }
 
-.glasses {
+.iza {
   margin: auto;
   width: 20%;
   padding-top: 2em;
+  border-radius: 50%;
 }
 
 @media only screen and (min-width: 25em) {
