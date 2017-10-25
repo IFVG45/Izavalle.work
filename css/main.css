@@ -27,6 +27,26 @@ body {
 main {
   background-color: #E5ACB5;
 }
+.wrapper {
+  max-width: 31em;
+  margin: 0 auto;
+
+}
+
+.imgwrap {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.limgwrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.xlimgwrap {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 
 /*-----------------------NAV---------------------*/
 
