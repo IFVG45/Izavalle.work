@@ -106,6 +106,26 @@ main {
     transition: all 1s ease;
 }
 
+.display {
+  -webkit-filter: brightness(100%);
+}
+
+.topcontent {
+  margin-top: 150px;
+}
+
+.content {
+  padding: 0.15em;
+}
+
+.bottomcontent {
+  margin-bottom: 100px;
+}
+
+div.container {
+  display:inline-block;
+}
+
 
 /*-----------------------NAV---------------------*/
 
