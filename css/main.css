@@ -69,6 +69,158 @@ main {
   flex-direction: column;
 }
 
+main{
+  background-color: #b0d2d7;
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+.work{
+  width: 100%;
+  padding-left: 10%;
+}
+
+.me{
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding-top: 3em;
+}
+
+.robot{
+  width: 80%;
+  padding-top: 3em;
+  padding-left: 5em;
+}
+
+.about{
+  width: 50%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: 1em;
+}
+
+.description{
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2em;
+  font-size: 1em;
+  color: #0a2739;
+  margin: 10px 10px 20px 0;
+}
+
+
+h2{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h3{
+  font-size: 8em;
+  font-family:'Bungee Inline', cursive;
+  color: white;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+}
+
+li{
+  list-style-type: none;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a{
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  color: white;
+}
+
+.about{
+  display: block;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer{
+  padding: 1em 2em;
+  background-color: #b0d2d7;
+  text-align: center;
+}
+
+.social{
+  width: 25%;
+}
+
+/* Page Layout */
+
+#gallery {
+  width:600%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+  border: 2px solid #003C72;
+}
+
+#navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+}
+
+#navigation li{
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+}
+
+#navigation li a img{
+  display: block;
+  border: none;
+}
+
+#navigation li a{
+  display: block;
+}
+
+#full-picture{
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
+}
+
 .view {
   font-size: 16px;
 }
