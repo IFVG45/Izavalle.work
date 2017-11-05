@@ -25,13 +25,112 @@ body {
 }
 
 main {
-  background-color: #f1f2f2;
+  background-color: #E5ACB5;
 }
+.wrapper {
+  max-width: 31em;
+  margin: 0 auto;
+
+}
+
+.imgwrap {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.limgwrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.xlimgwrap {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
+}
+
+.title-container {
+  position: absolute;
+  z-index: 1;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: all 1s ease;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.view {
+  font-size: 16px;
+}
+
+.view:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+}
+
+.container:hover .title-container {
+  transform: translateY(0);
+}
+
+.container .img img {
+  max-width: 100%;
+}
+
+.previewimg {
+    -webkit-filter: brightness(100%);
+}
+
+.content:hover .previewimg {
+    -webkit-filter: brightness(30%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.display {
+  -webkit-filter: brightness(100%);
+}
+
+.topcontent {
+  margin-top: 150px;
+}
+
+.content {
+  padding: 0.15em;
+}
+
+.bottomcontent {
+  margin-bottom: 100px;
+}
+
+div.container {
+  display:inline-block;
+}
+
 
 /*-----------------------NAV---------------------*/
 
 nav {
-  background-color: #fff;
+  background-color: #ffff;
 }
 
 nav a {
@@ -42,7 +141,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #024626;
+  background-color: #6CC1D1;
   color: white;
 }
 
@@ -58,7 +157,22 @@ nav a:hover {
 .masthead {
   padding: 2em 6em 0 4em;
 }
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ffc107;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
 
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
 @media only screen and (min-width: 38em) {
 
   nav {
@@ -80,6 +194,7 @@ nav a:hover {
 .portfolio {
   padding: 1em;
 }
+
 
 .hvr-shrink {
   -webkit-transform: translateZ(0);
@@ -116,7 +231,7 @@ h3 {
 /*-----------------------FOOTER---------------------*/
 
 footer {
-  background-color: #024626;
+  background-color: #6CC1D1;
   text-align: center;
   padding: 1em 2em;
 }
@@ -153,8 +268,8 @@ footer {
   }
 
   .portfolio {
-    padding-left: 8em;
-    padding-right: 8em;
+    padding-left: 6em;
+    padding-right: 6em;
   }
 
 }
@@ -180,10 +295,11 @@ footer {
   margin: auto;
 }
 
-.glasses {
+.iza {
   margin: auto;
   width: 20%;
   padding-top: 2em;
+  border-radius: 100%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -245,8 +361,9 @@ hr {
 .error404 {
   padding: 2em;
   background-color: #f5edde;
-  background-image: url("../images/glasses-bg.svg");
+  background-image: url("../images/iza.jpg");
   background-size: 80px auto;
+  border-radius: 50%;
 }
 
 .error-main {
