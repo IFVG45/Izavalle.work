@@ -1,3 +1,0 @@
-Sitemap: https://shannonhawn.github.io/shannon-hawn-sauve/sitemap.xml
-
-User-agent: *

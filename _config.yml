@@ -1,3 +1,2 @@
-markdown: redcarpet
-baseurl: /shannon-hawn-sauve
-exclude: ['README.md']
+permalink: pretty
+baseurl: "https://ifvg45.github.io/Izavalle.work/"
