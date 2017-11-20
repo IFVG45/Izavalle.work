@@ -129,25 +129,99 @@ div.container {
 
 /*-----------------------NAV---------------------*/
 
-nav {
-  background-color: #ffff;
+nav-bar {
+    background-color:rgba(250, 250, 250, .95);
+    box-shadow:0px 0px 5px 0px rgba(128,128,128, .3);
+    margin: 0px;
+    height: 60px;
+    padding-bottom: 0em;
+    position: fixed;
+    width: 100%;
+    z-index: 600;
 }
 
-nav a {
-  text-decoration: none;
-  color: #024626;
-  font-weight: 500;
-  padding: 0;
+.nav-bar-s {
+   background-color:rgba(250, 250, 250, .98);
+    box-shadow:0px 0px 5px 0px rgba(128,128,128, .3);
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
-nav a:hover {
-  background-color: #6CC1D1;
-  color: white;
+.fullNav {
+    margin-right: 1.13em;
 }
 
-.nav li {
-  display: inline-block;
-  list-style-type: none;
+.nav-t-item {
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    color:#4a4f54;
+    list-style-type: none;
+    margin: 0;
+    font-size: 0.8889rem;
+    line-height: 1.4625;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-bottom:solid 6px rgba(0,0,0,0);
+     -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.nav-t-item:hover {
+    color: black;
+    border-bottom:solid 6px #7e858c;
+}
+
+.nav-t-item-proj a {
+    line-height: auto;
+     -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.nav-t-item-proj a:hover {
+    color: black;
+}
+
+
+
+.nav-t-item-word {
+    color:#6D6E71;
+     -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.nav-t-item-word:hover {
+    color: #111820;
+}
+
+.nav-t2-item {
+    display: block;
+    padding: 1em 0em 1em 0;
+    text-decoration: none;
+    opacity: .6;
+    color: #111820;
+    background-color: transparent;
+    list-style-type: none;
+    margin: 0;
+     -webkit-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+
+.nav-t2-item:hover {
+    opacity: 1;
+    padding: 1em 0em 1em 0;
+    color: white;
+    background-color: #333333;
+}
+
+.nav-t {
+    list-style: none;
+    display:;
 }
 
 .title {
