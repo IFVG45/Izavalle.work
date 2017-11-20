@@ -370,17 +370,11 @@ a:focus {
 }
 @media only screen and (min-width: 38em) {
 
-  nav {
-    padding-top: 2em;
-  }
 
   .logo {
     text-align: left;
   }
 
-  .nav {
-    text-align: right;
-  }
 
 }
 
