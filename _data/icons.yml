@@ -1,9 +1,0 @@
-- title: Animated Icon Set
-
-  blurb1: The objective of this project was to create a series of icons with that animate when pressed. They were original created within the context of an app which randomly generates a list of activities/places to go when bored. 
-
-  blurb2: Each icon has both a passive and active state. Icons are in a passive state before use or while not preforming an action. This project began by creating illustrations for these states.
-  
-  blurb3: Animations are initiated when icons enter their active state. This state indicates an action is being preformed.
-  
-  blurb4: A brief demo to visualize the transition between these two states was then made.
