@@ -13,12 +13,12 @@ body{
 
 html{
  overflow-x:hidden;
- -webkit-overflow-x:hidden; 
+ -webkit-overflow-x:hidden;
 }
 
 .LOnly {
         display: none;
-    }   
+    }
 
 
 /* toggle test */
@@ -60,7 +60,7 @@ svg:not(:root) {
 }
 
 a:focus {
-    outline:3px solid #58595B;  
+    outline:3px solid #58595B;
 }
 
 .skip-links {
@@ -82,15 +82,15 @@ a:focus {
 
 /* Nav Styles */
 .only-sm {
-    display: block;  
-} 
-    
+    display: block;
+}
+
 .only-m-l {
-    display: none;  
+    display: none;
 }
 
 .toggle-position {
-    
+
 }
 
 .toggle-label {
@@ -143,7 +143,7 @@ a:focus {
 }
 
 .nav-bar {
-    background-color:rgba(250, 250, 250, .95);
+    background-color:#EEFDFF;
     box-shadow:0px 0px 5px 0px rgba(128,128,128, .3);
     margin: 0px;
     height: 60px;
@@ -181,7 +181,7 @@ a:focus {
     padding-right: 15px;
     padding-top: 15px;
     border-bottom:solid 6px rgba(0,0,0,0);
-     -webkit-transition: all .5s ease-out; 
+     -webkit-transition: all .5s ease-out;
     transition: all .5s ease-out;
 }
 
@@ -192,7 +192,7 @@ a:focus {
 
 .nav-t-item-proj a {
     line-height: auto;
-     -webkit-transition: all .5s ease-out; 
+     -webkit-transition: all .5s ease-out;
     transition: all .5s ease-out;
 }
 
@@ -204,7 +204,7 @@ a:focus {
 
 .nav-t-item-word {
     color:#6D6E71;
-     -webkit-transition: all 300ms ease-out; 
+     -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
 
@@ -221,7 +221,7 @@ a:focus {
     background-color: transparent;
     list-style-type: none;
     margin: 0;
-     -webkit-transition: all 250ms ease-out; 
+     -webkit-transition: all 250ms ease-out;
     transition: all 250ms ease-out;
 }
 
@@ -372,7 +372,7 @@ a:focus {
     background-size: 180%;
     background-position: bottom center;
     background-repeat: no-repeat;
-    padding-top: 12em; 
+    padding-top: 12em;
 }
 
 .proj4 {
@@ -428,7 +428,7 @@ a:focus {
 .arrowDown svg{
     height: 15px;
     fill: #262729;
-     -webkit-transition: all 200ms ease-out; 
+     -webkit-transition: all 200ms ease-out;
     transition: all 200ms ease-out;
 }
 
@@ -465,7 +465,7 @@ a:focus {
 
 .aboutList {
     padding-left: 4.1em;
-    
+
 }
 
 .aboutListItem1 {
@@ -511,7 +511,7 @@ a:focus {
    color: #262729;
     text-decoration: none;
     font-weight: 400;
-     -webkit-transition: all 300ms ease-out; 
+     -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
 
@@ -523,7 +523,7 @@ a:focus {
    color: #f1f1f1;
     text-decoration: none;
     letter-spacing: 1px;
-     -webkit-transition: all 300ms ease-out; 
+     -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
 
@@ -538,7 +538,7 @@ a:focus {
 .btnRev a {
     text-decoration: none;
     color: #ffffff;
-     
+
     font-size: .9em;
     font-weight: 300;
     background-color:#262729;
@@ -551,7 +551,7 @@ a:focus {
 .btn1 {
     color: #ffffff;
     background-color:#262729;
-    -webkit-transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
 
@@ -567,7 +567,7 @@ a:focus {
     color: #ffffff;
     font-weight: 300;
     background-color:#7e858c;
-     -webkit-transition: all 300ms ease-out; 
+     -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
 
@@ -587,7 +587,7 @@ a:focus {
 .btnProject a:hover {
     text-decoration: none;
     background-color:#7e858c;
-     -webkit-transition: all 300ms ease-out; 
+     -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
 
@@ -617,7 +617,7 @@ a:focus {
 
 .projectItem {
     padding-top: 10em;
-    padding-bottom: 8em; 
+    padding-bottom: 8em;
 }
 
 .projectText h6 {
@@ -717,7 +717,7 @@ a:focus {
 .home {
     position: absolute;
     left: calc(50% - 20px);
-    top: 0px;  
+    top: 0px;
     font-weight: 300;
     display: block;
     text-decoration: none;
@@ -783,7 +783,7 @@ a:focus {
 .home svg:hover {
     fill:#7e858c;
     opacity: 1;
-    -webkit-transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
 
@@ -792,8 +792,8 @@ a:focus {
 
 /* Social Media styles */
 
-    
-    
+
+
 .icons {
     text-decoration: none;
     margin-top: 0em;
@@ -806,7 +806,7 @@ a:focus {
     border-radius: 100%;
     background-color: none;
     opacity: .5;
-    -webkit-transition: all 50ms ease-out; 
+    -webkit-transition: all 50ms ease-out;
     transition: all 50ms ease-out;
 }
 
@@ -818,8 +818,8 @@ a:focus {
 .icons:hover {
     opacity: 1;
 }
-    
-    
+
+
 .email,
 .email a:link,
 .email a:visited,
@@ -830,7 +830,7 @@ a:focus {
     color:black;
     opacity: .8;
     font-weight: 300;
-    -webkit-transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
 
@@ -843,7 +843,7 @@ a:focus {
     text-decoration: none;
     font-weight: bolder;
     color:black;
-    -webkit-transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
 
@@ -863,52 +863,52 @@ a:focus {
 .proj1 {
     background-image: url(../artwork/sign-bkg1.jpg);
     background-size: 150%;
-}    
-    
+}
+
 .email {
     font-size: 1em;
-    
-}
-    
 
-    
+}
+
+
+
 .social {
     width:80px;
     padding: 0 1em 0 1em;
     text-align: center;
     display: inline-block;
 }
-  
+
 }
-      
-/*small*/@media only screen and (min-width: 25em) {      
-    
+
+/*small*/@media only screen and (min-width: 25em) {
+
  .arrowDown svg{
     height: 25px;
 }
-    
-    
+
+
     .divider {
         width: 70%;
-    }    
+    }
 
-    
+
 .aboutBannerTop {
-     background-size: 500%;   
-}    
-    
+     background-size: 500%;
+}
+
 .proj1 {
     background-image: url(../artwork/sign-bkg1.jpg);
     background-size: 150%;
-     padding-top: 12em; 
-}       
-    
-    
+     padding-top: 12em;
+}
+
+
 .proj2 {
     background-size: 140%;
-    padding-top: 12em;    
-    } 
-    
+    padding-top: 12em;
+    }
+
 .proj3 {
     background-color: #3b3738;
     background-image: url(../artwork/caff_bkg4.jpg);
@@ -916,54 +916,54 @@ a:focus {
     background-position: bottom center;
     background-repeat: no-repeat;
     padding-top: 12em;
-}    
-    
+}
+
 .proj4 {
         padding-top: 12em;
-    } 
-    
-    
+    }
+
+
 .proj5 {
     background-size: 130%;
     background-position: bottom left;
     background-repeat: no-repeat;
     background-color: #dddddd;
-    padding-top: 12em;     
+    padding-top: 12em;
 }
-       
-    
+
+
 .proj6 {
         background-size: 400%;
         padding-top: 12em;
-    }    
-    
-    
+    }
+
+
 .projectItem2 {
     background-size: 120%;
-}    
- 
-    
+}
+
+
 .projectItem4 {
     background-color: #3173b4;
     background-image: url(../artwork/ahw_pattern3.svg), url(../artwork/ahw_pattern4.svg);
     background-size: 48%;
     background-position: bottom right, bottom left;
     background-repeat: no-repeat;
-}     
-    
-    
+}
+
+
 .wordmarkTop svg{
     height: 2em;
-}    
-    
+}
+
 .bannerTop {
     height: 28em;
     padding-top: 12em;
     background-size: 350%;
 }
-   
+
 .toggle-position {
-    
+
 }
 
 .toggle-label {
@@ -996,34 +996,34 @@ a:focus {
 
     .cb-footer {
         padding-top: 3em;
-    }    
+    }
 }
 
-/*medium*/@media only screen and (min-width: 40em) {           
+/*medium*/@media only screen and (min-width: 40em) {
 
-  
+
 .projTextP {
     font-size: 1.25em;
     line-height: .25em;
     opacity: 1;
-}    
-    
-    
+}
+
+
 .introText {
     background-size: auto;
-}    
-    
-    
+}
+
+
 .proj1 {
    background-size: 120%;
     padding-top: 14em;
- }   
-    
+ }
+
 .proj2 {
     background-size: 100%;
     padding-top: 14em;
-}    
-    
+}
+
 .proj3 {
     background-color: #3b3738;
     background-image: url(../artwork/caff_bkg4.jpg);
@@ -1032,8 +1032,8 @@ a:focus {
     background-repeat: no-repeat;
     padding-top: 14em;
 }
-    
-    
+
+
 .proj4 {
     background-color: #3173b4;
     background-image: url(../artwork/ahw_pattern3.svg),url(../artwork/ahw_pattern4.svg);
@@ -1041,58 +1041,58 @@ a:focus {
     background-position: right bottom, left bottom;
     background-repeat: no-repeat;
     padding-top: 14em;
-}   
-    
-    
+}
+
+
 .proj5 {
     background-image:  url(../artwork/layoutbkg-2.jpg);
     background-size: 85%;
     background-position: top center;
     background-repeat: no-repeat;
     padding-top: 14em;
-        
+
 }
-    
+
 .proj6 {
     background-size: 250%;
     padding-top: 14em;
-        
-}    
-    
-    
+
+}
+
+
 .portrait{
     height: 100%;
     background-size:70%;
-}    
-    
-    
+}
+
+
 .wordmarkTop svg{
     height: 2.5em;
-}    
-  
+}
 
-    
+
+
 .bannerTop {
     height: 30em;
     padding-top: 12em;
     background-size: 200%;
-}  
+}
 
 .projectbannerTop {
     text-decoration: none;
     list-style: none;
     height: 35em;
-}     
-  
+}
+
 .projectItem3 {
     background-size: 140%;
     background-position: center center;
 }
-    
+
 .projectItem4 {
     background-size: 45%;
-} 
-    
+}
+
 .aboutBannerTop {
     background-size: 500%;
     text-decoration: none;
@@ -1105,59 +1105,59 @@ a:focus {
    font-weight: 300;
    color: #262729;
    opacity: .6;
-} 
-    
+}
+
 .divider {
     width: 85%;
     background-color: #d1d3d3;
     height: 2px;
     border-radius: 100em;
     margin: 2.6rem;
-}    
-    
+}
+
 .only-sm {
-    display: none;  
-} 
-    
+    display: none;
+}
+
 .only-m-l {
-    display: block;  
-} 
-     
+    display: block;
+}
+
 
 }
 
-/*medium-l*/@media only screen and (min-width: 45em) { 
+/*medium-l*/@media only screen and (min-width: 45em) {
 
 .projectWrapper, .projectWrapperFull {
     margin: 0;
     border: 10px solid white;
 }
-   
+
     .proj3 {
     background-color: #3b3738;
     background-image: url(../artwork/caff_bkg2.jpg);
     background-size: 100%;
     background-position: left top,right top;
     background-repeat: no-repeat;
-    padding-top: 14em; 
-} 
+    padding-top: 14em;
+}
   .proj5 {
     background-image: url(../artwork/layoutbkg-2.jpg);
     background-size: 90%;
     background-position: center top;
     background-repeat: no-repeat;
-    padding-top: 14em;     
-}    
-    
- .proj6 {
-     background-image: 250%;   
+    padding-top: 14em;
 }
-    
-    
+
+ .proj6 {
+     background-image: 250%;
+}
+
+
     .aboutBannerTop{
         background-size: 300%;
     }
-    
+
 }
 
 
@@ -1165,169 +1165,169 @@ a:focus {
 
  .projectItem {
     margin: 0;
-}  
-    
+}
+
 .projectItem h3 {
         font-size: 150%;
         padding-bottom: .1em;
     }
-    
+
 .projectItem p {
         font-size: 95%;
         padding-bottom: .2em;
     }
-    
+
 .projectItem6 {
         background-size: 600%;
-    }    
-    
+    }
+
 .projectWrapper, .projectWrapperFull {
     margin: 0;
     border: 20px solid white;
 }
-    
-    
+
+
 .banner404 {
     padding-top: 5em;
     padding-bottom: 2em;
-}    
+}
 
 .proj1 {
     padding-top: 14em;
-   background-size: 40%, 40%; 
+   background-size: 40%, 40%;
      background-image: url(../artwork/sign-bkg2.jpg), url(../artwork/sign-bkg1.jpg);
    background-position: left bottom, right bottom;
- }    
-    
-    
+ }
+
+
 .proj2 {
   background-image: url(../artwork/proj2Bkg1.svg);
     background-size: 110%;
     background-position: top center;
     background-repeat: no-repeat;
-}   
-          
+}
+
 .proj3 {
     background-color: #3b3738;
     background-image: url(../artwork/caff_bkg2.jpg);
     background-size: 95%;
     background-position: left top,right top;
     background-repeat: no-repeat;
-    padding-top: 14em; 
-} 
-    
+    padding-top: 14em;
+}
+
 
 .proj5 {
    background-image: url(../artwork/layoutbkg-2.jpg);
     background-size: 90%;
     background-position: center top;
     background-repeat: no-repeat;
-    padding-top: 14em;      
-}  
-    
+    padding-top: 14em;
+}
+
 .proj6 {
-    background-size: 200%;  
-    }    
-    
-    
+    background-size: 200%;
+    }
+
+
  .projectItem {
     padding-top: 10em;
     padding-bottom: 8em;
-} 
-    
-    
-    
-    
+}
+
+
+
+
 .projectItem3 {
     background-size: 120%;
     background-position: center left;
 }
-    
+
  .projectItem4 {
     background-size: 45%;
-}     
-    
-    
-    
+}
+
+
+
 .projectText {
     padding-top: 2em;
     padding-bottom: 4em;
     text-align: left;
     max-width: 1000px;
-}    
-    
+}
+
 
 .aboutBannerTop{
-     background-size: 200%;   
-}    
-    
+     background-size: 200%;
+}
+
 .bannerTop {
     padding-top: 18em;
     height: 50em;
     background-size: 120%;
-}    
-    
+}
+
 .LOnly {
     display: block;
-}   
-        
-    
+}
+
+
     .island-l {
   padding: 1.3rem;
 }
-    
+
 .introText {
     padding: 10em;
-}   
+}
 
 .p-nav-bar {
     background-size: 15%;
-}           
-     
-    
+}
+
+
 .bannerTitle {
     padding-top: 6.5em;
 }
-    
 
-    
+
+
 .p-text-blurb {
     padding: 0em 1.3em 3em 1.3em;
 }
-    
+
 .p-pad {
     padding-top: 2em;
 }
 
 .p-main-img {
     height: 30em;
-}    
+}
 
 .p-overview {
     padding: 2em 4em 2em 4em;
-}  
-    
+}
+
     .aboutText {
     padding-top: 2em;
-} 
-    
- 
+}
+
+
 }
 
 @media only screen and (min-width: 67em){
-  
+
         .aboutText {
     padding-top: 2em;
-} 
-    
+}
+
  .proj2 {
     background-image: url(../artwork/proj2Bkg2.svg),url(../artwork/proj2Bkg3.svg);
     background-size: 90%;
     background-position: top right, top left;
     background-repeat: no-repeat;
      padding-top: 14em;
-}  
- 
+}
+
 .proj3 {
     background-color: #3b3738;
     background-image: url(../artwork/caff_bkg2.jpg);
@@ -1336,21 +1336,21 @@ a:focus {
     background-repeat: no-repeat;
     padding-top: 14em;
     }
-    
-    
+
+
 .proj5 {
     background-image: url(../artwork/layoutbkg-3.jpg), url(../artwork/layoutbkg-4.jpg);
     background-size: 55%, 20%;
     background-position: left top, right top;
     background-repeat: no-repeat;
-    padding-top: 14em;     
-} 
-    
-    
+    padding-top: 14em;
+}
+
+
 }
 
 /*x.5large*/@media only screen and (min-width: 75em){
-    
+
       .proj1Text,
     .proj2Text,
     .proj3Text,
@@ -1359,20 +1359,20 @@ a:focus {
     .proj6Text{
         font-size: 125%;
     }
-    
-    
+
+
     .p-s-colour-pad{
         padding-top: 8em;
-    }  
-    
+    }
+
     .aboutText {
     padding-top: 2em;
-}    
-    
 }
-    
-/*xlarge*/@media only screen and (min-width: 130em) { 
-   
+
+}
+
+/*xlarge*/@media only screen and (min-width: 130em) {
+
     .proj3 {
     background-color: #3b3738;
     background-image: url(../artwork/caff_bkg2.jpg);
@@ -1381,16 +1381,16 @@ a:focus {
     background-repeat: no-repeat;
     padding-top: 14em;
     }
-    
-    
+
+
     .aboutText {
     padding-top: 8em;
-}  
-    
+}
+
     .island-l {
   padding: 2.5rem;
-}    
-    
+}
+
     .p-overview {
     padding: 2em 10em 2em 10em;
     }
@@ -1398,17 +1398,17 @@ a:focus {
         height: 34em;
     }
 
-    
+
     .cb-footer {
        padding-top: 2em;
        padding-bottom: 2em;
     }
-    
+
 }
 
 
 
-/*xxlarge*/@media only screen and (min-width: 100em) { 
+/*xxlarge*/@media only screen and (min-width: 100em) {
     .p-overview {
     padding: 2em 10em 2em 10em;
     }
