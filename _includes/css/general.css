@@ -541,7 +541,7 @@ a:focus {
 
     font-size: .9em;
     font-weight: 300;
-    background-color:#262729;
+    background-color:#8FC0DC;
     padding: 10px 12px 10px 12px;
     border-radius: 1px;
 }
@@ -564,9 +564,9 @@ a:focus {
 
 .btnRev a:hover {
     text-decoration: none;
-    color: #ffffff;
+    color: #0000;
     font-weight: 300;
-    background-color:#7e858c;
+    background-color:#CDE8EB;
      -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
