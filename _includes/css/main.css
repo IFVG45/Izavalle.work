@@ -116,6 +116,21 @@ li {
     font-size: 1.25em;
 }
 
+
+.introText {
+    background-color: #262729;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    color: #f1f1f1;
+}
+
+.introText h2{
+    font-weight: 300;
+    color: #f1f1f1;
+}
+
+
+
 .section-title {
     text-align: center;
     font-weight: 500;
