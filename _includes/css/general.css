@@ -99,7 +99,7 @@ a:focus {
 
 .toggle {
     display: block;
-    fill: #888888;
+    fill: #8FC0DC;
     height: 25px;
     padding-top: 12px;
     padding-left: calc(96% - 2em);
@@ -112,7 +112,7 @@ a:focus {
 .toggle:hover,
 .toggle:active,
 .toggle:focus{
-    fill:#333333;
+    fill:#8FC0DC;
 }
 
 .toggle-check {
@@ -283,7 +283,7 @@ a:focus {
     text-decoration: none;
     list-style: none;
     height: 24em;
-    background-color: #f2f2f2;
+    background-color: #8FC0DC;
     background-image: url(../artwork/topBanner.svg);
     background-position: center center;
     padding-top: 10em;
