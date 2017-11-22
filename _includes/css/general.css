@@ -421,19 +421,19 @@ a:focus {
 
 .wordmarkTop svg{
     height: 1.5em;
-    fill: #262729;
+    fill: #ffff;
 }
 
 
 .arrowDown svg{
     height: 15px;
-    fill: #262729;
+    fill: #ffff;
      -webkit-transition: all 200ms ease-out;
     transition: all 200ms ease-out;
 }
 
 .arrowDown:hover svg{
-    fill: #7e858c;
+    fill: #0F303F;
 }
 
 
