@@ -1,3 +1,0 @@
-Sitemap: https://eringraham.github.io/portfolio/sitemap.xml
-
-User-agent: *
