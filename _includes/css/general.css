@@ -217,8 +217,8 @@ a:focus {
     padding: 1em 0em 1em 0;
     text-decoration: none;
     opacity: .6;
-    color: #111820;
-    background-color: transparent;
+    color: #ffff;
+    background-color: #133849;
     list-style-type: none;
     margin: 0;
      -webkit-transition: all 250ms ease-out;
@@ -229,7 +229,7 @@ a:focus {
     opacity: 1;
     padding: 1em 0em 1em 0;
     color: white;
-    background-color: #333333;
+    background-color: #133849;
 }
 
 .nav-t {
