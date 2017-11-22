@@ -147,14 +147,14 @@ li {
 }
 
 .footer {
-    background-color: #c5c9cd;
+    background-color: #8FC0DC;
     margin: 0;
     padding: 0;
 }
 
 .copyright {
     text-align: center;
-    color: #8FC0DC;
+    color: #ffff;
     font-weight: 300;
 }
 
