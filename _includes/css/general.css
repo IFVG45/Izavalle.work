@@ -855,7 +855,7 @@ a:focus {
     padding-top:1.5em;
     color: #124156;
     box-shadow: 4px 4px 4px 4px rgba(128,128,128, .35);
-    background-color:rgba(219, 217, 214, .125);
+    background-color:#124156;
 }
 
 /*before small but not quite extra small, only here so that the e-mail doesn’t make an ugly white bar on unrealistically tiny screens*/@media only screen and (min-width: 22em) {
