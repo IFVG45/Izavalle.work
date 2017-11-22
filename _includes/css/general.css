@@ -578,15 +578,15 @@ a:focus {
     color: #f1f1f1;
     font-size: .95em;
     font-weight: 300;
-    background-color:#262729;
-    border: solid 2px #f1f1f1;
+    background-color:#8FC0DC;
+    border: solid 2px #ffff;
     padding: 10px 12px 10px 12px;
     border-radius: 1px;
 }
 
 .btnProject a:hover {
     text-decoration: none;
-    background-color:#7e858c;
+    background-color:#CDE8EB;
      -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
