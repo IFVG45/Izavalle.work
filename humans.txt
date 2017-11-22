@@ -1,1 +1,27 @@
-This site was created by Sage Mosurinjohn, if you have any questions or comments give me a shout at sage.hartly@gmail.com
+# humanstxt.org
+
+# TEAM
+
+Designer and Developer: Erin Graham <erin@erin-graham.ca
+Site: http://eringraham.github.io/portfolio
+Github: http://github.com/eringraham
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Brackets
+- Github
+- Markdown
+
+## Hosting
+
+- Hover <http://hover.com>

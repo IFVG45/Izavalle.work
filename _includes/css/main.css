@@ -1,0 +1,283 @@
+@-moz-viewport {width:device-width; scale: 1; }
+@-ms-viewport {width:device-width; scale: 1; }
+@-o-viewport {width:device-width; scale: 1; }
+@-webkit-viewport {width:device-width; scale: 1; }
+@viewport {width:device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;
+    
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.img-flex {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.izzegreen {
+    max-width: 160px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.work {
+    text-align: center;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+}
+
+.skip-links {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: white;
+    color: #c5c9cd;
+    text-decoration: none;
+    padding: 0.5em 0.75em;
+    font-size: 1.25em;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+.header {
+    margin: 0;
+    padding-bottom: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+
+}
+
+.nav {
+    margin: 0;
+    padding-left: 0;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    list-style-type: none;
+    text-align: center;
+    background-color: #c5c9cd;
+}
+
+.nav a {
+    margin:0 auto;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+    color: #eaeaea;
+}
+
+li {
+    display: inline;
+    font-weight: 300;
+    text-align: center;
+}
+
+.indexh1 {
+    color: #c5c9cd;
+    text-align: center;
+    font-weight: 300;
+}
+
+.indexh2 {
+    font-weight: 300;
+    color: #9198a8;
+    margin-bottom: -10px;
+    font-size: 1.25em;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 300;
+    color: #9198a8;
+    padding-top: 1em;
+}
+
+.border {
+    border-top: 1px solid #c5c9cd;
+    border-bottom: 1px solid #c5c9cd;
+}
+
+.work-head {
+    text-align: center;
+    font-weight: 300;
+    color: #9198a8;
+    padding-top: 1em;
+    line-height: .5em;
+}
+
+.pjt-info {
+    vertical-align: center;
+    max-width: 950px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: gray;
+}
+
+.footer {
+    background-color: #c5c9cd;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section-img {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.section-img a:hover {
+    opacity: .5;
+}
+
+.connect {
+    color: #9198a8;
+    font-weight: 300;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.headshot {
+    text-align: center;
+}
+
+.about {
+    font-weight: 300;
+    color: gray;
+    text-align: center;
+}
+
+.contactpg {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.contacthead {
+    font-size: 1.25em;
+    color: #9198a8;
+    font-weight: 300;
+}
+
+.contactinfo {
+    font-weight: 300;
+    color: gray;
+    line-height: 1.5em;
+}
+
+.oops {
+    width: 100%;
+    margin: 0 auto;
+    color: #9198a8;
+    font-size: 7em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.lost {
+    width: 100%;
+    margin: 0 auto;
+    color: #9198a8;
+    font-weight: 300;
+    text-align: center;
+}
+
+.homebtn {
+    max-width: 6em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media only screen and (min-width: 20em) {
+    
+    .logo {
+     margin: 0 auto;
+     max-width: 15em;
+     text-align: center;
+ }   
+    
+    .headshot {
+        display: block;
+        margin: 0 auto;
+        max-width: 30em;
+        text-align: center;
+    }
+    
+    .about {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 28em;
+        line-height: 1.6em;
+    }
+}
+
+@media only screen and (min-width: 40em) {
+  
+ .logo {
+     margin: 0 auto;
+     max-width: 22em;
+     text-align: center;
+ }
+          
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media print {
+
+  .header,
+  .footer {
+    display: none;
+  }
+}

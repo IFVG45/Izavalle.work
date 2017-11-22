@@ -1,7 +1,6 @@
 ---
 ---
 
-{% include css/grids.css %}
-{% include css/typography.css %}
-{% include css/general.css %}
-{% include css/embedded.css %}
+{% include css/grid.css %}
+{% include css/type.css %}
+{% include css/main.css %}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http//www.sitemaps.org/scemas/sitemap/0.9">
+                                                          
+    <url>
+       <loc>http://eringraham.github.io/portfolio/</loc>
+        <priority>1.0</priority>
+        <changefreq>yearly</changefreq>
+        <lastmod>2015-12-17</lastmod>
+    </url> 
+    
+    <url>
+       <loc>http://eringraham.github.io/portfolio/branding/</loc>
+    </url>
+
+    <url>
+       <loc>http://eringraham.github.io/portfolio/ui/</loc>
+    </url>
+
+    <url>
+       <loc>http://eringraham.github.io/portfolio/typogrphy</loc>
+    </url>
+    
+    <url>
+       <loc>http://eringraham.github.io/portfolio/drawings</loc>
+    </url>
+    
+    <url>
+       <loc>http://eringraham.github.io/portfolio/photography</loc>
+    </url>
+    
+    <url>
+       <loc>http://eringraham.github.io/portfolio/graphics</loc>
+    </url>
+    
+</urlset>
