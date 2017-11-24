@@ -1,3 +1,3 @@
-Sitemap: https://IFVG45.github.io/izavalle.work/sitemap.xml
+Sitemap: https://ifvg45.github.io/Izavalle.work/sitemap.xml
 
 User-agent: *
