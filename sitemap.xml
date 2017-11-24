@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http//www.sitemaps.org/scemas/sitemap/0.9">
+
+    <url>
+       <loc>http://IFVG45.github.io/izavalle.work/</loc>
+        <priority>1.0</priority>
+        <changefreq>yearly</changefreq>
+        <lastmod>2015-12-17</lastmod>
+    </url>
+
+    <url>
+       <loc>http://IFVG45.github.io/izavalle.work/branding/</loc>
+    </url>
+
+    <url>
+       <loc>http://IFVG45.github.io/izavalle.work/ui/</loc>
+    </url>
+
+    <url>
+       <loc>http://IFVG45.github.io/izavalle.work/typogrphy</loc>
+    </url>
+
+    <url>
+       <loc>http://IFVG45.github.io/izavalle.work/drawings</loc>
+    </url>
+
+    <url>
+       <loc>http://IFVG45.github.io/izavalle.work/photography</loc>
+    </url>
+
+    <url>
+       <loc>http://IFVG45.github.io/izavalle.work/graphics</loc>
+    </url>
+
+</urlset>
