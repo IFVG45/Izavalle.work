@@ -93,6 +93,43 @@ a {
 
 /* Btn */
 
+
+.btnAdt{
+
+  cursor: pointer;
+}
+
+.btnAdt {
+  border: none;
+  transition: all 0.5s;
+}
+
+
+.btnAdt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.btnAdt span:after {
+  content: '►';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.4s;
+}
+
+.btnAdt:hover span {
+  padding-right: 25px;
+}
+
+.btnAdt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .btnRev a:link,
 .btnRev a:visited,
 .btnRev a {
