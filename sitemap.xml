@@ -2,34 +2,34 @@
 <urlset xmlns="http//www.sitemaps.org/scemas/sitemap/0.9">
 
     <url>
-       <loc>https://ifvg45.github.io/Izavalle.work/</loc>
+       <loc>https://ifvg45.github.io/Portfolio/</loc>
         <priority>1.0</priority>
         <changefreq>yearly</changefreq>
         <lastmod>2015-12-17</lastmod>
     </url>
 
     <url>
-       <loc>https://ifvg45.github.io/Izavalle.work/branding/</loc>
+       <loc>https://ifvg45.github.io/Portfolio/branding/</loc>
     </url>
 
     <url>
-       <loc>https://ifvg45.github.io/Izavalle.work/ui/</loc>
+       <loc>https://ifvg45.github.io/Portfolio/ui/</loc>
     </url>
 
     <url>
-       <loc>https://ifvg45.github.io/Izavalle.work/typogrphy</loc>
+       <loc>https://ifvg45.github.io/IPortfolio/typogrphy</loc>
     </url>
 
     <url>
-       <loc>https://ifvg45.github.io/Izavalle.work/drawings</loc>
+       <loc>https://ifvg45.github.io/Portfolio/drawings</loc>
     </url>
 
     <url>
-       <loc>https://ifvg45.github.io/Izavalle.work/photography</loc>
+       <loc>https://ifvg45.github.io/Portfolio/photography</loc>
     </url>
 
     <url>
-       <loc>https://ifvg45.github.io/Izavalle.work/graphics</loc>
+       <loc>https://ifvg45.github.io/Portfolio/graphics</loc>
     </url>
 
 </urlset>
