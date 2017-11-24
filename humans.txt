@@ -2,9 +2,9 @@
 
 # TEAM
 
-Designer and Developer: Erin Graham <erin@erin-graham.ca
-Site: http://eringraham.github.io/portfolio
-Github: http://github.com/eringraham
+Designer and Developer: Iza Valle <hey@izavalle.work
+Site: https://ifvg45.github.io/Izavalle.work/
+Github: http://github.com/IFVG45
 Location: Ottawa, Canada
 
 ---
