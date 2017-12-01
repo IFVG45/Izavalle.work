@@ -288,8 +288,10 @@ li {
 }
 
 .section-img a:hover {
+    opacity: .5;
     color:#EEAF4F;
 }
+
 
 .connect {
     color: #F2E05B;
