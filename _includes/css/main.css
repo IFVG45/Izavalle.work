@@ -335,6 +335,29 @@ footer p {
   padding-bottom: 0;
 }
 
+.footer {
+  background-color: #000;
+  color: #FED245;
+  padding: 2rem 1rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-family: 'Cutive Mono', sans-serif;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footera {
+  text-decoration: none;
+  color: #FED245;
+  font-size: 1.5rem;
+}
+
 .copyright {
     text-align: center;
     color: #ffff;
