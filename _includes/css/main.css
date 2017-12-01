@@ -77,7 +77,7 @@ body {
     padding-bottom: .25em;
     list-style-type: none;
     text-align: center;
-    background-color: #8FC0DC;
+    background-color: #1B3258;
 }
 
 .nav a {
@@ -259,7 +259,7 @@ li {
 }
 
 .footer {
-    background-color: #8FC0DC;
+    background-color: #1B3258;
     margin: 0;
     padding: 0;
 }
