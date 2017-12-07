@@ -37,6 +37,11 @@ body {
 
 .intro-2{
 	font-size: 14px;
+  color: #fff;
+text-align: center;
+font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
+font-size: 12px;
+font-weight: 400;
 }
 
 .main-banner-section {
