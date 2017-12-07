@@ -87,6 +87,11 @@ font-weight: 400;
     width: 100%;
 
 }
+/* ABOUT */
+.jagged-line {
+	margin-top: -1.5rem;
+}
+
 
 .nav {
     background-color: #8FC0DC;
