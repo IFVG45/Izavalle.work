@@ -92,6 +92,10 @@ font-weight: 400;
 	margin-top: -1.5rem;
 }
 
+.about-section {
+	background-color: #de4848;
+	padding: 5rem 2rem;
+}
 
 .nav {
     background-color: #8FC0DC;
@@ -463,5 +467,9 @@ li {
   .header,
   .footer {
     display: none;
+  }
+
+  .about-section {
+  	padding: .
   }
 }
