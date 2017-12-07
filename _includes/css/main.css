@@ -84,12 +84,6 @@ body {
 }
 
 .nav {
-    margin: 0;
-    padding-left: 0;
-    padding-top: .25em;
-    padding-bottom: .25em;
-    list-style-type: none;
-    text-align: center;
     background-color: red;
   	height: 50px;
   	position: fixed;
