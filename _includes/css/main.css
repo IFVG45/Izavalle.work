@@ -90,7 +90,9 @@ body {
     padding-bottom: .25em;
     list-style-type: none;
     text-align: center;
-    background-color: #1B3258;
+    background-color: red;
+  	height: 50px;
+  	position: fixed;
 }
 
 .nav a {
