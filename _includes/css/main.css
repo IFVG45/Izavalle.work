@@ -96,6 +96,12 @@ font-weight: 400;
 	background-color: #de4848;
 	padding: 5rem 2rem;
 }
+.about-section {
+	padding: 10rem 8rem;
+	line-height: 1.5rem;
+}
+
+/* NAV */
 
 .nav {
     background-color: #8FC0DC;
@@ -439,13 +445,6 @@ li {
         text-align: center;
     }
 
-    .about {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        max-width: 28em;
-        line-height: 1.6em;
-    }
 }
 
 @media only screen and (min-width: 40em) {
