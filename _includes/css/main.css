@@ -101,6 +101,14 @@ font-weight: 400;
 	line-height: 1.5rem;
 }
 
+.about{
+font-family: 'Lato', sans-serif;
+color: #ffffff;
+text-align: center;
+font-size: 16px;
+font-weight: 300;
+}
+
 /* NAV */
 
 .nav {
