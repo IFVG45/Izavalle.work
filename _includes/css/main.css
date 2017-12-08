@@ -96,10 +96,6 @@ font-weight: 400;
 	background-color: #de4848;
 	padding: 5rem 2rem;
 }
-.about-section {
-	padding: 10rem 8rem;
-	line-height: 1.5rem;
-}
 
 .about{
 font-family: 'Lato', sans-serif;
@@ -107,6 +103,10 @@ color: #ffffff;
 text-align: center;
 font-size: 16px;
 font-weight: 300;
+display: block;
+margin: 0 auto;
+max-width: 28em;
+line-height: 1.6em;
 }
 
 /* NAV */
