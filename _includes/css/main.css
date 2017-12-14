@@ -112,7 +112,7 @@ line-height: 1.6em;
 /* NAV */
 
 .nav {
-    background-color: #8FC0DC;
+    background-color: #231F20 ;
   	height: 50px;
   	position: fixed;
 }
@@ -148,7 +148,7 @@ a {
 	text-align:right;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1.5px;
-	color: #fff;
+	color: #FFC843;
 	text-decoration: none;
 	font-weight: 400;
 	line-height: 2rem;
