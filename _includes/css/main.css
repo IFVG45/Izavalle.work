@@ -27,11 +27,8 @@ body {
     margin: 0 auto;
 }
 
-.izzegreen {
-    max-width: 160px;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
+section {
+	padding: 1rem 0;
 }
 
 
