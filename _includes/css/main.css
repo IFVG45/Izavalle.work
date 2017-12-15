@@ -343,9 +343,9 @@ li {
 }
 
 .footer{
-  .footer {
       background-color: #231F20;
-      display: block;
+      margin: 0;
+      padding: 0
 }
 
 .footer-title{
