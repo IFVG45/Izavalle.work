@@ -345,7 +345,7 @@ li {
 .footer{
       background-color: #231F20;
       width: 100%;
-      display:block;
+      display:inline-block;
 }
 
 .footer-title{
