@@ -1,3 +1,2 @@
-Sitemap: https://ifvg45.github.io/Izavalle.work/sitemap.xml
-
-User-agent: *
+User-Agent: *
+Disallow:

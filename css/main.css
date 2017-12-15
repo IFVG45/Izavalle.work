@@ -1,0 +1,771 @@
+/* CSS Document */
+/* 
+h1: Lato Bold 700;
+h2: Lato Normal 400;
+p: Lato Light 300;
+#F5F5F5 / rgb(245,245,245) - Light Gray
+#333333 / rgb(51,51,51) - Dark Gray
+#ED4223 / rgb(237,66,35) - Accent Orange
+*/
+@charset "UTF-8";
+/* Responsive Setup 
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+*/
+
+/* COMMON */
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img{ 
+  width: 100%;
+}
+
+/* END - COMMON */
+
+/* HEADER */
+
+  /* NAVIGATION */
+a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #8d8e3b;
+  letter-spacing: 3px;
+  opacity: 0.8;
+  text-decoration: none;
+
+}
+
+a:hover {
+  opacity: 1;
+}
+
+img {
+
+  width: 100%;
+
+}
+
+header {
+  background: #FFF;
+  opacity: 0.9 ;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#logo{
+  margin: 10px;
+  float: left;
+  width: 180px;
+  height: 60px;
+  background: url(../img/header-logo.svg) no-repeat center;
+  display: block;
+
+}
+
+nav {
+  float: right;
+  padding: 20px;  
+  
+}
+
+#menu-icon {
+  display: hidden;
+  width: 50px;
+  height: 50px;
+  opacity: 0.9;
+  background: url(../img/menu-icon.svg) no-repeat center;
+
+}
+
+a:hover#menu-icon {
+
+  opacity: 1;
+  border-radius: 4px 4px 0 0;
+
+}
+
+ul {
+
+  list-style: none;
+
+}
+nav li {
+
+  display: inline-block;
+  float: left;
+  padding: 10px
+
+}
+
+.current {
+
+  color: #222;
+
+}
+/*MEDIA QUERY*/
+@media only screen and (max-width : 38em) {
+
+header {
+  position: absolute;
+
+  }
+
+#logo{
+  display: none;
+  }
+
+  #menu-icon {
+    display:inline-block;
+  }
+
+  nav ul, nav:active ul { 
+
+    display: none;
+    background-color: rgba(255, 255, 255, .9);
+    position: absolute;
+    padding: 20px;
+    right: 30px;
+    top: 76px;
+    width: 50%;
+    border-radius: 4px 0 4px 4px;
+
+  }
+
+  nav li {
+
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+
+  }
+
+  nav:hover ul {
+
+    display: block;
+
+  }
+
+   .arrow img{
+      max-width: 5em;
+    }
+}
+  /* END - NAVIGATION */
+
+  /* INTRO PARALLAX */
+
+ .container {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8em;
+}
+
+ .container img{
+  display: block;
+  opacity: 0.8;
+  width: 100%;
+  padding-top: 4em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .arrow img{
+  display: block;
+  max-width: 3em;
+  margin: 2em;
+  padding-top: 3em;
+  opacity: 0.8;
+}
+
+.arrow img.hover {
+  opacity: 1;
+}
+
+  /* PARALLAX */
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax-1 {
+  height: 792px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-2 {
+  height: 250px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax img {
+  display: block;
+  margin: 0 auto; 
+}
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 5em;
+}
+
+section.module.parallax h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-bottom: 5em;
+}
+
+section.module.parallax-1 {
+  background-image: url("../img/header-parallax.jpg");
+}
+
+section.module.parallax-2 {
+  background-image: url("../img/about-parallax.jpg");
+}
+
+.intro-border{
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+@media only screen and (max-width : 38em) {
+  section.module.parallax-1 {
+  background-image: url("../img/mobile-header.jpg");
+  }
+}
+  /* END - PARALLAX */
+
+/* END - HEADER */
+
+/* WORK */
+.work{
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+.work-title{
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #3a3a3c;
+  text-transform: uppercase;
+  margin-top: 3.125em;
+}
+
+.work-border{
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #8d8e3b;
+  margin: 0 auto;
+  margin-top: -1rem;
+  margin-bottom: 2em;
+}
+
+  /*  WORK GRID */
+  .work-grid{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    min-height: 500px;
+  }
+
+@media only screen and (min-width : 38em) {
+  .work-grid{
+    padding-left: 3.125em;
+    padding-right: 3.125em;
+  }
+}
+  .graphic{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .graphic figcaption{
+    width: 100%;
+    position: absolute;
+    bottom: -5em;
+    background-color: #3a3a3c;
+    color: #FFFFFF;
+    height: auto;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5em;
+      transition: all 250ms linear;
+  }
+
+  .graphic img{
+    top:0;
+    display: block;
+    position: relative;
+    transition: all 250ms linear;
+  }
+
+  .graphic:hover img{
+    top: -1em;
+  }
+
+  .graphic:hover figcaption{
+    bottom: 0;
+  }
+
+  @media only screen and (max-width : 38em) {
+  .graphic figcaption{
+    display: none;
+  }
+  .graphic:hover img{
+    top: 0;
+  }
+}
+  /*  END - WORK GRID */
+
+  /* PORTFOLIO DETAILS */
+  .portfolio-wrapper{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 3.125em;
+  }
+
+  .portfolio-wrapper[data-state="open"]{
+    display:block;
+  }
+
+  .portfolio-description{
+    width: 75%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+  }
+
+  .portfolio-title{
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #3a3a3c;
+    text-transform: uppercase;
+  }
+
+   .portfolio-description p{
+    width: 100%;
+    color: #3a3a3c;
+    height: auto;
+    font-weight: 300;
+    line-height: 1.5em;
+  }
+
+   .close{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20px;
+    opacity: 0.8;
+  }
+
+  .close img {
+    width: 100%;
+    display: block;
+  }
+
+  .close img.hover {
+    opacity: 1;
+  }
+
+  .vimeo-link p{
+    color: #ff9966;
+  }
+    /*  SLIDER */
+
+      .slider-wrap {
+        max-width: 500px;
+        max-height: 600px;
+        padding: 1em;
+        margin: 0 auto;
+      }
+
+      .flexslider{
+        display: block;
+        border: none;
+      }
+    /*  END - SLIDER */
+
+    /* MEDIA QUERIES */
+    @media only screen and (max-width : 38em) {
+        .portfolio-wrapper{
+          width: 90%;
+          float: none;
+        }
+      }
+
+    /* END - MEDIA QUERIES */
+
+  /* END - PORTFOLIO DETAILS */
+
+/* END - WORK */
+
+
+
+/* ABOUT */
+.about{
+  width: 100%;
+  background-color:  #f4f1ef;
+  min-height: 500px;
+  display: block;
+  padding-bottom: 7em;
+}
+
+.about-title{
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #8d8e3b;
+  text-transform: uppercase;
+}
+
+.about-border{
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #8d8e3b;
+  margin: 0 auto;
+  margin-top: -1rem;
+  margin-bottom: 2em;
+}
+
+
+  .picture{
+    display: block;
+    max-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* MEET EMMA */
+  .meet-emma{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 2em;
+    line-height: 2em;
+    display: block;
+  }
+
+  .meet-emma p{
+    text-align: center;
+    color: #3a3a3c;
+    padding: 1em;
+    font-weight: 300;
+  }
+
+      @media only screen and (max-width : 38em) {
+      .meet-emma{
+        width: 100%;
+        padding: 5px;
+      }
+
+      .picture{
+        max-width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+  /* END - MEET EMMA */
+  /* SERVICES */
+.services{
+  width: 100%;
+  display: block;
+}
+
+  /* ICONS */
+  .icons{
+    position: relative;
+  }
+
+  .icons-border-branding{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #8d8e3b;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+    .icons-border-design{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #dd7326;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .icons-border-development{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #046485;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+
+  .icons figcaption{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    opacity: .9;
+    padding: 1em;
+    font-size: .9em;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #3a3a3c;
+  }
+
+  .icons:hover figcaption{
+    opacity: 1;
+  }
+
+  .icons figcaption h6{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: -.3em;
+    font-weight: 400;
+    color: #3a3a3c;
+  }
+
+
+  .services-icons{
+    text-align: center;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .services-icons img{
+    width: 10em;
+    height: 10em;
+    padding-bottom: 1em;
+  }
+
+  .branding img:last-child{
+    display:none
+  }
+
+  .branding:hover img:first-child{
+    display:none
+  }
+
+  .branding:hover img:last-child{
+    display:inline-block
+  }
+
+  .design img:last-child{
+    display:none
+  }
+
+  .design:hover img:first-child{
+    display:none
+  }
+
+  .design:hover img:last-child{
+    display:inline-block
+  }
+
+  .development img:last-child{
+    display:none
+  }
+
+  .development:hover img:first-child{
+    display:none
+  }
+
+  .development:hover img:last-child{
+    display:inline-block
+  }
+
+  @media only screen and (min-width: 60em) {
+       .services-container {
+          width: 100%;
+        }
+      .icons figcaption{
+        position: absolute;
+        opacity: 0;
+      }
+
+  }
+
+@media only screen and (max-width: 38em) {
+    .services-container {
+      width: 100%;
+    }
+
+    .services-icons{
+      text-align: center;
+      margin-left:10px;
+      margin-right:10px;
+    }
+  }
+
+  /* END - ICONS */
+
+/* END - SERVICES */
+/* END - ABOUT */
+
+
+/* FOOTER */
+.footer{
+  width: 100%;
+  background-color: #3a3a3c;
+  display: block;
+}
+
+.footer-title{
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-border{
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #FFF;
+  margin: 0 auto;
+  margin-top: -1em;
+
+}
+
+.footer p{
+    display: block;
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.footer h2 { 
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-top: 1.5em;
+}
+
+
+.copyright{
+    display: block;
+    text-align: center;
+    font-size: .5em;
+    color: #F5F5F5;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0 auto;
+}
+
+.social-links{
+  text-align: center;
+}
+
+
+.social-links img{
+    display: inline-block;
+}
+
+.social-links li {
+  display: inline-block;
+  width: 8%;
+  padding: 1em;
+}
+
+  .mail img:last-child{
+    display:none
+  }
+
+  .mail:hover img:first-child{
+    display:none
+  }
+
+  .mail:hover img:last-child{
+    display:inline-block
+  }
+
+  .linkedin img:last-child{
+    display:none
+  }
+
+  .linkedin:hover img:first-child{
+    display:none
+  }
+
+  .linkedin:hover img:last-child{
+    display:inline-block
+  }
+
+  .behance img:last-child{
+    display:none
+  }
+
+  .behance:hover img:first-child{
+    display:none
+  }
+
+  .behance:hover img:last-child{
+    display:inline-block
+  }
+
+    @media only screen and (max-width : 38em) {
+      .social-links li {
+        display: inline-block;
+        width: 15%;
+        padding: 5px;
+      }
+    }
+/* END - FOOTER */

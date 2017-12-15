@@ -1,27 +1,36 @@
-# humanstxt.org
-
 # TEAM
 
-Designer and Developer: Iza Valle <hey@izavalle.work
-Site: https://ifvg45.github.io/Izavalle.work/
-Github: http://github.com/IFVG45
-Location: Ottawa, Canada
+Designer & Developer: Emma McInall
+Site: http://emmamcinall.ca
+Github: http://github.com/mcin0244
+Twitter: @emmamcinall
+Email: hello@emmamcinall.ca or emcinall93@gmail.com
+Location: Ottawa, On
 
 ---
 
 # THANKS
+	 jQuery FlexSlider v2.2.0
+	 http://www.woothemes.com/flexslider/
+	 
+	 Copyright 2012 WooThemes
+	 Free to use under the GPLv2 license.
+	 http://www.gnu.org/licenses/gpl-2.0.html
+	 
+	 Contributing author: Tyler Smith (@mbmufffin)
+	---
 
-
+	and Thomas Bradely for all his help!!
 ---
 
 # TECHNOLOGY
 
-## Software
-
-- Atom
+- Sublime Text
 - Github
-- Markdown
+- Hover.com
 
-## Hosting
-
-- Hover <http://hover.com>
+# SITE 
+Last update: 2014/12/02
+Standards: HTML5, CSS3
+Components:Jquery, Javascript, CSS, HTML
+Software: Adobe, 
