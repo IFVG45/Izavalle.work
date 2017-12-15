@@ -479,6 +479,13 @@ li {
 
 @media only screen and (min-width: 60em) {
 
+  .logo {
+  	width: 110px;
+  	height: 110px;
+  	margin-top: -19.8rem;
+  	margin-left: 1rem;
+  }
+  
 }
 
 @media print {
