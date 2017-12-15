@@ -27,8 +27,11 @@ body {
     margin: 0 auto;
 }
 
-section {
-	padding: 1rem 0;
+.izzegreen {
+    max-width: 160px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -355,21 +358,9 @@ li {
     font-weight: 500;
 }
 
-.nav-bar{
-	background-color: red;
-	height: 50px;
-	position: fixed;
-}
-
 .logo {
-	width: 50px;
-	height: 50px;
-	float: left;
-	display: inline-block;
-	margin-top: -9.2rem;
-	margin-left: 0.2rem;
-	position: fixed;
-	/*background-color: rgba(235,127,80,.7);*/
+    text-align: center;
+    padding-top: 50px;
 }
 
 .section-img {
@@ -467,22 +458,14 @@ li {
 @media only screen and (min-width: 40em) {
 
  .logo {
-     	width: 80px;
-     	height: 80px;
-     	margin-top: -16.8rem;
-     	margin-left: 1rem;
-     }
+     margin: 0 auto;
+     max-width: 22em;
+     text-align: center;
+ }
 
 }
 
 @media only screen and (min-width: 60em) {
-
-  .logo {
-  	width: 110px;
-  	height: 110px;
-  	margin-top: -19.8rem;
-  	margin-left: 1rem;
-  }
 
 }
 
