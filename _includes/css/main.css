@@ -470,10 +470,11 @@ li {
 @media only screen and (min-width: 40em) {
 
  .logo {
-     margin: 0 auto;
-     max-width: 22em;
-     text-align: center;
- }
+     	width: 80px;
+     	height: 80px;
+     	margin-top: -16.8rem;
+     	margin-left: 1rem;
+     }
 
 }
 
@@ -485,7 +486,7 @@ li {
   	margin-top: -19.8rem;
   	margin-left: 1rem;
   }
-  
+
 }
 
 @media print {
