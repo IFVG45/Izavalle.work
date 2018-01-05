@@ -21,13 +21,15 @@ body {
 	background-image: url(../images/design/stardust-gray.png);
 }
 
-.home {
+.homebtn {
 	text-align: center;
-	color: #ef4036;
 	text-decoration: none;
+  max-width: 6em;
+  display: block;
+  margin: 0 auto;
 }
 
-.home:hover {
+.homebtn:hover {
 	color: #000;
 }
 
