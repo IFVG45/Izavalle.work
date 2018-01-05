@@ -467,11 +467,6 @@ li {
     text-align: center;
 }
 
-body {
-	/*background-color: #2e2e2e;*/
-	background-image: url(../img/stardust-gray.png);
-}
-
 
 @media only screen and (min-width: 20em) {
 
