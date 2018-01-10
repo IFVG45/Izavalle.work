@@ -1,3 +1,0 @@
-$('.scroll').localScroll({
-	target: 'body'
-});

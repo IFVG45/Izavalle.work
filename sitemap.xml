@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http//www.sitemaps.org/scemas/sitemap/0.9">
 
-	<url>
-		<loc>http://izavalle.work</loc>
-		<priority>1.0</priority>
-		<changefreq>yearly</changefreq>
-	</url>
+    <url>
+       <loc>https://ifvg45.github.io/Izavalle.work/</loc>
+        <priority>1.0</priority>
+        <changefreq>yearly</changefreq>
+        <lastmod>2017-11-17</lastmod>
+    </url>
 
-	<url>
-		<loc>http://izavalle.work</loc>
-		<priority>2.0</priority>
-		<changefreq>yearly</changefreq>
-	</url>
+    <url>
+       <loc>https://ifvg45.github.io/Izavalle.work/branding/</loc>
+    </url>
 
-	<url>
-		<loc>http://izavalle.work</loc>
-		<priority>3.0</priority>
-		<changefreq>yearly</changefreq>
-	</url>
+    <url>
+       <loc>https://ifvg45.github.io/Izavalle.work/ui/</loc>
+    </url>
 
-	<url>
-		<loc>http://izavalle.work</loc>
-		<priority>4.0</priority>
-		<changefreq>yearly</changefreq>
-	</url>
+    <url>
+       <loc>https://ifvg45.github.io/Izavalle.work/typogrphy/</loc>
+    </url>
 
+    <url>
+       <loc>https://ifvg45.github.io/Izavalle.work/drawings/</loc>
+    </url>
+
+    <url>
+       <loc>https://ifvg45.github.io/Izavalle.work/photography/</loc>
+    </url>
+
+    <url>
+       <loc>https://ifvg45.github.io/Izavalle.work/graphics/</loc>
+    </url>
 
 </urlset>

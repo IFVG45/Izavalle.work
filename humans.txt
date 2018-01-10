@@ -1,24 +1,27 @@
 # humanstxt.org
 
-#TEAM
+# TEAM
 
-Designer and Developer: Ben Marley <hey@benmarleydesign.ca>
-Site: benmarleydesign.ca
-Github: @benmarley
-Location: Ottawa, Ontario 
+Designer and Developer: Iza Valle <hey@izavalle.work
+Site: https://ifvg45.github.io/Izavalle.work/
+Github: http://github.com/IFVG45
+Location: Ottawa, Canada
 
 ---
 
-#TECHNOLOGY
+# THANKS
+
+
+---
+
+# TECHNOLOGY
 
 ## Software
 
-– Sublime Text
-- Jekyll 
-– Github
-- Adobe Photoshop
-– Adobe Illustrator
+- Atom
+- Github
+- Markdown
 
 ## Hosting
 
-– Hover <http://hover.com>
+- Hover <http://hover.com>
