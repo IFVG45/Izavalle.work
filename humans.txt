@@ -1,0 +1,24 @@
+# humanstxt.org
+
+#TEAM
+
+Designer and Developer: Ben Marley <hey@benmarleydesign.ca>
+Site: benmarleydesign.ca
+Github: @benmarley
+Location: Ottawa, Ontario 
+
+---
+
+#TECHNOLOGY
+
+## Software
+
+– Sublime Text
+- Jekyll 
+– Github
+- Adobe Photoshop
+– Adobe Illustrator
+
+## Hosting
+
+– Hover <http://hover.com>

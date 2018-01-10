@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  	<meta charset="utf-8">
+  	<title>{% if page.title %}{{page.title}} {% endif %}</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="images/favicon-16.png">
+</head>
+<body>
+
+	{% include skip-links.html %}
+
+	<header class="fixed-nav" id="header">
+		<a href="index.html">
+			<img class="ben-2 logo" src="images/ben-marley.svg">
+		</a>
+		
+		<nav class="nav-gd-none" id="nav">
+			<ul class="navigation-pages">
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
+				<li><a href="motion.html">Motion</a></li>
+				<li><a href="illustration.html">Illustration</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<nav>
+		<ul class="nav-bg-large-none grid">
+			<li class="unit unit-xs-1-3"><a href="graphicdesign.html">Graphic Design</a></li>
+			<li class="unit unit-xs-1-3"><a href="motion.html">Motion</a></li>
+			<li class="unit unit-xs-1-3"><a href="illustration.html">Illustration</a></li>
+		</ul>
+	</nav>
+	
+	<main role="main" id="content">
+		
+
+{{content}}
+
+
+</div>
+
+
+
+	</main>
+
+</body>
+</html>

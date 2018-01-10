@@ -1,20 +1,13 @@
-[Introduction](http://valeriebordeleau.ca/#intro)
-[Projects](http://valeriebordeleau.ca/#projects)
-[Contact](http://valeriebordeleau.ca/#projects)
+# Ben Marley
 
-# Valerie Bordeleau
-### Ottawa, ON
+### [Ben Marley](https://benmarleydesign.ca) .ca
 
-Hey, there! Creating universally accessible media for all is what drives me.  In an instant, strong imagery can communicate an idea that can surpasse language barriers and illiteracy. 
+Ben Marley achieves his designs through an analytical and unique perspective of the world. Through illustration and other design skills, he translates ideas into images and design.
 
-[down arrow](http://valeriebordeleau.ca/#main)
+![ben work graphic](images/ben-work-graphic.png)
 
-Projects
+---
 
-
-Let's Connect
-
-- [envelope icon will go here](mailto:heythere@valeriebordeleau.ca)
-- [behance icon here](http://behance.com/username)
-- [instagram icon here](http://instagram.com/username)
-- [flickr icon](http://flickr.com/username)
+[behance](https://www.behance.net/benmarley)
+[Linked in](https://ca.linkedin.com/pub/ben-marley/b1/b22/4a1)
+[github](https://github.com/benmarley)

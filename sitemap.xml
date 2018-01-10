@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <!-- required -->
-    <loc>http://valeriebordeleau.github.io/portfolio-valerie-bordeleau/</loc>
-    <!-- optional: default to 0.5, goes up to 1.0. -->
-    <priority>1.0</priority>
-    <!-- optional: format date like this -->
-    <lastmod>2015-10-27</lastmod>
-    <!-- optional, choose always, hourly, daily, weekly, monthly, yearly, never -->
-    <changefreq>monthly</changefreq>
-  </url>
+	<url>
+		<loc>https://benmarleydesign.ca/</loc>
+		<priority>1.0</priority>
+		<changefreq>yearly</changefreq>
+	</url>
 
-  <!-- add mutliple pages like this -->
-  <url>
-    <loc>http://valeriebordeleau.github.io/portfolio-valerie-bordeleau/project-1</loc>
-  </url>
+	<url>
+		<loc>https://benmarleydesign.ca/motion.html/</loc>
+		<priority>2.0</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+
+	<url>
+		<loc>https://benmarleydesign.ca/illustration.html</loc>
+		<priority>3.0</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+
+	<url>
+		<loc>https://benmarleydesign.ca/graphicdesign.html</loc>
+		<priority>4.0</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+
 
 </urlset>
