@@ -3,18 +3,18 @@
 
   <url>
     <!-- required -->
-    <loc>http://valeriebordeleau.github.io/portfolio-valerie-bordeleau/</loc>
+    <loc>https://github.com/IFVG45/Izavalle.work</loc>
     <!-- optional: default to 0.5, goes up to 1.0. -->
     <priority>1.0</priority>
     <!-- optional: format date like this -->
-    <lastmod>2015-10-27</lastmod>
+    <lastmod>2018-10-27</lastmod>
     <!-- optional, choose always, hourly, daily, weekly, monthly, yearly, never -->
     <changefreq>monthly</changefreq>
   </url>
 
   <!-- add mutliple pages like this -->
   <url>
-    <loc>http://valeriebordeleau.github.io/portfolio-valerie-bordeleau/project-1</loc>
+    <loc>https://github.com/IFVG45/Izavalle.work</loc>
   </url>
 
 </urlset>
