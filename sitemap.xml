@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 	<url>
-		<loc>https://benmarleydesign.ca/</loc>
+		<loc>http://izavalle.work</loc>
 		<priority>1.0</priority>
 		<changefreq>yearly</changefreq>
 	</url>
 
 	<url>
-		<loc>https://benmarleydesign.ca/motion.html/</loc>
+		<loc>http://izavalle.work</loc>
 		<priority>2.0</priority>
 		<changefreq>yearly</changefreq>
 	</url>
 
 	<url>
-		<loc>https://benmarleydesign.ca/illustration.html</loc>
+		<loc>http://izavalle.work</loc>
 		<priority>3.0</priority>
 		<changefreq>yearly</changefreq>
 	</url>
 
 	<url>
-		<loc>https://benmarleydesign.ca/graphicdesign.html</loc>
+		<loc>http://izavalle.work</loc>
 		<priority>4.0</priority>
 		<changefreq>yearly</changefreq>
 	</url>
