@@ -1,9 +1,20 @@
-# Iza Valle
+[Introduction](http://valeriebordeleau.ca/#intro)
+[Projects](http://valeriebordeleau.ca/#projects)
+[Contact](http://valeriebordeleau.ca/#projects)
 
-#### (http://izavalle.work)
-  Hello my name is Iza (pronounced like eza,but way better). I believe in creating—creating a story,  an experience , and awesome solutions to help people  perceive the world.
-      Yes designs should be beautiful but far more than that, design  should have a purpose, a meaning—an action! There's always something to learn,  and there's always a solution to everything, limited only by how far you're willing  to stretch the imagination.
-    I’m way too curious and I enjoy finding the most elegant ways to harmonize content with form. That’s a fancy way of saying I take text and colours and images and I arrange them in a way that immediately makes it usable for the user.
-* **[hey@izavalle.work](mailto:hey@izavalle.work)**
-* https://github.com/IFVG45
-* https://www.instagram.com/_fvg45/?hl=en
+# Valerie Bordeleau
+### Ottawa, ON
+
+Hey, there! Creating universally accessible media for all is what drives me.  In an instant, strong imagery can communicate an idea that can surpasse language barriers and illiteracy. 
+
+[down arrow](http://valeriebordeleau.ca/#main)
+
+Projects
+
+
+Let's Connect
+
+- [envelope icon will go here](mailto:heythere@valeriebordeleau.ca)
+- [behance icon here](http://behance.com/username)
+- [instagram icon here](http://instagram.com/username)
+- [flickr icon](http://flickr.com/username)

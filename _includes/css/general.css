@@ -327,7 +327,11 @@ a:focus {
 }
 
 .proj1 {
+    background-image: url(../artwork/sign-bkg1.jpg);
+    background-size: 150%;
     background-color: #252c37;
+    background-position: bottom right;
+    background-repeat: no-repeat;
     padding-top: 12em;
 }
 
@@ -634,7 +638,7 @@ a:focus {
 }
 
 .projectItem1 {
-    background-image: url(../artwork/sign-bkg2.png);
+    background-image: url(../artwork/sign-bkg2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom, left;
@@ -857,6 +861,7 @@ a:focus {
 /*before small but not quite extra small, only here so that the e-mail doesn’t make an ugly white bar on unrealistically tiny screens*/@media only screen and (min-width: 22em) {
 
 .proj1 {
+    background-image: url(../artwork/sign-bkg1.jpg);
     background-size: 150%;
 }    
     
@@ -893,6 +898,8 @@ a:focus {
 }    
     
 .proj1 {
+    background-image: url(../artwork/sign-bkg1.jpg);
+    background-size: 150%;
      padding-top: 12em; 
 }       
     
@@ -1008,6 +1015,7 @@ a:focus {
     
     
 .proj1 {
+   background-size: 120%;
     padding-top: 14em;
  }   
     
@@ -1186,6 +1194,9 @@ a:focus {
 
 .proj1 {
     padding-top: 14em;
+   background-size: 40%, 40%; 
+     background-image: url(../artwork/sign-bkg2.jpg), url(../artwork/sign-bkg1.jpg);
+   background-position: left bottom, right bottom;
  }    
     
     
