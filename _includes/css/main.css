@@ -456,7 +456,6 @@ section.module.parallax-2 {
   background-color:  #f4f1ef;
   min-height: 500px;
   display: block;
-  padding-bottom: 7em;
 }
 
 .about-title{
@@ -514,7 +513,7 @@ section.module.parallax-2 {
         margin-right: auto;
       }
   }
-  /* END - MEET IZA */
+  /* END - MEET IZA= */
   /* SERVICES */
 .services{
   width: 100%;
