@@ -484,8 +484,8 @@ section.module.parallax-2 {
     margin-left: auto;
     margin-right: auto;
   }
-  /* MEET EMMA */
-  .meet-emma{
+  /* MEET Iza */
+  .meet-Iza{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -495,7 +495,7 @@ section.module.parallax-2 {
     display: block;
   }
 
-  .meet-emma p{
+  .meet-Iza p{
     text-align: center;
     color: #3a3a3c;
     padding: 1em;
@@ -503,7 +503,7 @@ section.module.parallax-2 {
   }
 
       @media only screen and (max-width : 38em) {
-      .meet-emma{
+      .meet-Iza{
         width: 100%;
         padding: 5px;
       }
@@ -514,7 +514,7 @@ section.module.parallax-2 {
         margin-right: auto;
       }
   }
-  /* END - MEET EMMA */
+  /* END - MEET IZA */
   /* SERVICES */
 .services{
   width: 100%;
