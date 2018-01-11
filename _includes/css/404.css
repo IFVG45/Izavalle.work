@@ -1,0 +1,38 @@
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 20rem;
+	font-size:30px;
+
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 1rem;
+	font-size:18px;
+	font-weight: 400;
+}
+
+main{
+	/*background-color: #2e2e2e;*/
+	background-image: url(../images/design/stardust-gray.png);
+}
+
+.homebtn {
+	text-align: center;
+	text-decoration: none;
+  max-width: 6em;
+  display: block;
+  margin: 0 auto;
+}
+
+.homebtn a:hover {
+	color: #000;
+}
+
+a:link {
+	text-decoration: none;
+}

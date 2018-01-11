@@ -1,5 +1,5 @@
 /* CSS Document */
-/* 
+/*
 h1: Lato Bold 700;
 h2: Lato Normal 400;
 p: Lato Light 300;
@@ -8,7 +8,7 @@ p: Lato Light 300;
 #ED4223 / rgb(237,66,35) - Accent Orange
 */
 @charset "UTF-8";
-/* Responsive Setup 
+/* Responsive Setup
 
 @-moz-viewport { width: device-width; scale: 1;}
 @-ms-viewport { width: device-width; scale: 1;}
@@ -28,7 +28,7 @@ html {
   padding: 0;
 }
 
-img{ 
+img{
   width: 100%;
 }
 
@@ -80,8 +80,8 @@ header {
 
 nav {
   float: right;
-  padding: 20px;  
-  
+  padding: 20px;
+
 }
 
 #menu-icon {
@@ -134,7 +134,7 @@ header {
     display:inline-block;
   }
 
-  nav ul, nav:active ul { 
+  nav ul, nav:active ul {
 
     display: none;
     background-color: rgba(255, 255, 255, .9);
@@ -223,7 +223,7 @@ section.module.parallax-2 {
 
 section.module.parallax img {
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 section.module.parallax h1 {
@@ -690,7 +690,7 @@ section.module.parallax-2 {
     font-weight: 100;
 }
 
-.footer h2 { 
+.footer h2 {
   color: rgba(255, 255, 255, 0.8);
   font-weight: 300;
   text-align: center;
