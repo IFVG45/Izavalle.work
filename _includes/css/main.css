@@ -76,7 +76,7 @@ header {
   float: left;
   width: 180px;
   height: 60px;
-  background: url(../img/header-logo.svg) no-repeat center;
+  background: url(../images/design/header-logo.svg) no-repeat center;
   display: block;
 
 }
@@ -141,7 +141,40 @@ nav li {
 .skip-links a:focus {
     top: 0;
 }
+.graphic{
+    position: relative;
+    overflow: hidden;
+  }
 
+  .graphic figcaption{
+    width: 100%;
+    position: absolute;
+    bottom: -5em;
+    background-color: #3a3a3c;
+    color: #FFFFFF;
+    height: auto;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5em;
+      transition: all 250ms linear;
+  }
+
+  .graphic img{
+    top:0;
+    display: block;
+    position: relative;
+    transition: all 250ms linear;
+  }
+
+  .graphic:hover img{
+    top: -1em;
+  }
+
+  .graphic:hover figcaption{
+    bottom: 0;
+  }
 /* ABOUT */
 .jagged-line {
 	margin-top: -1.5rem;
