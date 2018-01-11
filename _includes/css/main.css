@@ -59,6 +59,69 @@ font-weight: 400;
     margin: 0 auto;
 }
 
+
+header {
+  background: #FFF;
+  opacity: 0.9 ;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#logo{
+  margin: 10px;
+  float: left;
+  width: 180px;
+  height: 60px;
+  background: url(../img/header-logo.svg) no-repeat center;
+  display: block;
+
+}
+
+nav {
+  float: right;
+  padding: 20px;
+
+}
+
+#menu-icon {
+  display: hidden;
+  width: 50px;
+  height: 50px;
+  opacity: 0.9;
+  background: url(../img/menu-icon.svg) no-repeat center;
+
+}
+
+a:hover#menu-icon {
+
+  opacity: 1;
+  border-radius: 4px 4px 0 0;
+
+}
+
+ul {
+
+  list-style: none;
+
+}
+nav li {
+
+  display: inline-block;
+  float: left;
+  padding: 10px
+
+}
+
+.current {
+
+  color: #222;
+
+}
+
 .skip-links {
     margin:0;
     padding: 0;
