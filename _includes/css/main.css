@@ -240,11 +240,11 @@ padding-bottom: 5em;
 }
 
 section.module.parallax-1 {
-background-image: url("../img/header-parallax.jpg");
+background-image: url("../images/design/header-parallax.jpg");
 }
 
 section.module.parallax-2 {
-background-image: url("../img/about-parallax.jpg");
+background-image: url("../images/design/about-parallax.jpg");
 }
 
 .intro-border{
