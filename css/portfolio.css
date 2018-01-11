@@ -2,6 +2,6 @@
 ---
 
 {% include css/grids.css %}
-{% include css/typography.css %}
-{% include css/general.css %}
-{% include css/embedded.css %}
+{% include css/main.css %}
+{% include css/type.css %}
+{% include css/404.css %}
