@@ -555,6 +555,39 @@ li {
     text-align: center;
 }
 
+/* WORK */
+.work{
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+.work-title{
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #3a3a3c;
+  text-transform: uppercase;
+  margin-top: 3.125em;
+}
+
+.work-border{
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #8d8e3b;
+  margin: 0 auto;
+  margin-top: -1rem;
+  margin-bottom: 2em;
+}
+
+  /*  WORK GRID */
+  .work-grid{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    min-height: 500px;
+  }
 
 @media only screen and (min-width: 20em) {
 
