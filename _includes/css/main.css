@@ -545,11 +545,51 @@ li {
 
 @media only screen and (min-width: 20em) {
 
-    .logo {
-     margin: 0 auto;
-     max-width: 15em;
-     text-align: center;
- }
+  header {
+position: absolute;
+
+}
+
+#logo{
+display: none;
+}
+
+#menu-icon {
+  display:inline-block;
+}
+
+nav ul, nav:active ul {
+
+  display: none;
+  background-color: rgba(255, 255, 255, .9);
+  position: absolute;
+  padding: 20px;
+  right: 30px;
+  top: 76px;
+  width: 50%;
+  border-radius: 4px 0 4px 4px;
+
+}
+
+nav li {
+
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+
+}
+
+nav:hover ul {
+
+  display: block;
+
+}
+
+ .arrow img{
+    max-width: 5em;
+  }
+}
 
     .headshot {
         display: block;
