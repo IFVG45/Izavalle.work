@@ -625,3 +625,257 @@ nav:hover ul {
   	padding: .
   }
 }
+/* ICONS */
+  .icons{
+    position: relative;
+  }
+
+  .icons-border-branding{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #8d8e3b;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+    .icons-border-design{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #dd7326;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .icons-border-development{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #046485;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+
+  .icons figcaption{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    opacity: .9;
+    padding: 1em;
+    font-size: .9em;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #3a3a3c;
+  }
+
+  .icons:hover figcaption{
+    opacity: 1;
+  }
+
+  .icons figcaption h6{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: -.3em;
+    font-weight: 400;
+    color: #3a3a3c;
+  }
+
+
+  .services-icons{
+    text-align: center;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .services-icons img{
+    width: 10em;
+    height: 10em;
+    padding-bottom: 1em;
+  }
+
+  .branding img:last-child{
+    display:none
+  }
+
+  .branding:hover img:first-child{
+    display:none
+  }
+
+  .branding:hover img:last-child{
+    display:inline-block
+  }
+
+  .design img:last-child{
+    display:none
+  }
+
+  .design:hover img:first-child{
+    display:none
+  }
+
+  .design:hover img:last-child{
+    display:inline-block
+  }
+
+  .development img:last-child{
+    display:none
+  }
+
+  .development:hover img:first-child{
+    display:none
+  }
+
+  .development:hover img:last-child{
+    display:inline-block
+  }
+
+  @media only screen and (min-width: 60em) {
+       .services-container {
+          width: 100%;
+        }
+      .icons figcaption{
+        position: absolute;
+        opacity: 0;
+      }
+
+  }
+
+@media only screen and (max-width: 38em) {
+    .services-container {
+      width: 100%;
+    }
+
+    .services-icons{
+      text-align: center;
+      margin-left:10px;
+      margin-right:10px;
+    }
+  }
+
+  /* END - ICONS */
+
+/* END - SERVICES */
+/* END - ABOUT */
+
+
+/* FOOTER */
+.footer{
+  width: 100%;
+  background-color: #3a3a3c;
+  display: block;
+}
+
+.footer-title{
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-border{
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #FFF;
+  margin: 0 auto;
+  margin-top: -1em;
+
+}
+
+.footer p{
+    display: block;
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.footer h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-top: 1.5em;
+}
+
+
+.copyright{
+    display: block;
+    text-align: center;
+    font-size: .5em;
+    color: #F5F5F5;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0 auto;
+}
+
+.social-links{
+  text-align: center;
+}
+
+
+.social-links img{
+    display: inline-block;
+}
+
+.social-links li {
+  display: inline-block;
+  width: 8%;
+  padding: 1em;
+}
+
+  .mail img:last-child{
+    display:none
+  }
+
+  .mail:hover img:first-child{
+    display:none
+  }
+
+  .mail:hover img:last-child{
+    display:inline-block
+  }
+
+  .linkedin img:last-child{
+    display:none
+  }
+
+  .linkedin:hover img:first-child{
+    display:none
+  }
+
+  .linkedin:hover img:last-child{
+    display:inline-block
+  }
+
+  .behance img:last-child{
+    display:none
+  }
+
+  .behance:hover img:first-child{
+    display:none
+  }
+
+  .behance:hover img:last-child{
+    display:inline-block
+  }
+
+    @media only screen and (max-width : 38em) {
+      .social-links li {
+        display: inline-block;
+        width: 15%;
+        padding: 5px;
+      }
+    }
+/* END - FOOTER */
