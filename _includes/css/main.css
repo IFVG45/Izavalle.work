@@ -27,39 +27,6 @@ body {
     margin: 0 auto;
 }
 
-.izzegreen {
-    max-width: 160px;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
-
-
-.intro-2{
-	font-size: 14px;
-  color: #000;
-text-align: center;
-font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
-font-size: 12px;
-font-weight: 400;
-}
-
-.main-banner-section {
-	background: transparent url("../img/mountains-banner-noise-darker.jpg") no-repeat center top;
-	/*background: transparent url("../img/mountains-banner-noise-smaller2.jpg") no-repeat center top;*/
-	/*background: transparent url("../img/colour-mountains-noise.jpg") no-repeat center top;*/
-	background-size: cover;
-	padding: 8rem 0;
-}
-
-.work {
-    text-align: center;
-    max-width: 900px;
-    display: block;
-    margin: 0 auto;
-}
-
-
 header {
   background: #FFF;
   opacity: 0.9 ;
