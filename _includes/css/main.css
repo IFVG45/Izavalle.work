@@ -109,6 +109,38 @@ max-width: 28em;
 line-height: 1.6em;
 }
 
+/* toggle test */
+
+#toggle {
+  width: 30px;
+  height: 30px;
+  margin: -5px auto;
+}
+
+#toggle div {
+  width: 100%;
+  height: 3px;
+  background: #888888;
+  border-radius: 100px;
+  margin: 6px auto;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+}
+
+
+#toggle.on .one {
+  transform: rotate(45deg) translate(7px, 5px);
+}
+
+#toggle.on .two {
+  opacity: 0;
+}
+
+#toggle.on .three {
+  transform: rotate(-45deg) translate(8px, -6px);
+}
+
+
 /* NAV */
 .nav-bar {
     background-color: rgba(250, 250, 250, .95);
