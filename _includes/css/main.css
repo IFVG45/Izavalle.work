@@ -142,14 +142,6 @@ nav li {
     top: 0;
 }
 
-.header {
-    margin: 0;
-    padding-bottom: 0;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-
-}
 /* ABOUT */
 .jagged-line {
 	margin-top: -1.5rem;
