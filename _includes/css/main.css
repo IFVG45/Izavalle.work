@@ -384,52 +384,6 @@ li {
     font-size: 1.25em;
 }
 
-
-.introText {
-    background-color: #8FC0DC;
-    padding-top: 4em;
-    padding-bottom: 4em;
-    color: #EEFDFF;
-}
-
-.introText h2{
-    font-weight: 300;
-    color: #EEFDFF;
-}
-
-
-
-.section-title {
-    text-align: center;
-    font-weight: 500;
-    color: #231F20;
-    padding-top: 1em;
-}
-
-
-.work-head {
-    text-align: center;
-    font-weight: 300;
-    color: #F2E05B;
-    padding-top: 1em;
-    line-height: .5em;
-}
-
-.pjt-info {
-    vertical-align: center;
-    max-width: 950px;
-    display: block;
-    margin: 0 auto;
-    font-weight: 300;
-    line-height: 1.5em;
-    color: #8FC0DC;
-}
-
-.main{
-  background-color: #CECBBE;
-
-}
-
 .footer{
       background-color: #231F20;
       width: 100%;
