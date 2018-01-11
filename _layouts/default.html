@@ -29,30 +29,45 @@
   <meta name="twitter:image" content="http://fullurl.com/to-this/image-sample-to-fill-later.jpg">
 
 </head>
-<body>
+<body id="top">
 
     <ul class="skip-links">
         <li><a href="#main">Skip to main content</a></li>
         <li><a href="#navigation">Skip to navigation</a></li>
     </ul>
 
-    <header class="header grid" id="top" role="banner">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-            <nav class="nav nav-scrolled" role="navigation" id="navigation">
-                <ul class="nav kilo">
-                    <li><a href="{{site.baseurl}}/">PORTFOLIO</a></li>
-                    <li class="gutter-1-2"><a href="{{site.baseurl}}/about/">ABOUT</a></li>
-                    <li><a href="{{site.baseurl}}/contact/">SAY HOLA!</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    		<!-- HEADER -->
+    		<header>
 
-    <div class="grid">
-        <div class="pad-b logo unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-            <a href="{{site.baseurl}}/"><img class="img-flex" src="{{site.baseurl}}/images/design/logo.svg" alt="Iza Logo"></a>
-        </div>
-    </div>
+    			<a href="#top" id="logo"></a>
+
+    			<nav class="milli">
+    				<a href="#" id="menu-icon"></a>
+
+    				<ul>
+    					<li><a href="#work" class="smoothScroll">PORTFOLIO</a></li>
+    					<li><a href="#about" class="smoothScroll">ABOUT</a></li>
+    					<li><a href="#footer" class="smoothScroll">CONTACT</a></li>
+
+    				</ul>
+    			</nav>
+    		</header>
+    		<!-- END - HEADER -->
+
+    			<a href="{{site.baseurl}}/" id="logo"></a>
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+              <nav class="nav nav-scrolled" role="navigation" id="navigation">
+    			<nav class="milli">
+    				<a href="#" id="menu-icon"></a>
+
+    				<ul>
+    					<li><a href="{{site.baseurl}}/" class="smoothScroll">PORTFOLIO</a></li>
+    					<li><a href="{{site.baseurl}}/about/" class="smoothScroll">ABOUT</a></li>
+    					<li><a href="{{site.baseurl}}/contact/" class="smoothScroll">CONTACT</a></li>
+
+    				</ul>
+    			</nav>
+    		</header>
 
 
     {{content}}
