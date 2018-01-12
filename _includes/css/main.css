@@ -107,6 +107,100 @@ nav {
         height: 35em;
     }
 
+    .projTextP {
+        font-size: 1.25em;
+        line-height: .25em;
+        opacity: 1;
+    }
+
+    .proj1 {
+        background-color: #252c37;
+        padding-top: 12em;
+    }
+
+    .eachTitle {
+        font-weight: 400;
+        letter-spacing: .25px;
+    }
+
+
+
+    .proj1Text {
+        color: #f0f0f0;
+    }
+
+    .proj1 p{
+        color: #f0f0f0;
+    }
+
+
+
+    .proj2 {
+        background-image: url(../artwork/proj2Bkg1.svg);
+        background-size: 220%;
+        background-color: #dddddd;
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding-top: 12em;
+    }
+
+    .proj2Text {
+        color: #0f1e37;
+    }
+
+
+    .proj3 {
+        background-color: #3b3738;
+        background-image: url(../artwork/caff_bkg4.jpg);
+        background-size: 180%;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        padding-top: 12em;
+    }
+
+    .proj4 {
+        background-color: #3173b4;
+        background-image: url(../artwork/ahw_pattern4.svg),url(../artwork/ahw_pattern5.svg);
+        background-size: 45%;
+        background-position: left bottom,right bottom;
+        background-repeat: no-repeat;
+        padding-top: 10em;
+    }
+
+    .proj4Text {
+        color: #f0f0f0;
+    }
+
+    .proj5 {
+        background-image: url(../artwork/layoutbkg-1.jpg);
+        background-size: 180%;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-color: #d8d8d8;
+        padding-top: 10em;
+    }
+
+
+    .proj6 {
+        background-image: url(../artwork/overgrown_bkg1.svg);
+        background-size: 800%;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-color: #1bbaa9;
+        padding-top: 10em;
+    }
+
+
+
+    .projectbannerTop p {
+       font-weight: 300;
+    }
+
+    .projectBucketTitle {
+        line-height: 115%;
+        font-weight: 400;
+        letter-spacing: .5px;
+    }
 
 
 a:hover#menu-icon {
