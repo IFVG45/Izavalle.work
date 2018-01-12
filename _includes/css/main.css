@@ -93,114 +93,1099 @@ nav {
 
 }
 
+.projectbannerTop {
+    text-decoration: none;
+    list-style: none;
+    height: 30em;
+    background-color: #e7e7e7;
+}
+
+.projTextP {
+    font-size: 1.25em;
+    line-height: .25em;
+    opacity: 1;
+}
+
+.proj1 {
+    background-color: #252c37;
+    padding-top: 12em;
+}
+
+.eachTitle {
+    font-weight: 400;
+    letter-spacing: .25px;
+}
+
+
+
+.proj1Text {
+    color: #f0f0f0;
+}
+
+.proj1 p{
+    color: #f0f0f0;
+}
+
+
+
+.proj2 {
+    background-image: url(../artwork/proj2Bkg1.svg);
+    background-size: 220%;
+    background-color: #dddddd;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 12em;
+}
+
+.proj2Text {
+    color: #0f1e37;
+}
+
+
+.proj3 {
+    background-color: #3b3738;
+    background-image: url(../artwork/caff_bkg4.jpg);
+    background-size: 180%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-top: 12em;
+}
+
 .proj4 {
-       background-color: #3173b4;
-       background-size: 25%;
-       background-position: right bottom, left bottom;
-       background-repeat: no-repeat;
-       padding-top: 14em;
-   }
+    background-color: #3173b4;
+    background-image: url(../artwork/ahw_pattern4.svg),url(../artwork/ahw_pattern5.svg);
+    background-size: 45%;
+    background-position: left bottom,right bottom;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+}
 
-   .projectbannerTop {
-        text-decoration: none;
-        list-style: none;
-        height: 35em;
+.proj4Text {
+    color: #f0f0f0;
+}
+
+.proj5 {
+    background-image: url(../artwork/layoutbkg-1.jpg);
+    background-size: 180%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color: #d8d8d8;
+    padding-top: 10em;
+}
+
+
+.proj6 {
+    background-image: url(../artwork/overgrown_bkg1.svg);
+    background-size: 800%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color: #1bbaa9;
+    padding-top: 10em;
+}
+
+
+
+.projectbannerTop p {
+   font-weight: 300;
+}
+
+.projectBucketTitle {
+    line-height: 115%;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.wordmarkTop svg{
+    height: 1.5em;
+    fill: #262729;
+}
+
+
+.arrowDown svg{
+    height: 15px;
+    fill: #262729;
+     -webkit-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
+.arrowDown:hover svg{
+    fill: #7e858c;
+}
+
+
+/* Intro */
+
+.introText {
+    background-color: #262729;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    color: #f1f1f1;
+}
+
+.introText h2{
+    font-weight: 300;
+    color: #f1f1f1;
+}
+
+
+
+/* about */
+
+.divider {
+    width: 75%;
+    background-color: #d1d3d3;
+    height: 2px;
+    border-radius: 100em;
+    margin: 1.3rem 0rem 1.3rem 2.6rem;
+}
+
+.aboutList {
+    padding-left: 4.1em;
+
+}
+
+.aboutListItem1 {
+    font-weight: 300;
+}
+
+.aboutListItem2 {
+    font-weight: 500;
+}
+
+
+.aboutBannerTop {
+    text-decoration: none;
+    list-style: none;
+    height: 28em;
+    background-color: #333333;
+    background-image: url(../artwork/topBanner2.png);
+    background-size: 800%;
+    padding-top: 12em;
+}
+
+.aboutBannerTop p {
+   font-weight: 300;
+   color:#f1f1f1;
+}
+
+.aboutText {
+       padding-top: 2em;
+}
+
+.aboutText p {
+    padding-bottom: 2em;
+}
+
+.date {
+    opacity: .5;
+    text-transform: uppercase;
+    font-size: .75em;
+    padding-bottom: .5em;
+}
+
+.reference {
+   color: #262729;
+    text-decoration: none;
+    font-weight: 400;
+     -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.reference:hover {
+    text-decoration: underline solid;
+}
+
+.introEmail {
+   color: #f1f1f1;
+    text-decoration: none;
+    letter-spacing: 1px;
+     -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.introEmail:hover {
+    text-decoration: underline solid;
+}
+
+/* Btn */
+
+.btnRev a:link,
+.btnRev a:visited,
+.btnRev a {
+    text-decoration: none;
+    color: #ffffff;
+
+    font-size: .9em;
+    font-weight: 300;
+    background-color:#262729;
+    padding: 10px 12px 10px 12px;
+    border-radius: 1px;
+}
+
+/*
+
+.btn1 {
+    color: #ffffff;
+    background-color:#262729;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.btn1:hover {
+    color: #ffffff;
+    background-color:#262729;
+}
+
+*/
+
+.btnRev a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    background-color:#7e858c;
+     -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.btnProject a:link,
+.btnProject a:visited,
+.btnProject a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: .95em;
+    font-weight: 300;
+    background-color:#262729;
+    border: solid 2px #f1f1f1;
+    padding: 10px 12px 10px 12px;
+    border-radius: 1px;
+}
+
+.btnProject a:hover {
+    text-decoration: none;
+    background-color:#7e858c;
+     -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+/* Projects */
+
+
+.projectWrapperFull {
+    margin-top: .7em;
+    margin-bottom: 2em;
+}
+
+.projectWrapper {
+    margin-left: 1.13em;
+    margin-right: 1.13em;
+    margin-top: .7em;
+    margin-bottom: .7em;
+}
+
+.projectListItem1 {
+    font-weight: 300;
+    font-size: .8em;
+    opacity: .7;
+    padding-bottom: .05em;
+}
+
+
+
+.projectItem {
+    padding-top: 10em;
+    padding-bottom: 8em;
+}
+
+.projectText h6 {
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: .4em;
+    opacity: .4;
+}
+
+
+
+.projectText1 h6 {
+     padding-top: 2em;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: .4em;
+    opacity: .4;
+}
+
+.projectItem1 {
+    background-image: url(../artwork/sign-bkg2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom, left;
+    background-color: #252c37;
+    color: #f1f1f1;
+}
+
+.projectItem1 h3 {
+    color: #f1f1f1;
+}
+
+.projectItem2 {
+    background-color: #dddddd;
+    background-image: url(../artwork/proj2Bkg4.svg);
+    background-size: 220%;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+}
+
+
+.projectItem3 {
+     background-image: url(../artwork/caff_bkg1.jpg);
+     background-position: center top;
+    background-size: 157%;
+
+}
+
+.projectItem3 h3,
+.projectItem3 p {
+   color: #f1f1f1;
+}
+
+
+.projectItem4 {
+    background-color: #3173b4;
+    background-image: url(../artwork/ahw_pattern4.svg);
+    background-size: 63%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.projectItem4 h3,
+.projectItem4 p {
+   color: #f1f1f1;
+}
+
+
+.projectItem5 {
+    background-color: #dddddd;
+    background-image: url(../artwork/layoutbkg-6.jpg);
+    background-position: center bottom;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.projectItem5 h3 {
+   color: ;
+}
+
+
+.projectItem6 {
+    background-color: #1bbaa9;
+    background-image: url(../artwork/overgrown_bkg1.svg);
+    background-repeat: no-repeat;
+    background-size: 900%;
+    color: #f1f1f1;
+}
+
+.projectItem6 h3 {
+    color: #f1f1f1;
+}
+
+
+
+
+.home {
+    position: absolute;
+    left: calc(50% - 20px);
+    top: 0px;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    color:#4a4f54;
+    list-style-type: none;
+    margin: 0;
+    font-size: 0.8889rem;
+    line-height: 1.4625;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    height: 0px;
+}
+
+
+.previous {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    color:#4a4f54;
+    list-style-type: none;
+    margin: 0;
+    font-size: 0.8889rem;
+    line-height: 1.4625;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    height: 0px;
+}
+
+.next {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    color:#4a4f54;
+    list-style-type: none;
+    margin: 0;
+    font-size: 0.8889rem;
+    line-height: 1.4625;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    height: 0px;
+}
+
+.next svg,
+.previous svg {
+    height: 25px;
+}
+
+.home svg {
+    height: 30px;
+}
+
+.next svg:hover,
+.previous svg:hover,
+.home svg:hover {
+    fill:#7e858c;
+    opacity: 1;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+
+
+
+/* Social Media styles */
+
+
+
+.icons {
+    text-decoration: none;
+    margin-top: 0em;
+    margin-left:.75em;
+    margin-right:.75em;
+    margin-bottom: .1em;
+    display: inline-block;
+    height:40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: none;
+    opacity: .5;
+    -webkit-transition: all 50ms ease-out;
+    transition: all 50ms ease-out;
+}
+
+.icons svg{
+    width: 35px;
+    height: 35px;
+}
+
+.icons:hover {
+    opacity: 1;
+}
+
+
+.email,
+.email a:link,
+.email a:visited,
+.email a {
+    font-size: 1em;
+    text-decoration: none;
+    border-bottom: 0px solid #000000;
+    color:black;
+    opacity: .8;
+    font-weight: 300;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.email:hover {
+    border-bottom: 1px solid #000000;
+}
+
+.link {
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bolder;
+    color:black;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.link:hover {
+    color: #B8CED0;
+}
+
+.cb-footer {
+    padding-top:1.5em;
+    color: #111820;
+    box-shadow: 4px 4px 4px 4px rgba(128,128,128, .35);
+    background-color:rgba(219, 217, 214, .125);
+}
+
+/*before small but not quite extra small, only here so that the e-mail doesn’t make an ugly white bar on unrealistically tiny screens*/@media only screen and (min-width: 22em) {
+
+.proj1 {
+    background-size: 150%;
+}
+
+.email {
+    font-size: 1em;
+
+}
+
+
+
+.social {
+    width:80px;
+    padding: 0 1em 0 1em;
+    text-align: center;
+    display: inline-block;
+}
+
+}
+
+/*small*/@media only screen and (min-width: 25em) {
+
+ .arrowDown svg{
+    height: 25px;
+}
+
+
+    .divider {
+        width: 70%;
     }
 
-    .projTextP {
-        font-size: 1.25em;
-        line-height: .25em;
-        opacity: 1;
+
+.aboutBannerTop {
+     background-size: 500%;
+}
+
+.proj1 {
+     padding-top: 12em;
+}
+
+
+.proj2 {
+    background-size: 140%;
+    padding-top: 12em;
     }
 
-    .proj1 {
-        background-color: #252c37;
+.proj3 {
+    background-color: #3b3738;
+    background-image: url(../artwork/caff_bkg4.jpg);
+    background-size: 130%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-top: 12em;
+}
+
+.proj4 {
         padding-top: 12em;
     }
 
-    .eachTitle {
-        font-weight: 400;
-        letter-spacing: .25px;
-    }
+
+.proj5 {
+    background-size: 130%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: #dddddd;
+    padding-top: 12em;
+}
 
 
-
-    .proj1Text {
-        color: #f0f0f0;
-    }
-
-    .proj1 p{
-        color: #f0f0f0;
-    }
-
-
-
-    .proj2 {
-        background-image: url(../artwork/proj2Bkg1.svg);
-        background-size: 220%;
-        background-color: #dddddd;
-        background-position: top center;
-        background-repeat: no-repeat;
+.proj6 {
+        background-size: 400%;
         padding-top: 12em;
     }
 
-    .proj2Text {
-        color: #0f1e37;
-    }
 
+.projectItem2 {
+    background-size: 120%;
+}
+
+
+.projectItem4 {
+    background-color: #3173b4;
+    background-image: url(../artwork/ahw_pattern3.svg), url(../artwork/ahw_pattern4.svg);
+    background-size: 48%;
+    background-position: bottom right, bottom left;
+    background-repeat: no-repeat;
+}
+
+
+.wordmarkTop svg{
+    height: 2em;
+}
+
+.bannerTop {
+    height: 28em;
+    padding-top: 12em;
+    background-size: 350%;
+}
+
+.toggle-position {
+
+}
+
+.toggle-label {
+    cursor: pointer;
+}
+
+.toggle {
+    display: block;
+    fill: #888888;
+    height: 25px;
+    padding-top: 12px;
+    padding-left: calc(96% - 2em);
+    padding-right: 0;
+    padding-bottom: 36px;
+     -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.toggle:hover,
+.toggle:active,
+.toggle:focus{
+    fill:#36569e;
+}
+
+.toggle-check {
+    position: absolute;
+    top: -3em;
+    display: block;
+}
+
+    .cb-footer {
+        padding-top: 3em;
+    }
+}
+
+/*medium*/@media only screen and (min-width: 40em) {
+
+
+.projTextP {
+    font-size: 1.25em;
+    line-height: .25em;
+    opacity: 1;
+}
+
+
+.introText {
+    background-size: auto;
+}
+
+
+.proj1 {
+    padding-top: 14em;
+ }
+
+.proj2 {
+    background-size: 100%;
+    padding-top: 14em;
+}
+
+.proj3 {
+    background-color: #3b3738;
+    background-image: url(../artwork/caff_bkg4.jpg);
+    background-size: 120%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-top: 14em;
+}
+
+
+.proj4 {
+    background-color: #3173b4;
+    background-image: url(../artwork/ahw_pattern3.svg),url(../artwork/ahw_pattern4.svg);
+    background-size: 25%;
+    background-position: right bottom, left bottom;
+    background-repeat: no-repeat;
+    padding-top: 14em;
+}
+
+
+.proj5 {
+    background-image:  url(../artwork/layoutbkg-2.jpg);
+    background-size: 85%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 14em;
+
+}
+
+.proj6 {
+    background-size: 250%;
+    padding-top: 14em;
+
+}
+
+
+.portrait{
+    height: 100%;
+    background-size:70%;
+}
+
+
+.wordmarkTop svg{
+    height: 2.5em;
+}
+
+
+
+.bannerTop {
+    height: 30em;
+    padding-top: 12em;
+    background-size: 200%;
+}
+
+.projectbannerTop {
+    text-decoration: none;
+    list-style: none;
+    height: 35em;
+}
+
+.projectItem3 {
+    background-size: 140%;
+    background-position: center center;
+}
+
+.projectItem4 {
+    background-size: 45%;
+}
+
+.aboutBannerTop {
+    background-size: 500%;
+    text-decoration: none;
+    list-style: none;
+    height: 35em;
+    padding-top: 14em;
+}
+
+.aboutBannerTop p {
+   font-weight: 300;
+   color: #262729;
+   opacity: .6;
+}
+
+.divider {
+    width: 85%;
+    background-color: #d1d3d3;
+    height: 2px;
+    border-radius: 100em;
+    margin: 2.6rem;
+}
+
+.only-sm {
+    display: none;
+}
+
+.only-m-l {
+    display: block;
+}
+
+
+}
+
+/*medium-l*/@media only screen and (min-width: 45em) {
+
+.projectWrapper, .projectWrapperFull {
+    margin: 0;
+    border: 10px solid white;
+}
 
     .proj3 {
-        background-color: #3b3738;
-        background-image: url(../artwork/caff_bkg4.jpg);
-        background-size: 180%;
-        background-position: bottom center;
-        background-repeat: no-repeat;
-        padding-top: 12em;
+    background-color: #3b3738;
+    background-image: url(../artwork/caff_bkg2.jpg);
+    background-size: 100%;
+    background-position: left top,right top;
+    background-repeat: no-repeat;
+    padding-top: 14em;
+}
+  .proj5 {
+    background-image: url(../artwork/layoutbkg-2.jpg);
+    background-size: 90%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 14em;
+}
+
+ .proj6 {
+     background-image: 250%;
+}
+
+
+    .aboutBannerTop{
+        background-size: 300%;
     }
 
-    .proj4 {
-        background-color: #3173b4;
-        background-image: url(../artwork/ahw_pattern4.svg),url(../artwork/ahw_pattern5.svg);
-        background-size: 45%;
-        background-position: left bottom,right bottom;
-        background-repeat: no-repeat;
-        padding-top: 10em;
+}
+
+
+/*large former 68*/@media only screen and (min-width: 60em) {
+
+ .projectItem {
+    margin: 0;
+}
+
+.projectItem h3 {
+        font-size: 150%;
+        padding-bottom: .1em;
     }
 
-    .proj4Text {
-        color: #f0f0f0;
+.projectItem p {
+        font-size: 95%;
+        padding-bottom: .2em;
     }
 
-    .proj5 {
-        background-image: url(../artwork/layoutbkg-1.jpg);
-        background-size: 180%;
-        background-position: left bottom;
-        background-repeat: no-repeat;
-        background-color: #d8d8d8;
-        padding-top: 10em;
+.projectItem6 {
+        background-size: 600%;
+    }
+
+.projectWrapper, .projectWrapperFull {
+    margin: 0;
+    border: 20px solid white;
+}
+
+
+.banner404 {
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.proj1 {
+    padding-top: 14em;
+ }
+
+
+.proj2 {
+  background-image: url(../artwork/proj2Bkg1.svg);
+    background-size: 110%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.proj3 {
+    background-color: #3b3738;
+    background-image: url(../artwork/caff_bkg2.jpg);
+    background-size: 95%;
+    background-position: left top,right top;
+    background-repeat: no-repeat;
+    padding-top: 14em;
+}
+
+
+.proj5 {
+   background-image: url(../artwork/layoutbkg-2.jpg);
+    background-size: 90%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 14em;
+}
+
+.proj6 {
+    background-size: 200%;
     }
 
 
-    .proj6 {
-        background-image: url(../artwork/overgrown_bkg1.svg);
-        background-size: 800%;
-        background-position: left bottom;
-        background-repeat: no-repeat;
-        background-color: #1bbaa9;
-        padding-top: 10em;
+ .projectItem {
+    padding-top: 10em;
+    padding-bottom: 8em;
+}
+
+
+
+
+.projectItem3 {
+    background-size: 120%;
+    background-position: center left;
+}
+
+ .projectItem4 {
+    background-size: 45%;
+}
+
+
+
+.projectText {
+    padding-top: 2em;
+    padding-bottom: 4em;
+    text-align: left;
+    max-width: 1000px;
+}
+
+
+.aboutBannerTop{
+     background-size: 200%;
+}
+
+.bannerTop {
+    padding-top: 18em;
+    height: 50em;
+    background-size: 120%;
+}
+
+.LOnly {
+    display: block;
+}
+
+
+    .island-l {
+  padding: 1.3rem;
+}
+
+.introText {
+    padding: 10em;
+}
+
+.p-nav-bar {
+    background-size: 15%;
+}
+
+
+.bannerTitle {
+    padding-top: 6.5em;
+}
+
+
+
+.p-text-blurb {
+    padding: 0em 1.3em 3em 1.3em;
+}
+
+.p-pad {
+    padding-top: 2em;
+}
+
+.p-main-img {
+    height: 30em;
+}
+
+.p-overview {
+    padding: 2em 4em 2em 4em;
+}
+
+    .aboutText {
+    padding-top: 2em;
+}
+
+
+}
+
+@media only screen and (min-width: 67em){
+
+        .aboutText {
+    padding-top: 2em;
+}
+
+ .proj2 {
+    background-image: url(../artwork/proj2Bkg2.svg),url(../artwork/proj2Bkg3.svg);
+    background-size: 90%;
+    background-position: top right, top left;
+    background-repeat: no-repeat;
+     padding-top: 14em;
+}
+
+.proj3 {
+    background-color: #3b3738;
+    background-image: url(../artwork/caff_bkg2.jpg);
+    background-size: 97%;
+    background-position: left top,right top;
+    background-repeat: no-repeat;
+    padding-top: 14em;
     }
 
 
+.proj5 {
+    background-image: url(../artwork/layoutbkg-3.jpg), url(../artwork/layoutbkg-4.jpg);
+    background-size: 55%, 20%;
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+    padding-top: 14em;
+}
 
-    .projectbannerTop p {
-       font-weight: 300;
+
+}
+
+/*x.5large*/@media only screen and (min-width: 75em){
+
+      .proj1Text,
+    .proj2Text,
+    .proj3Text,
+    .proj4Text,
+    .proj5Text,
+    .proj6Text{
+        font-size: 125%;
     }
 
-    .projectBucketTitle {
-        line-height: 115%;
-        font-weight: 400;
-        letter-spacing: .5px;
+
+    .p-s-colour-pad{
+        padding-top: 8em;
     }
+
+    .aboutText {
+    padding-top: 2em;
+}
+
+}
+
+/*xlarge*/@media only screen and (min-width: 130em) {
+
+    .proj3 {
+    background-color: #3b3738;
+    background-image: url(../artwork/caff_bkg2.jpg);
+    background-size: 45%;
+    background-position: left top,right top;
+    background-repeat: no-repeat;
+    padding-top: 14em;
+    }
+
+
+    .aboutText {
+    padding-top: 8em;
+}
+
+    .island-l {
+  padding: 2.5rem;
+}
+
+    .p-overview {
+    padding: 2em 10em 2em 10em;
+    }
+    .banner {
+        height: 34em;
+    }
+
+
+    .cb-footer {
+       padding-top: 2em;
+       padding-bottom: 2em;
+    }
+
+}
+
+
+
+/*xxlarge*/@media only screen and (min-width: 100em) {
+    .p-overview {
+    padding: 2em 10em 2em 10em;
+    }
+    .banner {
+        height: 45em;
+        background-position: bottom 80%;
+    }
+}
 
 
 a:hover#menu-icon {
