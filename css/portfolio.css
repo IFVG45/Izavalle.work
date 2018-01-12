@@ -1,8 +1,8 @@
 ---
 ---
 
+{% include css/404.css %}
 {% include css/grids.css %}
 {% include css/main.css %}
 {% include css/reset.css %}
 {% include css/type.css %}
-{% include css/404.css %}
