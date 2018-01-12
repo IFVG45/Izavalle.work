@@ -93,6 +93,22 @@ nav {
 
 }
 
+.proj4 {
+       background-color: #3173b4;
+       background-size: 25%;
+       background-position: right bottom, left bottom;
+       background-repeat: no-repeat;
+       padding-top: 14em;
+   }
+
+   .projectbannerTop {
+        text-decoration: none;
+        list-style: none;
+        height: 35em;
+    }
+
+
+
 a:hover#menu-icon {
 
   opacity: 1;
